@@ -1,106 +1,265 @@
 {
-    "intents": [
+  "intents": [
       {
-        "tag": "saludo",
-        "patterns": ["Hola", "Buenos días", "Buenas tardes"],
-        "responses": ["¡Hola! ¿Cómo puedo ayudarte?", "Buenos días, ¿en qué puedo asistirte?", "Buenas tardes, ¿qué necesitas?"]
+          "tag": "saludo",
+          "patterns": ["Hola", "Buenos días", "Buenas tardes"],
+          "responses": ["¡Hola! ¿Cómo puedo ayudarte?", "Buenos días, ¿en qué puedo asistirte?", "Buenas tardes, ¿qué necesitas?"]
       },
       {
-        "tag": "saludo2",
-        "patterns": ["Qué tal", "Cómo estás", "Qué onda"],
-        "responses": ["Estoy bien, gracias por preguntar. ¿Y tú?", "Todo bien por aquí. ¿Cómo puedo ayudarte hoy?", "Aquí estamos, listos para asistirte. ¿Qué te trae por aquí?"]
+          "tag": "despedida",
+          "patterns": ["Adiós", "Hasta luego", "Nos vemos"],
+          "responses": ["Adiós, que tengas un buen día.", "Hasta luego, espero haberte sido de ayuda.", "Nos vemos, ¡gracias por usar nuestro servicio!"]
       },
       {
-        "tag": "despedida",
-        "patterns": ["Adiós", "Hasta luego", "Nos vemos"],
-        "responses": ["Adiós, que tengas un buen día.", "Hasta luego, espero haberte sido de ayuda.", "Nos vemos, ¡gracias por usar nuestro servicio!"]
+          "tag": "agradecimiento",
+          "patterns": ["Gracias", "Te lo agradezco", "Muy amable"],
+          "responses": ["De nada, ¡siempre a tu servicio!", "No hay de qué, ¡fue un placer ayudarte!", "Es un placer, ¡estoy aquí para lo que necesites!"]
       },
       {
-        "tag": "agradecimiento",
-        "patterns": ["Gracias", "Te lo agradezco", "Muy amable"],
-        "responses": ["De nada, ¡siempre a tu servicio!", "No hay de qué, ¡fue un placer ayudarte!", "Es un placer, ¡estoy aquí para lo que necesites!"]
+          "tag": "como_ahorrar_dinero",
+          "patterns": ["¿Cómo puedo ahorrar dinero?", "Consejos para ahorrar", "Quiero ahorrar más"],
+          "responses": ["Puedes ahorrar dinero creando un presupuesto mensual, reduciendo gastos innecesarios y estableciendo un monto fijo para ahorrar cada mes."]
       },
       {
-        "tag": "compra",
-        "patterns": ["Quiero comprar", "Cómo puedo hacer una compra", "Proceso de compra"],
-        "responses": ["Para realizar una compra, puedes seguir estos pasos...", "Comprar es fácil, solo necesitas..."]
+          "tag": "gestion_tiempo",
+          "patterns": ["¿Cómo puedo gestionar mejor mi tiempo?", "Consejos para gestionar el tiempo", "Me cuesta administrar mi tiempo"],
+          "responses": ["Para gestionar mejor tu tiempo, utiliza una agenda para planificar tu día, establece prioridades y elimina distracciones."]
       },
       {
-        "tag": "devolucion",
-        "patterns": ["Necesito hacer una devolución", "Cómo devuelvo un producto", "Proceso de devolución"],
-        "responses": ["Para devolver un producto, debes...", "El proceso de devolución es el siguiente..."]
+          "tag": "inversiones_basicas",
+          "patterns": ["¿Dónde debería invertir mi dinero?", "Consejos para invertir", "Mejores inversiones"],
+          "responses": ["Para empezar a invertir, considera opciones seguras como fondos indexados, bonos del gobierno o cuentas de ahorro de alto rendimiento."]
+      },
+      {
+          "tag": "mejorar_credito",
+          "patterns": ["¿Cómo puedo mejorar mi puntaje de crédito?", "Consejos para el crédito", "Mejores prácticas de crédito"],
+          "responses": ["Para mejorar tu puntaje de crédito, paga tus deudas a tiempo, mantén bajos tus saldos de tarjetas de crédito y no solicites nuevas líneas de crédito innecesariamente."]
+      },
+      {
+          "tag": "crear_presupuesto",
+          "patterns": ["¿Cómo hago un presupuesto?", "Consejos para presupuestar", "Quiero hacer un presupuesto"],
+          "responses": ["Para hacer un presupuesto, lista todos tus ingresos y gastos mensuales, asigna un monto a cada categoría y sigue tu plan de gastos estrictamente."]
+      },
+      {
+          "tag": "tipos_seguro",
+          "patterns": ["¿Qué tipo de seguro necesito?", "Consejos sobre seguros", "Información sobre seguros"],
+          "responses": ["Dependiendo de tu situación personal, podrías necesitar seguros de salud, vida, auto y vivienda. Evalúa tus riesgos y necesidades específicas."]
+      },
+      {
+          "tag": "comprar_casa",
+          "patterns": ["¿Debería comprar una casa ahora?", "Consejos para comprar una casa", "¿Es buen momento para comprar una casa?"],
+          "responses": ["Comprar una casa depende de tus finanzas personales y del mercado inmobiliario. Asegúrate de tener un buen puntaje de crédito y un fondo de emergencia antes de dar este paso."]
+      },
+      {
+          "tag": "fondo_emergencia",
+          "patterns": ["¿Cómo preparo un fondo de emergencia?", "Consejos para un fondo de emergencia", "Quiero crear un fondo de emergencia"],
+          "responses": ["Para un fondo de emergencia, ahorra entre 3 a 6 meses de gastos básicos en una cuenta separada y accesible. Contribuye regularmente a este fondo."]
+      },
+      {
+          "tag": "ahorrar_jubilacion",
+          "patterns": ["¿Cómo ahorro para la jubilación?", "Consejos para el retiro", "Quiero planificar mi jubilación"],
+          "responses": ["Para la jubilación, contribuye a planes como un 401(k) o IRA. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos."]
+      },
+      {
+          "tag": "educacion_financiera",
+          "patterns": ["¿Dónde puedo aprender sobre finanzas personales?", "Recursos de educación financiera", "Quiero mejorar mi conocimiento financiero"],
+          "responses": ["Puedes aprender sobre finanzas personales a través de cursos en línea, libros especializados y consultando con asesores financieros."]
+      },
+      {
+          "tag": "pagar_deudas",
+          "patterns": ["¿Cómo puedo salir de deudas?", "Consejos para pagar deudas", "Me cuesta pagar mis deudas"],
+          "responses": ["Para salir de deudas, crea un plan de pagos, prioriza tus deudas con mayor interés y evita acumular nuevas deudas."]
+      },
+      {
+          "tag": "usar_tarjeta_credito",
+          "patterns": ["¿Cómo uso una tarjeta de crédito de manera responsable?", "Consejos para tarjetas de crédito", "Mejor uso de tarjetas de crédito"],
+          "responses": ["Usa tu tarjeta de crédito pagando el balance completo cada mes y no gastes más de lo que puedes pagar."]
+      },
+      {
+          "tag": "ahorrar_meta",
+          "patterns": ["¿Cómo puedo ahorrar para una meta específica?", "Consejos para metas de ahorro", "Quiero ahorrar para un objetivo"],
+          "responses": ["Para ahorrar para una meta específica, establece un monto objetivo, un plazo y automatiza tus ahorros mensuales."]
+      },
+      {
+          "tag": "mantener_salud_financiera",
+          "patterns": ["¿Cómo mantengo una buena salud financiera?", "Consejos para la salud financiera", "Mejorar mi salud financiera"],
+          "responses": ["Mantén una buena salud financiera controlando tus gastos, ahorrando regularmente y evitando deudas innecesarias."]
+      },
+      {
+          "tag": "hacer_plan_financiero",
+          "patterns": ["¿Cómo hago un plan financiero?", "Consejos para la planificación financiera", "Quiero planificar mis finanzas"],
+          "responses": ["Un plan financiero debe incluir tus metas, presupuesto, estrategias de ahorro e inversión, y un plan de gestión de deudas."]
+      },
+      {
+          "tag": "empezar_invertir",
+          "patterns": ["¿Cómo empiezo a invertir?", "Primeros pasos para invertir", "Quiero empezar a invertir"],
+          "responses": ["Define tus objetivos financieros, tolerancia al riesgo y empieza con opciones diversificadas como fondos indexados o ETFs."]
+      },
+      {
+          "tag": "enseñar_finanzas_niños",
+          "patterns": ["¿Cómo enseño a mis hijos sobre finanzas?", "Educación financiera para niños", "Quiero enseñar finanzas a mis hijos"],
+          "responses": ["Enseña a tus hijos sobre finanzas a través de ejemplos prácticos, juegos educativos y conversaciones sobre el valor del dinero."]
+      },
+      {
+          "tag": "proteger_informacion_financiera",
+          "patterns": ["¿Cómo protejo mi información financiera?", "Consejos para la seguridad financiera", "Proteger mis datos financieros"],
+          "responses": ["Usa contraseñas seguras, monitorea tus cuentas regularmente y evita compartir tus datos sensibles en línea."]
+      },
+      {
+          "tag": "financiar_negocio",
+          "patterns": ["¿Cómo obtengo financiamiento para mi negocio?", "Opciones de financiamiento para negocios", "Consejos para financiar un negocio"],
+          "responses": ["Para financiar tu negocio, considera préstamos bancarios, inversionistas privados o plataformas de crowdfunding."]
+      },
+      {
+          "tag": "ahorrar_vacaciones",
+          "patterns": ["¿Cómo puedo ahorrar para unas vacaciones?", "Consejos para ahorrar en vacaciones", "Quiero ahorrar para viajar"],
+          "responses": ["Para ahorrar para vacaciones, establece un presupuesto específico, ahorra mensualmente y busca ofertas y descuentos para viajes."]
+      },
+      {
+          "tag": "planificar_gastos",
+          "patterns": ["¿Cómo planifico mis gastos mensuales?", "Consejos para planificar gastos", "Quiero planificar mis gastos"],
+          "responses": ["Lista tus ingresos y gastos fijos, asigna fondos para gastos variables y ajusta según tus prioridades y necesidades."]
+      },
+      {
+          "tag": "evitar_deudas",
+          "patterns": ["¿Cómo evito acumular deudas?", "Consejos para evitar deudas", "Quiero evitar deudas"],
+          "responses": ["Evita acumular deudas gastando dentro de tus límites, usando tarjetas de crédito de manera responsable y ahorrando para compras grandes."]
+      },
+      {
+          "tag": "crear_fondo_jubilacion",
+          "patterns": ["¿Cómo creo un fondo de jubilación?", "Consejos para un fondo de jubilación", "Quiero crear un fondo de jubilación"],
+          "responses": ["Contribuye regularmente a planes de retiro como 401(k) o IRA y ajusta tus aportaciones conforme aumenten tus ingresos."]
+      },
+      {
+          "tag": "ahorrar_educacion",
+          "patterns": ["¿Cómo ahorro para la educación de mis hijos?", "Consejos para ahorrar en educación", "Quiero ahorrar para la universidad de mis hijos"],
+          "responses": ["Considera planes de ahorro educativo como 529 o cuentas de ahorro de alto rendimiento y empieza a ahorrar temprano."]
+      },
+      {
+          "tag": "invertir_mercado",
+          "patterns": ["¿Cómo invierto en el mercado de valores?", "Consejos para invertir en acciones", "Quiero invertir en la bolsa"],
+          "responses": ["Investiga y selecciona acciones de empresas con buen rendimiento, diversifica tu portafolio y considera inversiones a largo plazo."]
+      },
+      {
+          "tag": "comprar_coche",
+          "patterns": ["¿Es buen momento para comprar un coche?", "Consejos para comprar un coche", "¿Debería comprar un coche nuevo?"],
+          "responses": ["Comprar un coche depende de tu situación financiera y necesidades. Considera opciones de financiamiento y compara precios antes de decidir."]
+      },
+      {
+          "tag": "reducir_gastos",
+          "patterns": ["¿Cómo puedo reducir mis gastos?", "Consejos para reducir gastos", "Quiero gastar menos"],
+          "responses": ["Analiza tus gastos mensuales, identifica áreas donde puedes recortar y establece un presupuesto estricto para evitar gastos innecesarios."]
+      },
+      {
+          "tag": "gestion_deudas",
+          "patterns": ["¿Cómo gestiono mis deudas?", "Consejos para gestionar deudas", "Quiero manejar mejor mis deudas"],
+          "responses": ["Haz una lista de tus deudas, prioriza las de mayor interés y considera opciones de consolidación o refinanciamiento para simplificar pagos."]
+      },
+      {
+          "tag": "inversiones_seguras",
+          "patterns": ["¿Cuáles son las inversiones más seguras?", "Consejos para inversiones seguras", "Quiero invertir de forma segura"],
+          "responses": ["Las inversiones más seguras incluyen bonos del gobierno, cuentas de ahorro aseguradas y certificados de depósito (CDs)."]
+      },
+      {
+          "tag": "aprovechar_descuentos",
+          "patterns": ["¿Cómo puedo aprovechar mejor los descuentos?", "Consejos para aprovechar descuentos", "Quiero ahorrar con descuentos"],
+          "responses": ["Suscríbete a boletines de tiendas, usa cupones y espera promociones especiales como Black Friday para hacer tus compras."]
+      },
+      {
+          "tag": "invertir_bienes_raices",
+          "patterns": ["¿Es buena idea invertir en bienes raíces?", "Consejos para invertir en bienes raíces", "Quiero invertir en propiedades"],
+          "responses": ["Invertir en bienes raíces puede ser rentable si investigas bien el mercado, eliges propiedades en ubicaciones estratégicas y tienes un plan de gestión claro."]
+      },
+      {
+          "tag": "mejorar_habitos_financieros",
+          "patterns": ["¿Cómo mejoro mis hábitos financieros?", "Consejos para mejores hábitos financieros", "Quiero mejorar mis hábitos con el dinero"],
+          "responses": ["Mejora tus hábitos financieros llevando un registro de tus gastos, ajustando tu presupuesto regularmente y estableciendo metas claras de ahorro."]
       },
 
       {
-        "tag": "politica_devolucion",
-        "patterns": ["Cuál es la política de devolución", "Política de devoluciones", "Derechos de devolución"],
-        "responses": ["Nuestra política de devolución es...", "Puedes devolver productos bajo las siguientes condiciones..."]
-      },
-      {
-        "tag": "consulta_inventario",
-        "patterns": ["¿Qué productos tienen en stock?", "¿Hay disponibilidad de...?", "Quiero saber si tienen... en inventario"],
-        "responses": ["Actualmente tenemos los siguientes productos en stock...", "Sí, tenemos disponibilidad de... ¿Cuántas unidades necesitas?", "Tenemos... en inventario. ¿Te interesa realizar una compra?"]
-      },
-      {
-        "tag": "consulta_envio",
-        "patterns": ["¿Cuándo llegará mi pedido?", "Estado del envío", "Rastrear mi paquete"],
-        "responses": ["Tu pedido está en camino y llegará en la fecha estimada de...", "El estado de tu envío es... Puedes rastrearlo aquí...", "Para rastrear tu paquete, ingresa tu número de seguimiento aquí..."]
-      },
-      {
-        "tag": "consulta_pago",
-        "patterns": ["¿Cómo puedo pagar mi orden?", "Métodos de pago", "Tengo un problema con mi pago"],
-        "responses": ["Puedes pagar tu orden utilizando...", "Ofrecemos varios métodos de pago como...", "Lamentamos que tengas un problema con tu pago. Por favor, intenta..."]
-      },
-      {
-        "tag": "consulta_tecnico",
-        "patterns": ["Necesito ayuda técnica", "Problema técnico", "Soporte técnico"],
-        "responses": ["¿Con qué dispositivo o servicio necesitas ayuda técnica?", "Por favor, descríbenos el problema técnico que estás experimentando.", "Nuestro equipo de soporte técnico está listo para ayudarte. Contacta con ellos aquí..."]
-      },
-      {
-        "tag": "contacto",
-        "patterns": ["¿Cómo puedo contactarlos?", "Necesito hablar con un representante", "Quiero contactar servicio al cliente"],
-        "responses": ["Puedes contactarnos a través de zorrillaraynier2003@gmail.com", "Para hablar con un representante, llama al 8297759359", "Nuestro servicio al cliente está disponible en..."]
-      },
-      {
-        "tag": "horario",
-        "patterns": ["¿Cuál es su horario de atención?", "Horario de servicio", "Horario de la tienda"],
-        "responses": ["Nuestro horario de atención es de 8:00 AM a 5:00 PM", "Estamos disponibles para servirte de 8:00 AM a 5:00 PM", "La tienda está abierta desde las 8:00 AM hasta las 5:00 PM"]
-      },
-      {
-        "tag": "costo_envio",
-        "patterns": ["¿Cuánto cuesta el envío?", "Tarifa de envío", "Precio del envío"],
-        "responses": ["El costo de envío es de...", "La tarifa de envío varía según...", "El precio para el envío es..."]
-      },
-      {
-        "tag": "tiempo_envio",
-        "patterns": ["¿Cuánto tarda el envío?", "Tiempo de entrega", "Plazo de envío"],
-        "responses": ["El envío tarda aproximadamente...", "El tiempo de entrega es de... días hábiles.", "El plazo de envío depende de..."]
-      },
-      {
-        "tag": "costo_envio_internacional",
-        "patterns": ["Costo de envío al extranjero", "Precio de envío internacional", "Tarifa internacional de envío"],
-        "responses": ["El costo de envío internacional es de...", "El precio para envíos al extranjero es...", "La tarifa internacional de envío se calcula basado en..."]
-      },
-      {
-        "tag": "tiempo_envio_internacional",
-        "patterns": ["Tiempo de envío al extranjero", "Plazo de entrega internacional", "Cuánto tarda un envío internacional"],
-        "responses": ["El tiempo de envío internacional es de...", "El plazo de entrega para envíos internacionales es...", "Un envío internacional puede tardar..."]
-      },
-      {
-        "tag": "costo_envio_nacional",
-        "patterns": ["Costo de envío dentro del país", "Precio de envío nacional", "Tarifa de envío local"],
-        "responses": ["El costo de envío nacional es de...", "El precio para envíos dentro del país es...", "La tarifa de envío local se determina por..."]
-      },
-      {
-        "tag": "periodo_devolucion",
-        "patterns": ["¿Cuánto tiempo tengo para devolver un producto?", "Plazo para devoluciones", "Periodo de devolución"],
-        "responses": ["Tienes un plazo de... días para devolver un producto.", "El periodo para realizar devoluciones es de...", "Puedes devolver productos dentro de los... días siguientes a la compra."]
-      },
-      {
-        "tag": "politica_devolucion",
-        "patterns": ["¿Cuál es su política de devolución?", "Política de devoluciones", "Derechos de devolución"],
-        "responses": ["Nuestra política de devolución es...", "Puedes devolver productos bajo las siguientes condiciones...", "Los derechos de devolución que ofrecemos son..."]
-      }
-    ]
+        "tag": "beneficios_tarjeta_credito",
+        "patterns": ["¿Cuáles son los beneficios de tener una tarjeta de crédito?", "Ventajas de usar una tarjeta de crédito", "Beneficios de las tarjetas de crédito"],
+        "responses": ["Las tarjetas de crédito ofrecen beneficios como la acumulación de puntos o millas, mayor seguridad en las compras, y la posibilidad de financiar compras grandes a plazos."]
+    },
+    {
+        "tag": "empezar_negocio",
+        "patterns": ["¿Cuáles son los pasos para empezar un negocio?", "Cómo empiezo un negocio", "Pasos para iniciar un negocio"],
+        "responses": ["Para empezar un negocio, define tu idea, realiza un estudio de mercado, elabora un plan de negocios, busca financiamiento, y cumple con los requisitos legales necesarios."]
+    },
+    {
+        "tag": "ahorrar_compras_grandes",
+        "patterns": ["¿Cómo puedo ahorrar para compras grandes?", "Consejos para ahorrar para compras importantes", "Quiero ahorrar para una compra grande"],
+        "responses": ["Para ahorrar para compras grandes, establece un objetivo de ahorro, ajusta tu presupuesto, y ahorra regularmente en una cuenta separada."]
+    },
+    {
+        "tag": "manejar_gastos_diarios",
+        "patterns": ["¿Cómo manejo mejor mis gastos diarios?", "Consejos para manejar gastos diarios", "Quiero controlar mis gastos diarios"],
+        "responses": ["Para manejar mejor tus gastos diarios, lleva un registro detallado de tus gastos, ajusta tu presupuesto según tus necesidades, y evita compras impulsivas."]
+    },
+    {
+        "tag": "invertir_fondos_mutuos",
+        "patterns": ["¿Es buena idea invertir en fondos mutuos?", "Consejos para invertir en fondos mutuos", "Quiero invertir en fondos mutuos"],
+        "responses": ["Invertir en fondos mutuos es una buena idea para diversificar tu portafolio y reducir riesgos. Investiga diferentes fondos y elige aquellos con buen historial de rendimiento."]
+    },
+    {
+        "tag": "maximizar_ahorros",
+        "patterns": ["¿Cómo puedo maximizar mis ahorros?", "Consejos para maximizar ahorros", "Quiero aumentar mis ahorros"],
+        "responses": ["Maximiza tus ahorros estableciendo metas claras, automatizando tus ahorros y buscando cuentas con altos rendimientos o beneficios adicionales."]
+    },
+    {
+        "tag": "invertir_cripto",
+        "patterns": ["¿Es seguro invertir en criptomonedas?", "Consejos para invertir en criptomonedas", "Quiero invertir en criptomonedas"],
+        "responses": ["Invertir en criptomonedas puede ser rentable, pero también conlleva altos riesgos. Investiga bien antes de invertir y no pongas en riesgo más de lo que puedes permitirte perder."]
+    },
+    {
+        "tag": "reducir_costo_vida",
+        "patterns": ["¿Cómo puedo reducir mi costo de vida?", "Consejos para reducir costo de vida", "Quiero bajar mi costo de vida"],
+        "responses": ["Para reducir tu costo de vida, revisa tus gastos fijos, elimina suscripciones innecesarias y busca alternativas más económicas para tus necesidades diarias."]
+    },
+    {
+        "tag": "beneficios_ahorro_automatico",
+        "patterns": ["¿Cuáles son los beneficios del ahorro automático?", "Ventajas del ahorro automático", "Beneficios de automatizar ahorros"],
+        "responses": ["El ahorro automático te ayuda a mantener consistencia en tus ahorros, reduce la tentación de gastar y facilita la acumulación de fondos para tus metas financieras."]
+    },
+    {
+      "tag": "invertir_arte",
+      "patterns": ["¿Es buena idea invertir en arte?", "Consejos para invertir en arte", "Quiero invertir en obras de arte"],
+      "responses": ["Invertir en arte puede ser lucrativo, pero es importante investigar el mercado, comprar obras de artistas reconocidos y considerar los costos de almacenamiento y seguros."]
+  },
+  {
+      "tag": "crear_fondo_vacaciones",
+      "patterns": ["¿Cómo creo un fondo para vacaciones?", "Consejos para ahorrar para vacaciones", "Quiero ahorrar para un viaje"],
+      "responses": ["Para crear un fondo para vacaciones, establece un objetivo de ahorro, planifica con anticipación y ahorra una cantidad fija regularmente."]
+  },
+  {
+      "tag": "evitar_fraude_tarjeta_credito",
+      "patterns": ["¿Cómo evito el fraude con mi tarjeta de crédito?", "Consejos para prevenir fraude con tarjeta de crédito", "Quiero proteger mi tarjeta de crédito"],
+      "responses": ["Para evitar el fraude con tu tarjeta de crédito, utiliza contraseñas seguras, monitorea tus estados de cuenta regularmente y evita compartir tu información en sitios no seguros."]
+  },
+  {
+      "tag": "invertir_inmuebles_comerciales",
+      "patterns": ["¿Es buena idea invertir en inmuebles comerciales?", "Consejos para invertir en inmuebles comerciales", "Quiero invertir en propiedades comerciales"],
+      "responses": ["Invertir en inmuebles comerciales puede generar altos rendimientos si eliges ubicaciones estratégicas y mantienes buenos inquilinos. Considera los costos de mantenimiento y administración."]
+  },
+  {
+      "tag": "crear_fondo_emergencia",
+      "patterns": ["¿Cómo puedo crear un fondo de emergencia?", "Consejos para un fondo de emergencia", "Quiero tener un fondo de emergencia"],
+      "responses": ["Crea un fondo de emergencia ahorrando entre 3 a 6 meses de tus gastos básicos en una cuenta separada y accesible."]
+  },
+  {
+      "tag": "reducir_deuda_tarjeta_credito",
+      "patterns": ["¿Cómo puedo reducir la deuda de mi tarjeta de crédito?", "Consejos para pagar deudas de tarjeta de crédito", "Quiero pagar mi tarjeta de crédito"],
+      "responses": ["Para reducir la deuda de tu tarjeta de crédito, prioriza los pagos con mayor interés, paga más del mínimo y evita hacer nuevas compras hasta saldar la deuda."]
+  },
+  {
+      "tag": "beneficios_ahorro_educacion",
+      "patterns": ["¿Cuáles son los beneficios de ahorrar para la educación?", "Ventajas de un fondo de ahorro para educación", "Beneficios de ahorrar para la educación"],
+      "responses": ["Ahorrar para la educación ofrece la tranquilidad de tener fondos disponibles para cubrir los costos educativos, y algunas cuentas de ahorro educativo tienen beneficios fiscales."]
+  },
+  {
+      "tag": "invertir_etfs",
+      "patterns": ["¿Es buena idea invertir en ETFs?", "Consejos para invertir en ETFs", "Quiero invertir en fondos cotizados"],
+      "responses": ["Invertir en ETFs es una buena manera de diversificar tu portafolio con costos bajos y exposición a diferentes mercados y sectores."]
   }
-  
+  ]
+}
