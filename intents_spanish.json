@@ -1,206 +1,216 @@
 {
   "intents": [
-      {
+       {
           "tag": "saludo",
-          "patterns": ["Hola", "Buenos días", "Buenas tardes"],
-          "responses": ["¡Hola! ¿Cómo puedo ayudarte?", "Buenos días, ¿en qué puedo asistirte?", "Buenas tardes, ¿qué necesitas?"]
+          "patterns": ["Hola", "Buenos dias", "Buenas tardes"],
+          "responses": ["¡Hola! ¿Como puedo ayudarte?", "Buenos dias, ¿en que puedo asistirte?", "Buenas tardes, ¿que necesitas?"]
       },
       {
         "tag": "modales",
         "patterns": ["Hola", "como estas ", "estas listo", "estas lisa para trabajar"],
-        "responses": ["¿Cómo puedo ayudarte?", "Estoy bien gracias a Dios , ¿en qué puedo asistirte?", "Hola estoy disponible para asistirte , ¿qué necesitas?"]
+        "responses": ["¿Como puedo ayudarte?", "Estoy bien gracias a Dios , ¿en que puedo asistirte?", "Hola estoy disponible para asistirte , ¿que necesitas?"]
     
       },
       {
           "tag": "despedida",
-          "patterns": ["Adiós", "Hasta luego", "Nos vemos"],
-          "responses": ["Adiós, que tengas un buen día.", "Hasta luego, espero haberte sido de ayuda.", "Nos vemos, ¡gracias por usar nuestro servicio!"]
+          "patterns": ["Adios", "Hasta luego", "Nos vemos"],
+          "responses": ["Adios, que tengas un buen dia.", "Hasta luego, espero haberte sido de ayuda.", "Nos vemos, ¡gracias por usar nuestro servicio!"]
       },
       {
           "tag": "agradecimiento",
           "patterns": ["Gracias", "Te lo agradezco", "Muy amable"],
-          "responses": ["De nada, ¡siempre a tu servicio!", "No hay de qué, ¡fue un placer ayudarte!", "Es un placer, ¡estoy aquí para lo que necesites!"]
+          "responses": ["De nada, ¡siempre a tu servicio!", "No hay de que, ¡fue un placer ayudarte!", "Es un placer, ¡estoy aqui para lo que necesites!"]
       },
       {
           "tag": "como_ahorrar_dinero",
-          "patterns": ["¿Cómo puedo ahorrar dinero?", "Consejos para ahorrar", "Quiero ahorrar más"],
+          "patterns": ["¿Como puedo ahorrar dinero?", "Consejos para ahorrar", "Quiero ahorrar mas"],
           "responses": ["Puedes ahorrar dinero creando un presupuesto mensual, reduciendo gastos innecesarios y estableciendo un monto fijo para ahorrar cada mes."]
       },
       {
           "tag": "gestion_tiempo",
-          "patterns": ["¿Cómo puedo gestionar mejor mi tiempo?", "Consejos para gestionar el tiempo", "Me cuesta administrar mi tiempo"],
-          "responses": ["Para gestionar mejor tu tiempo, utiliza una agenda para planificar tu día, establece prioridades y elimina distracciones."]
+          "patterns": ["¿Como puedo gestionar mejor mi tiempo?", "Consejos para gestionar el tiempo", "Me cuesta administrar mi tiempo"],
+          "responses": ["Para gestionar mejor tu tiempo, utiliza una agenda para planificar tu dias, establece prioridades y elimina distracciones.", "Si te cuesta adminitrar tu tiempo, crea una agenda priorisando lo mas importante por orden"]
       },
       {
           "tag": "inversiones_basicas",
-          "patterns": ["¿Dónde debería invertir mi dinero?", "Consejos para invertir", "Mejores inversiones"],
+          "patterns": ["¿Donde deberia invertir mi dinero?", "Consejos para invertir", "Mejores inversiones"],
           "responses": ["Para empezar a invertir, considera opciones seguras como fondos indexados, bonos del gobierno o cuentas de ahorro de alto rendimiento."]
       },
       {
           "tag": "mejorar_credito",
-          "patterns": ["¿Cómo puedo mejorar mi puntaje de crédito?", "Consejos para el crédito", "Mejores prácticas de crédito"],
-          "responses": ["Para mejorar tu puntaje de crédito, paga tus deudas a tiempo, mantén bajos tus saldos de tarjetas de crédito y no solicites nuevas líneas de crédito innecesariamente."]
+          "patterns": ["¿Como puedo mejorar mi puntaje de credito?", "Consejos para el credito", "Mejores practicas de credito"],
+          "responses": ["Para mejorar tu puntaje de credito, paga tus deudas a tiempo, manten bajos tus saldos de tarjetas de credito y no solicites nuevas lineas de credito innecesariamente."]
       },
       {
           "tag": "crear_presupuesto",
-          "patterns": ["¿Cómo hago un presupuesto?", "Consejos para presupuestar", "Quiero hacer un presupuesto"],
-          "responses": ["Para hacer un presupuesto, lista todos tus ingresos y gastos mensuales, asigna un monto a cada categoría y sigue tu plan de gastos estrictamente."]
+          "patterns": ["¿Como hago un presupuesto?", "Quiero hacer un presupuesto, que me consejo medas"],
+          "responses": ["Para hacer un presupuesto, lista todos tus ingresos y gastos mensuales, asigna un monto a cada categoria y sigue tu plan de gastos estrictamente."]
       },
       {
           "tag": "tipos_seguro",
-          "patterns": ["¿Qué tipo de seguro necesito?", "Consejos sobre seguros", "Información sobre seguros"],
-          "responses": ["Dependiendo de tu situación personal, podrías necesitar seguros de salud, vida, auto y vivienda. Evalúa tus riesgos y necesidades específicas."]
+          "patterns": ["¿Que tipo de seguro necesito?", "Consejos sobre seguros", "Informacion sobre seguros"],
+          "responses": ["Dependiendo de tu situacion personal, podrias necesitar un seguros de salud, vida, auto y vivienda. Evalua tus riesgos y necesidades especificas."]
       },
       {
           "tag": "comprar_casa",
-          "patterns": ["¿Debería comprar una casa ahora?", "Consejos para comprar una casa", "¿Es buen momento para comprar una casa?"],
-          "responses": ["Comprar una casa depende de tus finanzas personales y del mercado inmobiliario. Asegúrate de tener un buen puntaje de crédito y un fondo de emergencia antes de dar este paso."]
+          "patterns": ["¿Deberia comprar una casa ahora?", "Consejos para comprar una casa actualmente", "¿Es un buen tiempo para comprar una casa?"],
+          "responses": ["Comprar una casa depende de tus finanzas personales y del mercado inmobiliario. Asegurate de tener un buen puntaje de credito y un fondo de emergencia antes de dar este paso."]
       },
       {
           "tag": "fondo_emergencia",
-          "patterns": ["¿Cómo preparo un fondo de emergencia?", "Consejos para un fondo de emergencia", "Quiero crear un fondo de emergencia"],
-          "responses": ["Para un fondo de emergencia, ahorra entre 3 a 6 meses de gastos básicos en una cuenta separada y accesible. Contribuye regularmente a este fondo."]
+          "patterns": ["¿Como preparo un fondo de emergencia?", "Consejos para un fondo de emergencia", "Quiero crear un fondo de emergencia"],
+          "responses": ["Para un fondo de emergencia, ahorra entre 3 a 6 meses de gastos basicos en una cuenta separada y accesible. Contribuye regularmente a este fondo."]
       },
       {
-          "tag": "ahorrar_jubilacion",
-          "patterns": ["¿Cómo ahorro para la jubilación?", "Consejos para el retiro", "Quiero planificar mi jubilación"],
-          "responses": ["Para la jubilación, contribuye a planes como un 401(k) o IRA. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos."]
+          "tag": "ahorrar_jubilacion ", // OJO
+          "patterns": ["¿Como ahorro para la jubilacion?", "Consejos para el retiro", "Quiero planificar mi jubilacion"],
+          "responses": ["Para la jubilacion, contribuye a planes como un 401(k) o IRA. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos."]
       },
       {
           "tag": "educacion_financiera",
-          "patterns": ["¿Dónde puedo aprender sobre finanzas personales?", "Recursos de educación financiera", "Quiero mejorar mi conocimiento financiero"],
-          "responses": ["Puedes aprender sobre finanzas personales a través de cursos en línea, libros especializados y consultando con asesores financieros."]
+          "patterns": ["¿Donde puedo aprender sobre finanzas personales?", "Recursos de educacion financiera", "Quiero mejorar mi conocimiento financiero"],
+          "responses": ["Puedes aprender sobre finanzas personales a traves de cursos en linea, libros especializados y consultando con asesores financieros."]
       },
       {
           "tag": "pagar_deudas",
-          "patterns": ["¿Cómo puedo salir de deudas?", "Consejos para pagar deudas", "Me cuesta pagar mis deudas"],
-          "responses": ["Para salir de deudas, crea un plan de pagos, prioriza tus deudas con mayor interés y evita acumular nuevas deudas."]
+          "patterns": ["¿Como puedo salir de deudas?", "Consejos para pagar deudas", "Me cuesta pagar mis deudas"],
+          "responses": ["Para salir de deudas, crea un plan de pagos, prioriza tus deudas con mayor interes y evita acumular nuevas deudas."]
       },
       {
           "tag": "usar_tarjeta_credito",
-          "patterns": ["¿Cómo uso una tarjeta de crédito de manera responsable?", "Consejos para tarjetas de crédito", "Mejor uso de tarjetas de crédito"],
-          "responses": ["Usa tu tarjeta de crédito pagando el balance completo cada mes y no gastes más de lo que puedes pagar."]
+          "patterns": ["¿Como uso una tarjeta de credito de manera responsable?", "Consejos para usar correctamente las tarjetas de credito", "Mejor uso de tarjetas de credito"],
+          "responses": ["Usa tu tarjeta de credito pagando el balance completo cada mes y no gastes mas de lo que puedes pagar."]
       },
       {
           "tag": "ahorrar_meta",
-          "patterns": ["¿Cómo puedo ahorrar para una meta específica?", "Consejos para metas de ahorro", "Quiero ahorrar para un objetivo"],
-          "responses": ["Para ahorrar para una meta específica, establece un monto objetivo, un plazo y automatiza tus ahorros mensuales."]
+          "patterns": ["¿Como puedo ahorrar para una meta especifica?", "Consejos para metas de ahorro", "Quiero ahorrar para un objetivo"],
+          "responses": ["Para ahorrar para una meta especifica, establece un monto objetivo, un plazo y automatiza tus ahorros mensuales."]
       },
       {
           "tag": "mantener_salud_financiera",
-          "patterns": ["¿Cómo mantengo una buena salud financiera?", "Consejos para la salud financiera", "Mejorar mi salud financiera"],
-          "responses": ["Mantén una buena salud financiera controlando tus gastos, ahorrando regularmente y evitando deudas innecesarias."]
+          "patterns": ["¿Como mantengo una buena salud financiera?", "Consejos para la salud financiera", "Mejorar mi salud financiera"],
+          "responses": ["Manten una buena salud financiera controlando tus gastos, ahorrando regularmente y evitando deudas innecesarias."]
       },
       {
           "tag": "hacer_plan_financiero",
-          "patterns": ["¿Cómo hago un plan financiero?", "Consejos para la planificación financiera", "Quiero planificar mis finanzas"],
-          "responses": ["Un plan financiero debe incluir tus metas, presupuesto, estrategias de ahorro e inversión, y un plan de gestión de deudas."]
+          "patterns": ["¿Como hago un plan financiero?", "Que consejos medas para una buena la planificacion financiera", "Quiero planificar mis finanzas"],
+          "responses": ["Un plan financiero debe incluir tus metas, presupuesto, estrategias de ahorro e inversion, y un plan de gestion de deudas."]
       },
       {
           "tag": "empezar_invertir",
-          "patterns": ["¿Cómo empiezo a invertir?", "Primeros pasos para invertir", "Quiero empezar a invertir"],
+          "patterns": ["¿Como empiezo a invertir?", "Primeros pasos para invertir", "Quiero empezar a invertir"],
           "responses": ["Define tus objetivos financieros, tolerancia al riesgo y empieza con opciones diversificadas como fondos indexados o ETFs."]
       },
       {
           "tag": "enseñar_finanzas_niños",
-          "patterns": ["¿Cómo enseño a mis hijos sobre finanzas?", "Educación financiera para niños", "Quiero enseñar finanzas a mis hijos"],
-          "responses": ["Enseña a tus hijos sobre finanzas a través de ejemplos prácticos, juegos educativos y conversaciones sobre el valor del dinero."]
+          "patterns": ["¿Como enseño a mis hijos sobre finanzas?", "Educacion financiera para niños", "Quiero enseñar finanzas a mis hijos"],
+          "responses": ["Enseña a tus hijos sobre finanzas a traves de ejemplos practicos, juegos educativos y conversaciones sobre el valor del dinero."]
       },
       {
           "tag": "proteger_informacion_financiera",
-          "patterns": ["¿Cómo protejo mi información financiera?", "Consejos para la seguridad financiera", "Proteger mis datos financieros"],
-          "responses": ["Usa contraseñas seguras, monitorea tus cuentas regularmente y evita compartir tus datos sensibles en línea."]
+          "patterns": ["¿Como protejo mi informacion financiera?", "Consejos para la seguridad financiera", "Proteger mis datos financieros"],
+          "responses": ["Usa contraseñas seguras, monitorea tus cuentas regularmente y evita compartir tus datos sensibles en linea."]
       },
       {
           "tag": "financiar_negocio",
-          "patterns": ["¿Cómo obtengo financiamiento para mi negocio?", "Opciones de financiamiento para negocios", "Consejos para financiar un negocio"],
-          "responses": ["Para financiar tu negocio, considera préstamos bancarios, inversionistas privados o plataformas de crowdfunding."]
+          "patterns": ["¿Como obtengo financiamiento para mi negocio?", "Opciones de financiamiento para negocios", "Consejos para financiar un negocio"],
+          "responses": ["Para financiar tu negocio, considera prestamos bancarios, inversionistas privados o plataformas de crowdfunding."]
       },
       {
           "tag": "ahorrar_vacaciones",
-          "patterns": ["¿Cómo puedo ahorrar para unas vacaciones?", "Consejos para ahorrar en vacaciones", "Quiero ahorrar para viajar"],
-          "responses": ["Para ahorrar para vacaciones, establece un presupuesto específico, ahorra mensualmente y busca ofertas y descuentos para viajes."]
+          "patterns": ["¿Como puedo ahorrar para unas vacaciones?", "Consejos para ahorrar en vacaciones", "Quiero ahorrar para viajar"],
+          "responses": ["Para ahorrar para vacaciones, establece un presupuesto especifico, ahorra mensualmente y busca ofertas y descuentos para viajes."]
       },
       {
           "tag": "planificar_gastos",
-          "patterns": ["¿Cómo planifico mis gastos mensuales?", "Consejos para planificar gastos", "Quiero planificar mis gastos"],
-          "responses": ["Lista tus ingresos y gastos fijos, asigna fondos para gastos variables y ajusta según tus prioridades y necesidades."]
+          "patterns": ["¿Como planifico mis gastos mensuales?", "Consejos para planificar gastos", "Quiero planificar mis gastos"],
+          "responses": ["Lista tus ingresos y gastos fijos, asigna fondos para gastos variables y ajusta segun tus prioridades y necesidades."]
       },
       {
           "tag": "evitar_deudas",
-          "patterns": ["¿Cómo evito acumular deudas?", "Consejos para evitar deudas", "Quiero evitar deudas"],
-          "responses": ["Evita acumular deudas gastando dentro de tus límites, usando tarjetas de crédito de manera responsable y ahorrando para compras grandes."]
+          "patterns": ["¿Como evito acumular deudas?", "Consejos para evitar deudas", "Quiero evitar deudas"],
+          "responses": ["Evita acumular deudas gastando dentro de tus limites o por debajo de ellos, usando tarjetas de credito de manera responsable y ahorrando para compras grandes."]
       },
       {
-          "tag": "crear_fondo_jubilacion",
-          "patterns": ["¿Cómo creo un fondo de jubilación?", "Consejos para un fondo de jubilación", "Quiero crear un fondo de jubilación"],
+          "tag": "crear_fondo_jubilacion ",
+          "patterns": ["¿Como creo un fondo de jubilacion?", "Consejos para un fondo de jubilacion", "Quiero crear un fondo de jubilacion"],
           "responses": ["Contribuye regularmente a planes de retiro como 401(k) o IRA y ajusta tus aportaciones conforme aumenten tus ingresos."]
       },
       {
+        "tag": "que_es_el_plan_401(k)", 
+        "patterns": ["¿Que es el plan de retiro 401(k)?", "Es bueno el plan 401(k)", "Que beneficion tiene el plan 401(k)"],
+        "responses": ["El plan de retiro 401(k) es una cuenta de jubilación patrocinada por el empleador en EE. UU., donde se pueden hacer contribuciones preimpositivas. Es beneficioso por sus ahorros fiscales, igualaciones del empleador y crecimiento con diferimiento de impuestos."]
+      },
+      {
+        "tag": "que_es_el_plan_IRA ", //esta parte la voy a cambiar ya que IRA Y 401 esta mas para EE.UU. en RD es planes de pensiones controlada por la AFP
+        "patterns": ["¿Que es el plan de retiro IRA?", "Es bueno el plan IRA", "Que beneficion tiene el plan IRA"],
+        "responses": ["El plan IRA (Individual Retirement Account), es una cuenta de jubilación individual en EE. UU. que ofrece beneficios fiscales y flexibilidad en las inversiones. "]
+      },
+      {
           "tag": "ahorrar_educacion",
-          "patterns": ["¿Cómo ahorro para la educación de mis hijos?", "Consejos para ahorrar en educación", "Quiero ahorrar para la universidad de mis hijos"],
-          "responses": ["Considera planes de ahorro educativo como 529 o cuentas de ahorro de alto rendimiento y empieza a ahorrar temprano."]
+          "patterns": ["¿Como ahorro para la educacion de mis hijos?", "Consejos para ahorrar en educacion", "Quiero ahorrar para la universidad de mis hijos"],
+          "responses": ["Considera planes de ahorro educativo como el plan 529 o cuentas de ahorro de alto rendimiento y empieza a ahorrar temprano."]
       },
       {
           "tag": "invertir_mercado",
-          "patterns": ["¿Cómo invierto en el mercado de valores?", "Consejos para invertir en acciones", "Quiero invertir en la bolsa"],
+          "patterns": ["¿Como invierto en el mercado de valores?", "Consejos para invertir en acciones", "Quiero invertir en la bolsa"],
           "responses": ["Investiga y selecciona acciones de empresas con buen rendimiento, diversifica tu portafolio y considera inversiones a largo plazo."]
       },
       {
           "tag": "comprar_coche",
-          "patterns": ["¿Es buen momento para comprar un coche?", "Consejos para comprar un coche", "¿Debería comprar un coche nuevo?"],
-          "responses": ["Comprar un coche depende de tu situación financiera y necesidades. Considera opciones de financiamiento y compara precios antes de decidir."]
+          "patterns": ["¿Es buen momento para comprar un coche?", "Aconsejas comprar un coche", "¿Deberia comprar un coche nuevo?"],
+          "responses": ["Comprar un coche depende de tu situacion financiera y necesidades. Considera opciones de financiamiento y compara precios antes de decidir."]
       },
       {
           "tag": "reducir_gastos",
-          "patterns": ["¿Cómo puedo reducir mis gastos?", "Consejos para reducir gastos", "Quiero gastar menos"],
-          "responses": ["Analiza tus gastos mensuales, identifica áreas donde puedes recortar y establece un presupuesto estricto para evitar gastos innecesarios."]
+          "patterns": ["¿Como puedo reducir mis gastos?", "Consejos para reducir gastos", "Quiero gastar menos"],
+          "responses": ["Analiza tus gastos mensuales o semanales, identifica areas donde puedes recortar y establece un presupuesto estricto para evitar gastos innecesarios."]
       },
       {
           "tag": "gestion_deudas",
-          "patterns": ["¿Cómo gestiono mis deudas?", "Consejos para gestionar deudas", "Quiero manejar mejor mis deudas"],
-          "responses": ["Haz una lista de tus deudas, prioriza las de mayor interés y considera opciones de consolidación o refinanciamiento para simplificar pagos."]
+          "patterns": ["¿Como gestiono mis deudas?", "Consejos para gestionar deudas", "Quiero manejar mejor mis deudas"],
+          "responses": ["Haz una lista de tus deudas, prioriza las de mayor interes y considera opciones de consolidacion o refinanciamiento para simplificar pagos."]
       },
       {
           "tag": "inversiones_seguras",
-          "patterns": ["¿Cuáles son las inversiones más seguras?", "Consejos para inversiones seguras", "Quiero invertir de forma segura"],
-          "responses": ["Las inversiones más seguras incluyen bonos del gobierno, cuentas de ahorro aseguradas y certificados de depósito (CDs)."]
+          "patterns": ["¿Cuales son las inversiones mas seguras?", "Consejos para inversiones seguras", "Quiero invertir de forma segura"],
+          "responses": ["Las inversiones mas seguras incluyen bonos del gobierno, cuentas de ahorro aseguradas y certificados de deposito (CDs)."]
       },
       {
           "tag": "aprovechar_descuentos",
-          "patterns": ["¿Cómo puedo aprovechar mejor los descuentos?", "Consejos para aprovechar descuentos", "Quiero ahorrar con descuentos"],
-          "responses": ["Suscríbete a boletines de tiendas, usa cupones y espera promociones especiales como Black Friday para hacer tus compras."]
+          "patterns": ["¿Como puedo aprovechar mejor los descuentos?", "Consejos para aprovechar descuentos", "Quiero ahorrar con descuentos"],
+          "responses": ["Suscribete a boletines de tiendas, usa cupones y espera promociones especiales como Black Friday para hacer tus compras."]
       },
       {
           "tag": "invertir_bienes_raices",
-          "patterns": ["¿Es buena idea invertir en bienes raíces?", "Consejos para invertir en bienes raíces", "Quiero invertir en propiedades"],
-          "responses": ["Invertir en bienes raíces puede ser rentable si investigas bien el mercado, eliges propiedades en ubicaciones estratégicas y tienes un plan de gestión claro."]
+          "patterns": ["¿Es buena idea invertir en bienes raices?", "Consejos para invertir en bienes raices", "Quiero invertir en propiedades"],
+          "responses": ["Invertir en bienes raices puede ser rentable si investigas bien el mercado, eliges propiedades en ubicaciones estrategicas y tienes un plan de gestion claro."]
       },
       {
           "tag": "mejorar_habitos_financieros",
-          "patterns": ["¿Cómo mejoro mis hábitos financieros?", "Consejos para mejores hábitos financieros", "Quiero mejorar mis hábitos con el dinero"],
-          "responses": ["Mejora tus hábitos financieros llevando un registro de tus gastos, ajustando tu presupuesto regularmente y estableciendo metas claras de ahorro."]
+          "patterns": ["¿Como mejoro mis habitos financieros?", "Consejos para mejores habitos financieros", "Quiero mejorar mis habitos con el dinero"],
+          "responses": ["Mejora tus habitos financieros llevando un registro de tus gastos, ajustando tu presupuesto regularmente y estableciendo metas claras de ahorro."]
       },
 
       {
         "tag": "beneficios_tarjeta_credito",
-        "patterns": ["¿Cuáles son los beneficios de tener una tarjeta de crédito?", "Ventajas de usar una tarjeta de crédito", "Beneficios de las tarjetas de crédito"],
-        "responses": ["Las tarjetas de crédito ofrecen beneficios como la acumulación de puntos o millas, mayor seguridad en las compras, y la posibilidad de financiar compras grandes a plazos."]
+        "patterns": ["¿Cuales son los beneficios de tener una tarjeta de credito?", "Ventajas de usar una tarjeta de credito", "Beneficios de las tarjetas de credito"],
+        "responses": ["Las tarjetas de credito ofrecen beneficios como la acumulacion de puntos, mayor seguridad en las compras, y la posibilidad de financiar compras grandes a plazos."]
     },
     {
         "tag": "empezar_negocio",
-        "patterns": ["¿Cuáles son los pasos para empezar un negocio?", "Cómo empiezo un negocio", "Pasos para iniciar un negocio"],
+        "patterns": ["¿Cuales son los pasos para empezar un negocio?", "Como empiezo un negocio", "Pasos para iniciar un negocio"],
         "responses": ["Para empezar un negocio, define tu idea, realiza un estudio de mercado, elabora un plan de negocios, busca financiamiento, y cumple con los requisitos legales necesarios."]
     },
     {
         "tag": "ahorrar_compras_grandes",
-        "patterns": ["¿Cómo puedo ahorrar para compras grandes?", "Consejos para ahorrar para compras importantes", "Quiero ahorrar para una compra grande"],
+        "patterns": ["¿Como puedo ahorrar para compras grandes?", "Consejos para ahorrar para compras importantes", "Quiero ahorrar para una compra grande"],
         "responses": ["Para ahorrar para compras grandes, establece un objetivo de ahorro, ajusta tu presupuesto, y ahorra regularmente en una cuenta separada."]
     },
     {
         "tag": "manejar_gastos_diarios",
-        "patterns": ["¿Cómo manejo mejor mis gastos diarios?", "Consejos para manejar gastos diarios", "Quiero controlar mis gastos diarios"],
-        "responses": ["Para manejar mejor tus gastos diarios, lleva un registro detallado de tus gastos, ajusta tu presupuesto según tus necesidades, y evita compras impulsivas."]
+        "patterns": ["¿Como manejo mejor mis gastos diarios?", "Consejos para manejar gastos diarios", "Quiero controlar mis gastos diarios"],
+        "responses": ["Para manejar mejor tus gastos diarios, lleva un registro detallado de tus gastos, ajusta tu presupuesto segun tus necesidades, y evita compras impulsivas."]
     },
     {
         "tag": "invertir_fondos_mutuos",
@@ -209,23 +219,23 @@
     },
     {
         "tag": "maximizar_ahorros",
-        "patterns": ["¿Cómo puedo maximizar mis ahorros?", "Consejos para maximizar ahorros", "Quiero aumentar mis ahorros"],
+        "patterns": ["¿Como puedo maximizar mis ahorros?", "Consejos para maximizar ahorros", "Quiero aumentar mis ahorros"],
         "responses": ["Maximiza tus ahorros estableciendo metas claras, automatizando tus ahorros y buscando cuentas con altos rendimientos o beneficios adicionales."]
     },
     {
         "tag": "invertir_cripto",
-        "patterns": ["¿Es seguro invertir en criptomonedas?", "Consejos para invertir en criptomonedas", "Quiero invertir en criptomonedas"],
-        "responses": ["Invertir en criptomonedas puede ser rentable, pero también conlleva altos riesgos. Investiga bien antes de invertir y no pongas en riesgo más de lo que puedes permitirte perder."]
+        "patterns": ["¿Es seguro invertir en criptomonedas?", "Conseja invertir en criptomonedas", "Quiero invertir en criptomonedas"],
+        "responses": ["Invertir en criptomonedas puede ser rentable, pero tambien conlleva altos riesgos. Investiga bien antes de invertir y no pongas en riesgo mas de lo que puedes permitirte perder."]
     },
     {
         "tag": "reducir_costo_vida",
-        "patterns": ["¿Cómo puedo reducir mi costo de vida?", "Consejos para reducir costo de vida", "Quiero bajar mi costo de vida"],
-        "responses": ["Para reducir tu costo de vida, revisa tus gastos fijos, elimina suscripciones innecesarias y busca alternativas más económicas para tus necesidades diarias."]
+        "patterns": ["¿Como puedo reducir mi costo de vida?", "Consejos para reducir costo de vida", "Quiero bajar mi costo de vida"],
+        "responses": ["Para reducir tu costo de vida, revisa tus gastos fijos, elimina suscripciones innecesarias y busca alternativas mas economicas para tus necesidades diarias."]
     },
     {
         "tag": "beneficios_ahorro_automatico",
-        "patterns": ["¿Cuáles son los beneficios del ahorro automático?", "Ventajas del ahorro automático", "Beneficios de automatizar ahorros"],
-        "responses": ["El ahorro automático te ayuda a mantener consistencia en tus ahorros, reduce la tentación de gastar y facilita la acumulación de fondos para tus metas financieras."]
+        "patterns": ["¿Cuales son los beneficios del ahorro automatico?", "Ventajas del ahorro automatico", "Beneficios de automatizar ahorros"],
+        "responses": ["El ahorro automatico te ayuda a mantener consistencia en tus ahorros, reduce la tentacion de gastar y facilita la acumulacion de fondos para tus metas financieras."]
     },
     {
       "tag": "invertir_arte",
@@ -234,153 +244,153 @@
   },
   {
       "tag": "crear_fondo_vacaciones",
-      "patterns": ["¿Cómo creo un fondo para vacaciones?", "Consejos para ahorrar para vacaciones", "Quiero ahorrar para un viaje"],
-      "responses": ["Para crear un fondo para vacaciones, establece un objetivo de ahorro, planifica con anticipación y ahorra una cantidad fija regularmente."]
+      "patterns": ["¿Como creo un fondo para vacaciones?", "Consejos para ahorrar para vacaciones", "Quiero ahorrar para un viaje"],
+      "responses": ["Para crear un fondo para vacaciones, establece un objetivo de ahorro, planifica con anticipacion y ahorra una cantidad fija regularmente."]
   },
   {
       "tag": "evitar_fraude_tarjeta_credito",
-      "patterns": ["¿Cómo evito el fraude con mi tarjeta de crédito?", "Consejos para prevenir fraude con tarjeta de crédito", "Quiero proteger mi tarjeta de crédito"],
-      "responses": ["Para evitar el fraude con tu tarjeta de crédito, utiliza contraseñas seguras, monitorea tus estados de cuenta regularmente y evita compartir tu información en sitios no seguros."]
+      "patterns": ["¿Como evito el fraude con mi tarjeta de credito?", "Consejos para prevenir fraude con tarjeta de credito", "Quiero proteger mi tarjeta de credito"],
+      "responses": ["Para evitar el fraude con tu tarjeta de credito, utiliza contraseñas seguras, monitorea tus estados de cuenta regularmente y evita compartir tu informacion en sitios no seguros o a terceros."]
   },
   {
       "tag": "invertir_inmuebles_comerciales",
-      "patterns": ["¿Es buena idea invertir en inmuebles comerciales?", "Consejos para invertir en inmuebles comerciales", "Quiero invertir en propiedades comerciales"],
-      "responses": ["Invertir en inmuebles comerciales puede generar altos rendimientos si eliges ubicaciones estratégicas y mantienes buenos inquilinos. Considera los costos de mantenimiento y administración."]
+      "patterns": ["¿Es buena idea invertir en inmuebles comerciales?", "Consejos para invertir en inmuebles comerciales", "Quiero invertir en propiedades comerciales", "Es buena idea invertir en inmuebles comerciales"],
+      "responses": ["Invertir en inmuebles comerciales puede generar altos rendimientos si eliges ubicaciones estrategicas y mantienes buenos inquilinos. Considera los costos de mantenimiento y administracion."]
   },
   {
       "tag": "crear_fondo_emergencia",
-      "patterns": ["¿Cómo puedo crear un fondo de emergencia?", "Consejos para un fondo de emergencia", "Quiero tener un fondo de emergencia"],
-      "responses": ["Crea un fondo de emergencia ahorrando entre 3 a 6 meses de tus gastos básicos en una cuenta separada y accesible."]
+      "patterns": ["¿Como puedo crear un fondo de emergencia?", "Consejos para un fondo de emergencia", "Quiero tener un fondo de emergencia"],
+      "responses": ["Crea un fondo de emergencia ahorrando entre 3 a 6 meses de tus gastos basicos en una cuenta separada y accesible."]
   },
   {
       "tag": "reducir_deuda_tarjeta_credito",
-      "patterns": ["¿Cómo puedo reducir la deuda de mi tarjeta de crédito?", "Consejos para pagar deudas de tarjeta de crédito", "Quiero pagar mi tarjeta de crédito"],
-      "responses": ["Para reducir la deuda de tu tarjeta de crédito, prioriza los pagos con mayor interés, paga más del mínimo y evita hacer nuevas compras hasta saldar la deuda."]
+      "patterns": ["¿Como puedo reducir la deuda de mi tarjeta de credito?", "Consejos para pagar deudas de tarjeta de credito", "Quiero pagar mi tarjeta de credito"],
+      "responses": ["Para reducir la deuda de tu tarjeta de credito, prioriza los pagos con mayor interes, paga mas del minimo y evita hacer nuevas compras hasta saldar la deuda."]
   },
   {
       "tag": "beneficios_ahorro_educacion",
-      "patterns": ["¿Cuáles son los beneficios de ahorrar para la educación?", "Ventajas de un fondo de ahorro para educación", "Beneficios de ahorrar para la educación"],
-      "responses": ["Ahorrar para la educación ofrece la tranquilidad de tener fondos disponibles para cubrir los costos educativos, y algunas cuentas de ahorro educativo tienen beneficios fiscales."]
+      "patterns": ["¿Cuales son los beneficios de ahorrar para la educacion?", "Ventajas de un fondo de ahorro para educacion", "Beneficios de ahorrar para la educacion"],
+      "responses": ["Ahorrar para la educacion ofrece la tranquilidad de tener fondos disponibles para cubrir los costos educativos, y algunas cuentas de ahorro educativo tienen beneficios fiscales."]
   },
   {
       "tag": "invertir_etfs",
       "patterns": ["¿Es buena idea invertir en ETFs?", "Consejos para invertir en ETFs", "Quiero invertir en fondos cotizados"],
-      "responses": ["Invertir en ETFs es una buena manera de diversificar tu portafolio con costos bajos y exposición a diferentes mercados y sectores."]
+      "responses": ["Invertir en ETFs es una buena manera de diversificar tu portafolio con costos bajos y exposicion a diferentes mercados y sectores."]
   },
       {
         "tag": "estrategias_inversion",
-        "patterns": ["¿Qué estrategias de inversión debo considerar?", "Dime algunas estrategias para invertir", "Estrategias de inversión para principiantes"],
-        "responses": ["Considera estrategias de inversión diversificadas, invierte a largo plazo y evalúa tu tolerancia al riesgo antes de tomar decisiones."]
+        "patterns": ["¿Que estrategias de inversion debo considerar?", "Dime algunas estrategias para invertir", "Estrategias de inversion para principiantes"],
+        "responses": ["Considera estrategias de inversion diversificadas, invierte a largo plazo y evalua tu tolerancia al riesgo antes de tomar decisiones."]
       },
       {
         "tag": "seguros_necesarios",
-        "patterns": ["¿Qué seguros son esenciales?", "¿Qué tipo de seguros debería tener?", "Seguros imprescindibles"],
-        "responses": ["Es esencial contar con seguro de salud, seguro de vida, seguro de automóvil y seguro de hogar, dependiendo de tus circunstancias personales y activos."]
+        "patterns": ["¿Que seguros son esenciales?", "¿Que tipo de seguros deberia tener?", "Seguros imprescindibles"],
+        "responses": ["Es esencial contar con seguro de salud, seguro de vida, seguro de automovil y seguro de hogar, dependiendo de tus circunstancias personales y activos."]
       },
       {
         "tag": "rentabilidad_fondos_inversion",
-        "patterns": ["¿Cómo se mide la rentabilidad de los fondos de inversión?", "Rentabilidad en fondos de inversión", "¿Qué rentabilidad esperar de un fondo de inversión?"],
-        "responses": ["La rentabilidad de los fondos de inversión se mide por el porcentaje de ganancia o pérdida sobre la inversión original, considerando el rendimiento y los dividendos."]
+        "patterns": ["¿Como se mide la rentabilidad de los fondos de inversion?", "Rentabilidad en fondos de inversion", "¿Que rentabilidad esperar de un fondo de inversion?"],
+        "responses": ["La rentabilidad de los fondos de inversion se mide por el porcentaje de ganancia o perdida sobre la inversion original, considerando el rendimiento y los dividendos."]
       },
       {
         "tag": "ahorro_eficiente",
-        "patterns": ["¿Cómo puedo ahorrar de manera eficiente?", "Métodos eficientes para ahorrar", "¿Cómo maximizo mi ahorro?"],
+        "patterns": ["¿Como puedo ahorrar de manera eficiente?", "Metodos eficientes para ahorrar", "¿Como maximizo mi ahorro?"],
         "responses": ["Para ahorrar de manera eficiente, automatiza tus ahorros, revisa regularmente tus gastos y ajusta tu presupuesto para maximizar el ahorro."]
       },
       {
         "tag": "costos_ocultos_compras",
-        "patterns": ["¿Qué costos ocultos debo considerar al comprar algo?", "Costos ocultos en compras", "¿Cómo identificar costos ocultos?"],
-        "responses": ["Al comprar, considera costos adicionales como impuestos, tarifas de envío, mantenimiento y otros gastos no incluidos en el precio de etiqueta."]
+        "patterns": ["¿Que costos ocultos debo considerar al comprar algo?", "Costos ocultos en compras", "¿Como identificar costos ocultos?"],
+        "responses": ["Al comprar, considera costos adicionales como impuestos, tarifas de envio, mantenimiento y otros gastos no incluidos en el precio de etiqueta."]
       },
       {
         "tag": "cuentas_retiro",
-        "patterns": ["¿Qué tipos de cuentas de retiro existen?", "Cuentas de retiro recomendadas", "Opciones de cuentas para la jubilación"],
-        "responses": ["Existen diversas cuentas de retiro como el 401(k), IRA tradicional, IRA Roth, y planes de pensión, cada una con sus propias ventajas fiscales y condiciones."]
+        "patterns": ["¿Que tipos de cuentas de retiro existen?", "Cuentas de retiro recomendadas", "Opciones de cuentas para la jubilacion"],
+        "responses": ["Existen diversas cuentas de retiro como el 401(k), IRA tradicional, IRA Roth, y planes de pension, cada una con sus propias ventajas fiscales y condiciones."]
       },
       {
         "tag": "evaluar_asesor_financiero",
-        "patterns": ["¿Cómo evaluar a un asesor financiero?", "Elegir un asesor financiero", "Criterios para seleccionar asesor financiero"],
-        "responses": ["Evalúa un asesor financiero basado en sus credenciales, experiencia, estructura de tarifas y opiniones de clientes anteriores."]
+        "patterns": ["¿Como evaluar a un asesor financiero?", "Elegir un asesor financiero", "Criterios para seleccionar asesor financiero"],
+        "responses": ["Evalua un asesor financiero basado en sus credenciales, experiencia, estructura de tarifas y opiniones de clientes anteriores."]
       },
       {
         "tag": "inversiones_altas_rentabilidades",
-        "patterns": ["¿Qué inversiones ofrecen altas rentabilidades?", "Inversiones con alta rentabilidad", "¿Dónde invertir para altos retornos?"],
-        "responses": ["Inversiones como el mercado de valores, bienes raíces y ciertas criptomonedas pueden ofrecer altas rentabilidades, pero también implican mayores riesgos."]
+        "patterns": ["¿Que inversiones ofrecen altas rentabilidades?", "Inversiones con alta rentabilidad", "¿Donde invertir para altos retornos?"],
+        "responses": ["Inversiones como el mercado de valores, bienes raices y ciertas criptomonedas pueden ofrecer altas rentabilidades, pero tambien implican mayores riesgos."]
       },
       {
         "tag": "plan_financiero_personal",
-        "patterns": ["¿Cómo creo un plan financiero personal?", "Elaborar un plan financiero", "Pasos para un plan financiero personal"],
-        "responses": ["Identifica tus metas financieras, evalúa tus ingresos y gastos, establece un presupuesto, y planifica inversiones y ahorros para alcanzar tus objetivos."]
+        "patterns": ["¿Como creo un plan financiero personal?", "Elaborar un plan financiero", "Pasos para un plan financiero personal"],
+        "responses": ["Identifica tus metas financieras, evalua tus ingresos y gastos, establece un presupuesto, y planifica inversiones y ahorros para alcanzar tus objetivos."]
       },
       {
         "tag": "gestionar_gastos_impulsivos",
-        "patterns": ["¿Cómo manejo gastos impulsivos?", "Controlar compras por impulso", "Evitar gastos impulsivos"],
-        "responses": ["Para manejar gastos impulsivos, establece un presupuesto, evita usar tarjetas de crédito para compras diarias, y espera 24 horas antes de realizar compras grandes."]
+        "patterns": ["¿Como manejo gastos impulsivos?", "Controlar compras por impulso", "Evitar gastos impulsivos"],
+        "responses": ["Para manejar gastos impulsivos, establece un presupuesto, evita usar tarjetas de credito para compras diarias, y espera 24 horas antes de realizar compras grandes."]
       },
       {
         "tag": "invertir_oro_plata",
-        "patterns": ["¿Es buena idea invertir en oro y plata?", "Invertir en metales preciosos", "¿Debería comprar oro o plata?"],
-        "responses": ["Invertir en oro y plata puede ser una buena forma de diversificar tu portafolio y protegerte contra la inflación, pero considera la volatilidad de los precios de estos metales."]
+        "patterns": ["¿Es buena idea invertir en oro y plata?", "Invertir en metales preciosos", "¿Deberia comprar oro o plata?"],
+        "responses": ["Invertir en oro y plata puede ser una buena forma de diversificar tu portafolio y protegerte contra la inflacion, pero considera la volatilidad de los precios de estos metales."]
       },
       {
         "tag": "finanzas_pareja",
-        "patterns": ["¿Cómo gestionar las finanzas en pareja?", "Finanzas conjuntas con mi pareja", "Consejos para finanzas de pareja"],
+        "patterns": ["¿Como gestionar las finanzas en pareja?", "Finanzas conjuntas con mi pareja", "Consejos para finanzas de pareja"],
         "responses": ["Para gestionar finanzas en pareja, comunica claramente tus metas y presupuestos, establece cuentas conjuntas y personales, y planea juntos para el futuro."]
       },
       {
         "tag": "seguridad_financiera_futuro",
-        "patterns": ["¿Cómo aseguro mi seguridad financiera para el futuro?", "Planificar la seguridad financiera", "Construir un futuro financiero seguro"],
-        "responses": ["Asegura tu futuro financiero ahorrando e invirtiendo consistentemente, diversificando tus inversiones y planificando para la jubilación y emergencias."]
+        "patterns": ["¿Como aseguro mi seguridad financiera para el futuro?", "Planificar la seguridad financiera", "Construir un futuro financiero seguro"],
+        "responses": ["Asegura tu futuro financiero ahorrando e invirtiendo consistentemente, diversificando tus inversiones y planificando para la jubilacion y emergencias."]
       },
       {
         "tag": "beneficios_inversion_indexada",
-        "patterns": ["¿Cuáles son los beneficios de la inversión indexada?", "Inversión indexada", "Ventajas de los fondos indexados"],
-        "responses": ["La inversión indexada ofrece bajo costo, diversificación automática y rendimientos consistentes al seguir un índice de mercado, como el S&P 500."]
+        "patterns": ["¿Cuales son los beneficios de la inversion indexada?", "Inversion indexada", "Ventajas de los fondos indexados"],
+        "responses": ["La inversion indexada ofrece bajo costo, diversificacion automatica y rendimientos consistentes al seguir un indice de mercado, como el S&P 500."]
       },
       {
         "tag": "riesgos_inversion",
-        "patterns": ["¿Cuáles son los riesgos de invertir?", "Identificar riesgos en inversiones", "Riesgos comunes en inversiones"],
-        "responses": ["Los riesgos de invertir incluyen la pérdida de capital, volatilidad del mercado, riesgo de liquidez y riesgos específicos del sector o empresa."]
+        "patterns": ["¿Cuales son los riesgos de invertir?", "Identificar riesgos en inversiones", "Riesgos comunes en inversiones"],
+        "responses": ["Los riesgos de invertir incluyen la perdida de capital, volatilidad del mercado, riesgo de liquidez y riesgos especificos del sector o empresa."]
       },
       {
         "tag": "planificar_gastos_futuros",
-        "patterns": ["¿Cómo planifico para gastos futuros?", "Prepararse para gastos grandes", "Planificación financiera para gastos futuros"],
-        "responses": ["Para planificar gastos futuros, identifica tus necesidades a largo plazo, establece fondos de ahorro específicos y ajusta tu presupuesto para acumular fondos."]
+        "patterns": ["¿Como planifico para gastos futuros?", "Prepararse para gastos grandes", "Planificacion financiera para gastos futuros"],
+        "responses": ["Para planificar gastos futuros, identifica tus necesidades a largo plazo, establece fondos de ahorro especificos y ajusta tu presupuesto para acumular fondos."]
       },
       {
         "tag": "invertir_startups",
         "patterns": ["¿Es buena idea invertir en startups?", "Invertir en empresas emergentes", "Riesgos y beneficios de invertir en startups"],
-        "responses": ["Invertir en startups puede ofrecer altos retornos, pero también implica riesgos elevados. Investiga la empresa, el mercado y su potencial de crecimiento antes de invertir."]
+        "responses": ["Invertir en startups puede ofrecer altos retornos, pero tambien implica riesgos elevados. Investiga la empresa, el mercado y su potencial de crecimiento antes de invertir."]
       },
       {
         "tag": "importancia_diversificacion",
-        "patterns": ["¿Por qué es importante diversificar inversiones?", "Beneficios de la diversificación", "¿Cómo diversificar mi portafolio?"],
-        "responses": ["La diversificación reduce el riesgo al esparcir inversiones en diferentes activos, sectores y geografías, protegiendo tu portafolio contra volatilidades específicas."]
+        "patterns": ["¿Por que es importante diversificar inversiones?", "Beneficios de la diversificacion inversiones", "¿Como diversificar mi portafolio?"],
+        "responses": ["La diversificacion reduce el riesgo al esparcir inversiones en diferentes activos, sectores y geografias, protegiendo tu portafolio contra volatilidades especificas."]
       },
       {
         "tag": "ahorro_energia",
-        "patterns": ["¿Cómo puedo ahorrar en mi factura de energía?", "Reducir costos de energía", "Consejos para ahorrar electricidad"],
-        "responses": ["Para ahorrar en energía, utiliza aparatos eficientes, ajusta tu termostato, y apaga luces y equipos cuando no los estés usando."]
+        "patterns": ["¿Como puedo ahorrar en mi factura de energia?", "Reducir costos de energia", "Consejos para ahorrar electricidad"],
+        "responses": ["Para ahorrar en energia, utiliza aparatos eficientes ode bajo consumo, ajusta tu termostato de la nevera, y apaga luces y equipos cuando no los estes usando."]
       },
       {
         "tag": "finanzas_salud_mental",
-        "patterns": ["¿Cómo afectan las finanzas la salud mental?", "Impacto de las finanzas en el bienestar", "Relación entre dinero y salud mental"],
-        "responses": ["Las finanzas pueden afectar significativamente la salud mental, causando estrés o ansiedad si no se gestionan bien. Es crucial mantener un equilibrio y buscar asesoría si es necesario."]
+        "patterns": ["¿Como afectan las finanzas en la salud mental?", "Impacto de las finanzas en el bienestar", "Relacion entre dinero y salud mental"],
+        "responses": ["Las finanzas pueden afectar significativamente la salud mental, causando estres o ansiedad si no se gestionan bien. Es crucial mantener un equilibrio y buscar asesoria si es necesario."]
       },
       {
         "tag": "ahorrar_cambio_climatico",
-        "patterns": ["¿Cómo puedo ahorrar dinero y contribuir contra el cambio climático?", "Ahorrar dinero y ayudar al planeta", "Economía verde y ahorro"],
-        "responses": ["Para ahorrar dinero y combatir el cambio climático, invierte en productos sostenibles, reduce el uso de recursos y apoya empresas con prácticas ecológicas."]
+        "patterns": ["¿Como puedo ahorrar dinero y contribuir contra el cambio climatico?", "Ahorrar dinero y ayudar al planeta", "Economia verde y ahorro"],
+        "responses": ["Para ahorrar dinero y combatir el cambio climatico, invierte en productos sostenibles, reduce el uso de recursos y apoya empresas con practicas ecologicas."]
       },
       {
         "tag": "preparar_crisis_economica",
-        "patterns": ["¿Cómo me preparo para una crisis económica?", "Preparativos para recesión", "Estrategias financieras para tiempos de crisis"],
-        "responses": ["Para prepararte para una crisis económica, fortalece tu fondo de emergencia, diversifica tus inversiones y reduce gastos no esenciales."]
+        "patterns": ["¿Como me preparo para una crisis economica?", "Preparativos para recesion", "Estrategias financieras para tiempos de crisis"],
+        "responses": ["Para prepararte para una crisis economica, fortalece tu fondo de emergencia, diversifica tus inversiones y reduce gastos no esenciales."]
       },
       {
         "tag": "financiamiento_educacion",
-        "patterns": ["¿Qué opciones de financiamiento existen para la educación?", "Cómo financiar estudios superiores", "Ayudas financieras para estudiantes"],
-        "responses": ["Las opciones de financiamiento educativo incluyen becas, préstamos estudiantiles, ayudas gubernamentales y programas de trabajo-estudio."]
+        "patterns": ["¿Que opciones de financiamiento existen para la educacion?", "Como financiar estudios superiores", "Ayudas financieras para estudiantes"],
+        "responses": ["Las opciones de financiamiento educativo incluyen becas, prestamos estudiantiles, ayudas gubernamentales y programas de trabajo-estudio."]
       },
       {
         "tag": "seguros_viaje",
@@ -389,527 +399,529 @@
       },
       {
         "tag": "estrategias_reduccion_deudas",
-        "patterns": ["¿Cuáles son las mejores estrategias para reducir deudas?", "Cómo salir del endeudamiento", "Plan para reducir mis deudas"],
-        "responses": ["Para reducir deudas, considera estrategias como el método de la bola de nieve (pagar deudas de menor a mayor) o el método avalancha (priorizar deudas con mayor interés)."]
+        "patterns": ["¿Cuales son las mejores estrategias para reducir deudas?", "Como salir del endeudamiento", "Plan para reducir mis deudas"],
+        "responses": ["Para reducir deudas, considera estrategias como el metodo de la bola de nieve (pagar deudas de menor a mayor) o el metodo avalancha (priorizar deudas con mayor interes)."]
       },
       {
         "tag": "planificacion_sucesoria",
-        "patterns": ["¿Qué es la planificación sucesoria?", "Importancia de la planificación sucesoria", "Cómo preparar un plan sucesorio"],
-        "responses": ["La planificación sucesoria implica preparar documentos legales como testamentos y fideicomisos para gestionar y distribuir tu patrimonio después de tu fallecimiento."]
+        "patterns": ["¿Que es la planificacion sucesoria?", "Importancia de la planificacion sucesoria", "Como preparar un plan sucesorio"],
+        "responses": ["La planificacion sucesoria implica preparar documentos legales como testamentos y fideicomisos para gestionar y distribuir tu patrimonio despues de tu fallecimiento."]
       },
       {
         "tag": "invertir_bonos",
-        "patterns": ["¿Es buena idea invertir en bonos?", "Invertir en bonos gubernamentales", "Beneficios de los bonos como inversión"],
-        "responses": ["Invertir en bonos puede ser una opción segura y estable, especialmente los bonos gubernamentales, que ofrecen retornos fijos y menos riesgo que las acciones."]
+        "patterns": ["¿Es buena idea invertir en bonos?", "Invertir en bonos gubernamentales", "Beneficios de los bonos como inversion"],
+        "responses": ["Invertir en bonos puede ser una opcion segura y estable, especialmente los bonos gubernamentales, que ofrecen retornos fijos y menos riesgo que las acciones."]
       },
       {
         "tag": "educacion_financiera_escuelas",
-        "patterns": ["¿Debería enseñarse educación financiera en las escuelas?", "Importancia de la educación financiera temprana", "Finanzas en el currículo escolar"],
-        "responses": ["La educación financiera en las escuelas es crucial para preparar a los jóvenes para gestionar su dinero de manera efectiva y tomar decisiones informadas."]
+        "patterns": ["¿Deberia enseñarse educacion financiera en las escuelas?", "Importancia de la educacion financiera temprana", "Finanzas en el curriculo escolar"],
+        "responses": ["La educacion financiera en las escuelas es crucial para preparar a los jovenes para gestionar su dinero de manera efectiva y tomar decisiones informadas."]
       },
       {
         "tag": "evitar_multas_financieras",
-        "patterns": ["¿Cómo puedo evitar multas financieras?", "Evitar costos por demoras o multas", "Consejos para no incurrir en multas"],
-        "responses": ["Para evitar multas financieras, paga tus cuentas a tiempo, revisa los términos de contratos y manten informada a tu institución financiera sobre cualquier cambio."]
+        "patterns": ["¿Como puedo evitar multas financieras?", "Evitar costos por demoras o multas", "Consejos para no incurrir en multas"],
+        "responses": ["Para evitar multas financieras, paga tus cuentas a tiempo, revisa los terminos de contratos y manten informada a tu institucion financiera sobre cualquier cambio."]
       },
       {
         "tag": "ahorrar_tecnologia",
-        "patterns": ["¿Cómo ahorro en compras tecnológicas?", "Reducir gastos en tecnología", "Consejos para comprar tecnología"],
-        "responses": ["Para ahorrar en tecnología, espera ofertas y descuentos, considera comprar modelos anteriores o reacondicionados, y evalúa realmente tus necesidades antes de comprar."]
+        "patterns": ["¿Como ahorro en compras tecnologicas?", "Reducir gastos en tecnologia", "Consejos para comprar tecnologia"],
+        "responses": ["Para ahorrar en tecnologia, espera ofertas y descuentos, considera comprar modelos anteriores o reacondicionados, y evalua realmente tus necesidades antes de comprar."]
       },
       {
         "tag": "fraude_financiero_online",
-        "patterns": ["¿Cómo protegerme del fraude financiero online?", "Evitar estafas en internet", "Seguridad financiera en línea"],
-        "responses": ["Protege tu información financiera usando contraseñas fuertes, verificando la seguridad de sitios web antes de realizar transacciones y no compartiendo datos sensibles."]
+        "patterns": ["¿Como protegerme del fraude financiero online?", "Evitar estafas en internet", "Seguridad financiera en linea"],
+        "responses": ["Protege tu informacion financiera usando contraseñas fuertes, verificando la seguridad de sitios web antes de realizar transacciones y no compartiendo datos sensibles."]
       },
       {
         "tag": "negociar_salarios",
-        "patterns": ["¿Cómo puedo negociar un salario más alto?", "Estrategias para negociar mi salario", "Consejos para negociación salarial"],
-        "responses": ["Para negociar un salario más alto, prepara argumentos basados en tu valor y contribuciones, conoce el rango salarial de tu posición y muestra flexibilidad en otros beneficios."]
+        "patterns": ["¿Como puedo negociar un salario mas alto?", "Estrategias para negociar mi salario", "Consejos para negociacion salarial"],
+        "responses": ["Para negociar un salario mas alto, prepara argumentos basados en tu valor y contribuciones, conoce el rango salarial de tu posicion y muestra flexibilidad en otros beneficios."]
       },
       {
         "tag": "cambios_fiscales",
-        "patterns": ["¿Cómo me afectan los cambios fiscales?", "Impacto de las reformas fiscales", "Adaptarse a cambios en la legislación fiscal"],
-        "responses": ["Los cambios fiscales pueden afectar tus ingresos disponibles, obligaciones tributarias y estrategias de inversión. Es importante estar informado y consultar con un asesor fiscal."]
+        "patterns": ["¿Como me afectan los cambios fiscales?", "Impacto de las reformas fiscales", "Adaptarse a cambios en la legislacion fiscal"],
+        "responses": ["Los cambios fiscales pueden afectar tus ingresos disponibles, obligaciones tributarias y estrategias de inversion. Es importante estar informado y consultar con un asesor fiscal."]
       },
       {
         "tag": "seguridad_social",
-        "patterns": ["¿Qué debo saber sobre la Seguridad Social?", "Beneficios de la Seguridad Social", "Cómo funciona la Seguridad Social"],
-        "responses": ["La Seguridad Social proporciona beneficios de jubilación, discapacidad, y sobreviviente, basados en tus años de trabajo y contribuciones."]
+        "patterns": ["¿Que debo saber sobre la Seguridad Social?", "Beneficios de la Seguridad Social", "Como funciona la Seguridad Social"],
+        "responses": ["La Seguridad Social proporciona beneficios de jubilacion, discapacidad, y sobreviviente, basados en tus años de trabajo y contribuciones."]
       },
       {
         "tag": "tarjetas_credito_debito",
-        "patterns": ["¿Cuál es la diferencia entre tarjeta de crédito y débito?", "Tarjeta de crédito vs. débito", "Beneficios de crédito y débito"],
-        "responses": ["Las tarjetas de crédito te permiten pedir prestado y pagar más tarde, mientras que las de débito deducen dinero directamente de tu cuenta bancaria."]
+        "patterns": ["¿Cual es la diferencia entre tarjeta de credito y debito?", "Tarjeta de credito vs debito", "Beneficios de credito y debito"],
+        "responses": ["Las tarjetas de credito te permiten pedir prestado y pagar mas tarde, mientras que las de debito deducen dinero directamente de tu cuenta bancaria."]
       },
       {
         "tag": "prestamos_hipotecarios",
-        "patterns": ["¿Cómo funcionan los préstamos hipotecarios?", "Obtener un préstamo para casa", "Tipos de hipotecas disponibles"],
-        "responses": ["Los préstamos hipotecarios te permiten financiar la compra de una propiedad pagando un anticipo y luego cuotas mensuales con intereses a lo largo de varios años."]
+        "patterns": ["¿Como funcionan los prestamos hipotecarios?", "Obtener un prestamo para casa", "Tipos de hipotecas disponibles"],
+        "responses": ["Los prestamos hipotecarios te permiten financiar la compra de una propiedad pagando un anticipo y luego cuotas mensuales con intereses a lo largo de varios años."]
       },
       {
         "tag": "mejorar_historial_crediticio",
-        "patterns": ["¿Cómo puedo mejorar mi historial crediticio?", "Mejorar mi calificación de crédito", "Construir un buen crédito"],
-        "responses": ["Mejora tu historial crediticio haciendo pagos a tiempo, utilizando un porcentaje bajo de tu crédito disponible y manteniendo cuentas de crédito antiguas."]
+        "patterns": ["¿Como puedo mejorar mi historial crediticio?", "Mejorar mi calificacion de credito", "Construir un buen credito"],
+        "responses": ["Mejora tu historial crediticio haciendo pagos a tiempo, utilizando un porcentaje bajo de tu credito disponible y manteniendo cuentas de credito antiguas."]
       },
       {
         "tag": "inversiones_sostenibles",
-        "patterns": ["¿Qué son las inversiones sostenibles?", "Invertir de manera sostenible", "Opciones de inversión ecológica"],
-        "responses": ["Las inversiones sostenibles buscan generar impacto social o ambiental positivo además de retornos financieros, como en energías renovables o empresas socialmente responsables."]
+        "patterns": ["¿Que son las inversiones sostenibles?", "Invertir de manera sostenible", "Opciones de inversion ecologica"],
+        "responses": ["Las inversiones sostenibles buscan generar impacto social o ambiental positivo ademas de retornos financieros, como en energias renovables o empresas socialmente responsables."]
       },
       {
         "tag": "beneficios_fiscales_ahorro",
-        "patterns": ["¿Qué beneficios fiscales puedo obtener al ahorrar?", "Incentivos fiscales para ahorrar", "Ahorro y ventajas fiscales"],
-        "responses": ["Algunos planes de ahorro ofrecen beneficios fiscales como deducciones o exenciones tributarias, especialmente en cuentas de retiro y educación."]
+        "patterns": ["¿Que beneficios fiscales puedo obtener al ahorrar?", "Incentivos fiscales para ahorrar", "Ahorro y ventajas fiscales"],
+        "responses": ["Algunos planes de ahorro ofrecen beneficios fiscales como deducciones o exenciones tributarias, especialmente en cuentas de retiro y educacion."]
       },
       {
         "tag": "riesgos_inversion_inmobiliaria",
-        "patterns": ["¿Cuáles son los riesgos de invertir en inmuebles?", "Riesgos de la inversión inmobiliaria", "Invertir en bienes raíces con precaución"],
+        "patterns": ["¿Cuales son los riesgos de invertir en inmuebles?", "Riesgos de la inversion inmobiliaria", "Invertir en bienes raices con precaucion"],
         "responses": ["Los riesgos de invertir en inmuebles incluyen la falta de liquidez, fluctuaciones del mercado, costos de mantenimiento y posibles vacantes en las propiedades."]
       },
       {
         "tag": "inversion_bolsa_valores",
-        "patterns": ["¿Cómo empiezo a invertir en la bolsa de valores?", "Pasos para invertir en bolsa", "Iniciar en el mercado de valores"],
+        "patterns": ["¿Como empiezo a invertir en la bolsa de valores?", "Pasos para invertir en bolsa", "Iniciar en el mercado de valores"],
         "responses": ["Para invertir en la bolsa, abre una cuenta de corretaje, educa sobre el mercado de valores, y comienza con inversiones pequeñas y diversificadas."]
       },
       {
         "tag": "seguros_para_negocios",
-        "patterns": ["¿Qué seguros necesito para mi negocio?", "Tipos de seguros comerciales", "Seguros imprescindibles para empresas"],
-        "responses": ["Tu negocio puede necesitar seguros como responsabilidad civil, propiedad comercial, vehículos comerciales y compensación a trabajadores, dependiendo de la naturaleza del negocio."]
+        "patterns": ["¿Que seguros necesito para mi negocio?", "Tipos de seguros comerciales", "Seguros imprescindibles para empresas"],
+        "responses": ["Tu negocio puede necesitar seguros como responsabilidad civil, propiedad comercial, vehiculos comerciales y compensacion a trabajadores, dependiendo de la naturaleza del negocio."]
       },
       {
         "tag": "finanzas_responsables",
-        "patterns": ["¿Cómo practico finanzas responsables?", "Ser financieramente responsable", "Hábitos de finanzas responsables"],
+        "patterns": ["¿Como practico finanzas responsables?", "Ser financieramente responsable", "Habitos de finanzas responsables"],
         "responses": ["Practica finanzas responsables creando y siguiendo un presupuesto, evitando deudas innecesarias, y planificando para el futuro con ahorros e inversiones."]
       },
       {
         "tag": "comprar_vivienda",
-        "patterns": ["¿Qué debo considerar al comprar una vivienda?", "Consejos para la compra de un hogar", "Preparativos para comprar casa"],
-        "responses": ["Al comprar una vivienda, considera tu presupuesto, el tamaño y ubicación de la propiedad, los costos de mantenimiento y los impuestos a la propiedad."]
+        "patterns": ["¿Que debo considerar al comprar una vivienda?", "Consejos para la compra de un hogar", "Preparativos para comprar casa"],
+        "responses": ["Al comprar una vivienda, considera tu presupuesto, el tamaño y ubicacion de la propiedad, los costos de mantenimiento y los impuestos a la propiedad."]
       },
       {
         "tag": "cuentas_bancarias_extranjero",
         "patterns": ["¿Debo abrir cuentas bancarias en el extranjero?", "Beneficios y riesgos de cuentas en el extranjero", "Cuentas bancarias internacionales"],
-        "responses": ["Abrir cuentas bancarias en el extranjero puede ofrecer beneficios como diversificación y conveniencia en viajes, pero considera las regulaciones fiscales y legales."]
+        "responses": ["Abrir cuentas bancarias en el extranjero puede ofrecer beneficios como diversificacion y conveniencia en viajes, pero considera las regulaciones fiscales y legales."]
       },
       {
         "tag": "planificar_retiro",
-        "patterns": ["¿Cómo planifico mi retiro?", "Estrategias para un retiro seguro", "Preparación para la jubilación"],
+        "patterns": ["¿Como planifico mi retiro?", "Estrategias para un retiro seguro", "Preparacion para la jubilacion"],
         "responses": ["Planifica tu retiro determinando tus necesidades futuras, maximizando aportes a cuentas de retiro y considerando inversiones que generen ingresos estables."]
       },
       {
         "tag": "ahorrar_comida",
-        "patterns": ["¿Cómo puedo ahorrar dinero en alimentos?", "Reducir gastos en comestibles", "Consejos para ahorrar en la cocina"],
+        "patterns": ["¿Como puedo ahorrar dinero en alimentos?", "Reducir gastos en comestibles", "Consejos para ahorrar en la cocina"],
         "responses": ["Para ahorrar en alimentos, compra en bulk, utiliza cupones, prepara comidas en casa y evita desperdicios planificando tus comidas."]
       },
       {
         "tag": "invertir_educacion_hijos",
-        "patterns": ["¿Cómo invierto en la educación de mis hijos?", "Financiar estudios de los hijos", "Ahorro para la educación superior"],
-        "responses": ["Para invertir en la educación de tus hijos, considera planes de ahorro educativos, becas y préstamos estudiantiles, y comienza a ahorrar temprano."]
+        "patterns": ["¿Como invierto en la educacion de mis hijos?", "Financiar estudios de los hijos", "Ahorro para la educacion superior"],
+        "responses": ["Para invertir en la educacion de tus hijos, considera planes de ahorro educativos, becas y prestamos estudiantiles, y comienza a ahorrar a tiempo."]
       },
       {
         "tag": "impuestos_inversiones",
-        "patterns": ["¿Cómo afectan los impuestos a mis inversiones?", "Impuestos sobre ganancias de capital", "Planificación fiscal de inversiones"],
-        "responses": ["Los impuestos pueden reducir tus rendimientos de inversión. Considera estrategias como cuentas de retiro con ventajas fiscales y ten en cuenta el tiempo de tenencia de tus inversiones."]
+        "patterns": ["¿Como afectan los impuestos a mis inversiones?", "Impuestos sobre ganancias de capital", "Planificacion fiscal de inversiones"],
+        "responses": ["Los impuestos pueden reducir tus rendimientos de inversion. Considera estrategias como cuentas de retiro con ventajas fiscales y ten en cuenta el tiempo de tenencia de tus inversiones."]
       },
       {
         "tag": "prestamos_personales",
-        "patterns": ["¿Cuándo debo considerar un préstamo personal?", "Usos de préstamos personales", "Consejos para préstamos personales"],
-        "responses": ["Considera un préstamo personal para gastos grandes o consolidación de deudas. Compara tasas de interés y términos, y asegúrate de tener un plan de pago."]
+        "patterns": ["¿Cuando debo considerar un prestamo personal?", "Usos de prestamos personales", "Consejos para prestamos personales"],
+        "responses": ["Considera un prestamo personal para gastos grandes o consolidacion de deudas. Compara tasas de interes y terminos, y asegurate de tener un plan de pago."]
       },
       {
         "tag": "gestion_financiera_familia",
-        "patterns": ["¿Cómo gestiono las finanzas familiares?", "Finanzas del hogar", "Planificar el presupuesto familiar"],
-        "responses": ["Gestiona las finanzas familiares estableciendo un presupuesto común, discutiendo metas financieras y asignando responsabilidades para gastos e inversiones."]
+        "patterns": ["¿Como gestiono las finanzas familiares?", "Finanzas del hogar", "Planificar el presupuesto familiar"],
+        "responses": ["Gestiona las finanzas familiares estableciendo un presupuesto comun, discutiendo metas financieras y asignando responsabilidades para gastos e inversiones."]
       },
       {
         "tag": "invertir_futuros",
-        "patterns": ["¿Qué son los futuros y cómo puedo invertir en ellos?", "Invertir en contratos futuros", "Mercado de futuros"],
-        "responses": ["Los futuros son contratos para comprar o vender activos en una fecha futura a un precio acordado. Es un mercado volátil y se recomienda para inversores experimentados."]
+        "patterns": ["¿Que son los futuros y Como puedo invertir en ellos?", "Invertir en contratos futuros", "Mercado de futuros"],
+        "responses": ["Los futuros son contratos para comprar o vender activos en una fecha futura a un precio acordado. Es un mercado volatil y se recomienda para inversores experimentados."]
       },
       {
         "tag": "evitar_impago_credito",
-        "patterns": ["¿Cómo evito el impago de mi crédito?", "Prevenir la morosidad en créditos", "Consejos para no caer en impago"],
-        "responses": ["Para evitar el impago de créditos, asegúrate de entender los términos de tu préstamo, realiza pagos a tiempo y comunícate con tu prestamista si enfrentas dificultades financieras."]
+        "patterns": ["¿Como evito el impago de mi credito?", "Prevenir la morosidad en creditos", "Consejos para no caer en impago"],
+        "responses": ["Para evitar el impago de creditos, asegurate de entender los terminos de tu prestamo, realiza pagos a tiempo y comunicate con tu prestamista si enfrentas dificultades financieras."]
       },
       {
         "tag": "comparar_seguros",
-        "patterns": ["¿Cómo comparo diferentes seguros?", "Elegir el mejor seguro", "Comparación de pólizas de seguros"],
-        "responses": ["Para comparar seguros, evalúa las coberturas ofrecidas, compara costos de las primas, revisa las exclusiones y considera la reputación del proveedor."]
+        "patterns": ["¿Como comparo diferentes seguros?", "Elegir el mejor seguro", "Comparacion de polizas de seguros"],
+        "responses": ["Para comparar seguros, evalua las coberturas ofrecidas, compara costos de las primas, revisa las exclusiones y considera la reputacion del proveedor."]
       },
       {
         "tag": "inversiones_renovables",
-        "patterns": ["¿Es buena idea invertir en energías renovables?", "Invertir en el sector de energías verdes", "Oportunidades de inversión en renovables"],
-        "responses": ["Invertir en energías renovables puede ser prometedor debido a la creciente demanda de soluciones sostenibles y apoyo gubernamental, aunque es importante considerar los riesgos específicos del sector."]
+        "patterns": ["¿Es buena idea invertir en energias renovables?", "Invertir en el sector de energias verdes", "Oportunidades de inversion en renovables"],
+        "responses": ["Invertir en energias renovables puede ser prometedor debido a la creciente demanda de soluciones sostenibles y apoyo gubernamental, aunque es importante considerar los riesgos especificos del sector."]
       },
       {
         "tag": "ahorro_impuestos",
-        "patterns": ["¿Cómo puedo ahorrar en impuestos?", "Estrategias para reducir la carga fiscal", "Consejos fiscales para ahorrar dinero"],
-        "responses": ["Para ahorrar en impuestos, aprovecha todas las deducciones y créditos fiscales disponibles, invierte en cuentas de retiro y planifica tus ventas de activos."]
+        "patterns": ["¿Como puedo ahorrar en impuestos?", "Estrategias para reducir la carga fiscal", "Consejos fiscales para ahorrar dinero"],
+        "responses": ["Para ahorrar en impuestos, aprovecha todas las deducciones y creditos fiscales disponibles, invierte en cuentas de retiro y planifica tus ventas de activos."]
       },
       {
         "tag": "tarjetas_credito_viajes",
-        "patterns": ["¿Cuáles son las mejores tarjetas de crédito para viajar?", "Tarjetas de crédito con beneficios de viaje", "Elegir tarjeta para viajeros"],
-        "responses": ["Las mejores tarjetas de crédito para viajar ofrecen beneficios como millas aéreas, acceso a salas VIP en aeropuertos y seguros de viaje sin costo adicional."]
+        "patterns": ["¿Cuales son las mejores tarjetas de credito para viajar?", "Tarjetas de credito con beneficios de viaje", "Elegir tarjeta para viajeros"],
+        "responses": ["Las mejores tarjetas de credito para viajar ofrecen beneficios como millas aereas, acceso a salas VIP en aeropuertos y seguros de viaje sin costo adicional."]
       },
       {
         "tag": "preparar_jubilacion_anticipada",
-        "patterns": ["¿Cómo me preparo para una jubilación anticipada?", "Planear para retirarse temprano", "Estrategias para jubilación anticipada"],
-        "responses": ["Para una jubilación anticipada, maximiza tus ahorros, invierte agresivamente mientras joven, y planifica métodos para acceder a fondos antes de la edad de jubilación sin penalizaciones."]
+        "patterns": ["¿Como me preparo para una jubilacion anticipada?", "Planear para retirarse temprano", "Estrategias para jubilacion anticipada"],
+        "responses": ["Para una jubilacion anticipada, maximiza tus ahorros, invierte agresivamente mientras joven, y planifica metodos para acceder a fondos antes de la edad de jubilacion sin penalizaciones."]
       },
       {
         "tag": "recuperar_credito_danado",
-        "patterns": ["¿Cómo puedo recuperar un crédito dañado?", "Reparar historial crediticio", "Mejorar crédito después de problemas"],
-        "responses": ["Para recuperar un crédito dañado, comienza por revisar tu reporte de crédito, corrige errores, paga deudas pendientes y usa nuevas líneas de crédito responsablemente."]
+        "patterns": ["¿Como puedo recuperar un credito dañado?", "Reparar historial crediticio", "Mejorar credito despues de problemas"],
+        "responses": ["Para recuperar un credito dañado, comienza por revisar tu reporte de credito, corrige errores, paga deudas pendientes y usa nuevas lineas de credito responsablemente."]
       },
       {
         "tag": "finanzas_divorcio",
-        "patterns": ["¿Cómo manejar las finanzas durante un divorcio?", "Separación de bienes en divorcio", "Consejos financieros para el divorcio"],
+        "patterns": ["¿Como manejar las finanzas durante un divorcio?", "Separacion de bienes en divorcio", "Consejos financieros para el divorcio"],
         "responses": ["Durante un divorcio, es crucial hacer un inventario completo de activos y deudas conjuntas, establecer un presupuesto individual y buscar asesoramiento legal y financiero."]
       },
       {
         "tag": "invertir_dividendos",
-        "patterns": ["¿Cómo funcionan las inversiones que generan dividendos?", "Invertir para recibir dividendos", "Acciones con dividendos"],
+        "patterns": ["¿Como funcionan las inversiones que generan dividendos?", "Invertir para recibir dividendos", "Acciones con dividendos"],
         "responses": ["Las inversiones que generan dividendos incluyen acciones de empresas que pagan una parte de sus ganancias regularmente. Son una fuente de ingresos pasivos, pero es importante evaluar la estabilidad de la empresa."]
       },
       {
         "tag": "ahorro_plan_college",
-        "patterns": ["¿Qué es un plan 529?", "Ahorro para la universidad con plan 529", "Beneficios de los planes 529 para educación"],
-        "responses": ["Un plan 529 es un plan de ahorro para la educación que ofrece beneficios fiscales. Puedes usar los fondos para pagar matrícula, libros y otros gastos educativos calificados."]
+        "patterns": ["¿Que es un plan 529?", "Ahorro para la universidad con plan 529", "Beneficios de los planes 529 para educacion"],
+        "responses": ["Un plan 529 es un plan de ahorro para la educacion que ofrece beneficios fiscales. Puedes usar los fondos para pagar matricula, libros y otros gastos educativos calificados."]
       },
       {
         "tag": "evaluar_fondos_inversion",
-        "patterns": ["¿Cómo evalúo fondos de inversión para elegir los mejores?", "Seleccionar fondos de inversión", "Criterios para evaluar fondos"],
-        "responses": ["Evalúa fondos de inversión basándote en su rendimiento histórico, tarifas y comisiones, estrategia de inversión y calificaciones de riesgo."]
+        "patterns": ["¿Como evaluo fondos de inversion para elegir los mejores?", "Seleccionar fondos de inversion", "Criterios para evaluar fondos"],
+        "responses": ["Evalua fondos de inversion basandote en su rendimiento historico, tarifas y comisiones, estrategia de inversion y calificaciones de riesgo."]
       },
       {
         "tag": "ahorro_combustible",
-        "patterns": ["¿Cómo puedo ahorrar en combustible?", "Reducir gastos de gasolina", "Consejos para economizar combustible"],
-        "responses": ["Para ahorrar combustible, mantén tu vehículo bien afinado, usa neumáticos con la presión adecuada, y evita aceleraciones y frenados bruscos."]
+        "patterns": ["¿Como puedo ahorrar en combustible?", "Reducir gastos de gasolina", "Consejos para economizar combustible"],
+        "responses": ["Para ahorrar combustible, manten tu vehiculo bien afinado, usa neumaticos con la presion adecuada, y evita aceleraciones y frenados bruscos."]
       },
       {
         "tag": "beneficios_cuentas_retiro",
-        "patterns": ["¿Cuáles son los beneficios de las cuentas de retiro?", "Ventajas de ahorrar para la jubilación", "Por qué abrir una cuenta de retiro"],
-        "responses": ["Las cuentas de retiro ofrecen beneficios fiscales, como deducciones tributarias y crecimiento de inversiones libre de impuestos, ayudando a maximizar tus ahorros para la jubilación."]
+        "patterns": ["¿Cuales son los beneficios de las cuentas de retiro?", "Ventajas de ahorrar para la jubilacion", "Por que abrir una cuenta de retiro"],
+        "responses": ["Las cuentas de retiro ofrecen beneficios fiscales, como deducciones tributarias y crecimiento de inversiones libre de impuestos, ayudando a maximizar tus ahorros para la jubilacion."]
       },
       {
         "tag": "invertir_bienes_raices_internacionales",
-        "patterns": ["¿Debería invertir en bienes raíces internacionales?", "Invertir en propiedades en el extranjero", "Riesgos de bienes raíces internacionales"],
-        "responses": ["Invertir en bienes raíces internacionales puede ofrecer diversificación y potencial de crecimiento, pero implica desafíos como barreras legales y diferencias culturales."]
+        "patterns": ["¿Deberia invertir en bienes raices internacionales?", "Invertir en propiedades en el extranjero", "Riesgos de bienes raices internacionales"],
+        "responses": ["Invertir en bienes raices internacionales puede ofrecer diversificacion y potencial de crecimiento, pero implica desafios como barreras legales y diferencias culturales."]
       },
       {
         "tag": "gestion_riesgos_financieros",
-        "patterns": ["¿Cómo gestiono los riesgos financieros?", "Estrategias para manejar riesgos financieros", "Reducir riesgos en finanzas"],
+        "patterns": ["¿Como gestiono los riesgos financieros?", "Estrategias para manejar riesgos financieros", "Reducir riesgos en finanzas"],
         "responses": ["Gestiona riesgos financieros diversificando tus inversiones, estableciendo un fondo de emergencia, y utilizando seguros para proteger tus activos."]
       },
       {
         "tag": "prestamos_estudiantes_internacionales",
-        "patterns": ["¿Existen préstamos para estudiantes internacionales?", "Financiamiento para estudiantes de otros países", "Préstamos para educación internacional"],
-        "responses": ["Existen préstamos para estudiantes internacionales ofrecidos por instituciones privadas y programas específicos, aunque suelen requerir un aval o co-firmante en el país de estudio."]
+        "patterns": ["¿Existen prestamos para estudiantes internacionales?", "Financiamiento para estudiantes de otros paises", "Prestamos para educacion internacional"],
+        "responses": ["Existen prestamos para estudiantes internacionales ofrecidos por instituciones privadas y programas especificos, aunque suelen requerir un aval o co-firmante en el pais de estudio."]
       },
       {
         "tag": "ahorrar_gas_natural",
-        "patterns": ["¿Cómo puedo reducir mi consumo de gas natural?", "Ahorrar en la factura de gas", "Consejos para usar menos gas"],
-        "responses": ["Para reducir el consumo de gas natural, aísla tu hogar, ajusta el termostato a una temperatura moderada y realiza mantenimiento regular de tu sistema de calefacción."]
+        "patterns": ["¿Como puedo reducir mi consumo de gas natural?", "Ahorrar en la factura de gas", "Consejos para usar menos gas"],
+        "responses": ["Para reducir el consumo de gas natural, aisla tu hogar, ajusta el termostato a una temperatura moderada y realiza mantenimiento regular de tu sistema de calefaccion."]
       },
       {
         "tag": "seguros_para_jovenes",
-        "patterns": ["¿Qué seguros deberían considerar los jóvenes?", "Seguros para menores de 30", "Pólizas recomendadas para jóvenes"],
-        "responses": ["Los jóvenes deberían considerar seguros de salud, de automóviles, y de vida, especialmente si tienen dependientes o deudas significativas."]
+        "patterns": ["¿Que seguros deberian considerar los jovenes?", "Seguros para menores de 30", "Polizas recomendadas para jovenes"],
+        "responses": ["Los jovenes deberian considerar seguros de salud, de automoviles, y de vida, especialmente si tienen dependientes o deudas significativas."]
       },
       {
         "tag": "consolidar_deudas",
-        "patterns": ["¿Qué es la consolidación de deudas?", "Consolidar mis deudas", "Cómo funciona la consolidación de deudas"],
-        "responses": ["La consolidación de deudas implica combinar varias deudas en un solo préstamo con una tasa de interés más baja, facilitando la gestión y el pago."]
+        "patterns": ["¿Que es la consolidacion de deudas?", "Consolidar mis deudas", "Como funciona la consolidacion de deudas"],
+        "responses": ["La consolidacion de deudas implica combinar varias deudas en un solo prestamo con una tasa de interes mas baja, facilitando la gestion y el pago."]
       },
       {
         "tag": "seguros_mascotas",
-        "patterns": ["¿Vale la pena tener un seguro para mascotas?", "Seguros para animales domésticos", "Beneficios del seguro de mascotas"],
+        "patterns": ["¿Vale la pena tener un seguro para mascotas?", "Seguros para animales domesticos", "Beneficios del seguro de mascotas"],
         "responses": ["Un seguro para mascotas puede ser valioso para cubrir costos de tratamientos veterinarios, especialmente en casos de enfermedad o accidentes."]
       },
       {
         "tag": "invertir_empresa_privada",
-        "patterns": ["¿Cómo invierto en una empresa privada?", "Invertir en negocios no cotizados", "Participar en capital privado"],
+        "patterns": ["¿Como invierto en una empresa privada?", "Invertir en negocios no cotizados", "Participar en capital privado"],
         "responses": ["Invertir en una empresa privada generalmente requiere ser un inversor acreditado. Implica comprar acciones o participaciones y asumir un riesgo significativo."]
       },
       {
         "tag": "comprar_seguros_online",
-        "patterns": ["¿Es seguro comprar seguros por internet?", "Comprar pólizas de seguro online", "Riesgos de seguros en línea"],
-        "responses": ["Comprar seguros en línea puede ser seguro si usas sitios de compañías aseguradoras reconocidas y verificas su autenticidad y políticas de privacidad."]
+        "patterns": ["¿Es seguro comprar seguros por internet?", "Comprar polizas de seguro online", "Riesgos de seguros en linea"],
+        "responses": ["Comprar seguros en linea puede ser seguro si usas sitios de compañias aseguradoras reconocidas y verificas su autenticidad y politicas de privacidad."]
       },
       {
         "tag": "retirar_dinero_retiro_anticipado",
-        "patterns": ["¿Cómo retiro dinero de mi fondo de retiro antes de tiempo?", "Penalidades por retiro anticipado", "Acceder a fondos de jubilación temprano"],
-        "responses": ["Retirar dinero de un fondo de retiro antes de la edad permitida puede conllevar impuestos y penalidades. Considera alternativas como préstamos contra tu retiro o retiros por dificultades."]
+        "patterns": ["¿Como retiro dinero de mi fondo de retiro antes de tiempo?", "Penalidades por retiro anticipado", "Acceder a fondos de jubilacion temprano"],
+        "responses": ["Retirar dinero de un fondo de retiro antes de la edad permitida puede conllevar impuestos y penalidades. Considera alternativas como prestamos contra tu retiro o retiros por dificultades."]
       },
       {
         "tag": "invertir_acuicultura",
-        "patterns": ["¿Es buena idea invertir en acuicultura?", "Invertir en la industria del mar", "Potencial de la acuicultura como inversión"],
-        "responses": ["Invertir en acuicultura puede ser prometedor debido a la creciente demanda de productos marinos sostenibles, pero requiere comprensión de los riesgos ecológicos y regulatorios."]
+        "patterns": ["¿Es buena idea invertir en acuicultura?", "Invertir en la industria del mar", "Potencial de la acuicultura como inversion"],
+        "responses": ["Invertir en acuicultura puede ser prometedor debido a la creciente demanda de productos marinos sostenibles, pero requiere comprension de los riesgos ecologicos y regulatorios."]
       },
       {
         "tag": "ahorro_comunitario",
-        "patterns": ["¿Qué es el ahorro comunitario?", "Beneficios de ahorrar en grupo", "Cómo funciona el ahorro grupal"],
+        "patterns": ["¿Que es el ahorro comunitario?", "Beneficios de ahorrar en grupo", "Como funciona el ahorro grupal"],
         "responses": ["El ahorro comunitario implica grupos de personas que ahorran dinero juntas, lo cual puede proporcionar un sistema de apoyo y mejorar las tasas de ahorro de los miembros."]
       },
       {
         "tag": "comprar_auto_usado",
-        "patterns": ["¿Qué debo considerar al comprar un auto usado?", "Consejos para comprar vehículos de segunda mano", "Inspeccionar un auto usado antes de comprar"],
-        "responses": ["Al comprar un auto usado, revisa el historial del vehículo, realiza una inspección mecánica, compara precios y prueba el auto antes de comprarlo."]
+        "patterns": ["¿Que debo considerar al comprar un auto usado?", "Consejos para comprar vehiculos de segunda mano", "Inspeccionar un auto usado antes de comprar"],
+        "responses": ["Al comprar un auto usado, revisa el historial del vehiculo, realiza una inspeccion mecanica, compara precios y prueba el auto antes de comprarlo."]
       },
       {
         "tag": "seguros_estudiantes",
-        "patterns": ["¿Los estudiantes necesitan algún tipo de seguro?", "Seguros recomendados para estudiantes", "Pólizas de seguros para la vida universitaria"],
+        "patterns": ["¿Los estudiantes necesitan algun tipo de seguro?", "Seguros recomendados para estudiantes", "Polizas de seguros para la vida universitaria"],
         "responses": ["Los estudiantes pueden beneficiarse de seguros de salud, de propiedad personal y de responsabilidad civil, especialmente si viven fuera del hogar o estudian en el extranjero."]
       },
       {
         "tag": "finanzas_despues_jubilacion",
-        "patterns": ["¿Cómo gestiono mis finanzas después de jubilarme?", "Finanzas en la jubilación", "Manejo de dinero en la tercera edad"],
-        "responses": ["Gestiona tus finanzas en la jubilación estableciendo un presupuesto basado en ingresos fijos, invirtiendo conservadoramente y planificando gastos de salud a largo plazo."]
+        "patterns": ["¿Como gestiono mis finanzas despues de jubilarme?", "Finanzas en la jubilacion", "Manejo de dinero en la tercera edad"],
+        "responses": ["Gestiona tus finanzas en la jubilacion estableciendo un presupuesto basado en ingresos fijos, invirtiendo conservadoramente y planificando gastos de salud a largo plazo."]
       },
       {
         "tag": "invertir_infraestructura",
-        "patterns": ["¿Es buena idea invertir en infraestructura?", "Invertir en proyectos de construcción", "Oportunidades en infraestructura"],
-        "responses": ["Invertir en infraestructura puede ofrecer retornos estables y contribuir al desarrollo económico, pero requiere entender los grandes ciclos económicos y políticos."]
+        "patterns": ["¿Es buena idea invertir en infraestructura?", "Invertir en proyectos de construccion", "Oportunidades en infraestructura"],
+        "responses": ["Invertir en infraestructura puede ofrecer retornos estables y contribuir al desarrollo economico, pero requiere entender los grandes ciclos economicos y politicos."]
       },
       {
         "tag": "proteger_inversiones_fraude",
-        "patterns": ["¿Cómo protejo mis inversiones de fraudes?", "Evitar estafas en inversiones", "Seguridad para mis inversiones"],
-        "responses": ["Protege tus inversiones verificando la credibilidad de asesores y plataformas de inversión, diversificando tus activos y manteniéndote informado sobre tus inversiones."]
+        "patterns": ["¿Como protejo mis inversiones de fraudes?", "Evitar estafas en inversiones", "Seguridad para mis inversiones"],
+        "responses": ["Protege tus inversiones verificando la credibilidad de asesores y plataformas de inversion, diversificando tus activos y manteniendote informado sobre tus inversiones."]
       },
       {
         "tag": "invertir_vehiculos_alternativos",
-        "patterns": ["¿Qué son los vehículos de inversión alternativos?", "Invertir fuera de bolsa", "Opciones de inversión no tradicionales"],
-        "responses": ["Los vehículos de inversión alternativos incluyen bienes raíces, arte, antigüedades y criptomonedas, ofreciendo diversificación fuera de los mercados de acciones y bonos."]
+        "patterns": ["¿Que son los vehiculos de inversion alternativos?", "Invertir fuera de bolsa", "Opciones de inversion no tradicionales"],
+        "responses": ["Los vehiculos de inversion alternativos incluyen bienes raices, arte, antigüedades y criptomonedas, ofreciendo diversificacion fuera de los mercados de acciones y bonos."]
       },
       {
         "tag": "ahorrar_sin_presupuesto",
-        "patterns": ["¿Puedo ahorrar dinero sin un presupuesto estricto?", "Ahorrar de manera flexible", "Métodos de ahorro sin presupuesto"],
-        "responses": ["Aunque un presupuesto ayuda, puedes ahorrar sin uno estableciendo transferencias automáticas a una cuenta de ahorros y reduciendo gastos innecesarios."]
+        "patterns": ["¿Puedo ahorrar dinero sin un presupuesto estricto?", "Ahorrar de manera flexible", "Metodos de ahorro sin presupuesto"],
+        "responses": ["Aunque un presupuesto ayuda, puedes ahorrar sin uno estableciendo transferencias automaticas a una cuenta de ahorros y reduciendo gastos innecesarios."]
       },
       {
         "tag": "cambiar_carreras_finanzas",
-        "patterns": ["¿Cómo cambio de carrera sin afectar mis finanzas?", "Transición de carrera y finanzas", "Manejo financiero al cambiar de empleo"],
-        "responses": ["Al cambiar de carrera, ahorra un fondo de emergencia, reduce gastos, y busca formación o certificaciones que aumenten tus oportunidades en el nuevo campo."]
+        "patterns": ["¿Como cambio de carrera sin afectar mis finanzas?", "Transicion de carrera y finanzas", "Manejo financiero al cambiar de empleo"],
+        "responses": ["Al cambiar de carrera, ahorra un fondo de emergencia, reduce gastos, y busca formacion o certificaciones que aumenten tus oportunidades en el nuevo campo."]
       },
       {
         "tag": "comprar_seguros_salud",
-        "patterns": ["¿Cómo elijo el mejor seguro de salud?", "Comparar planes de salud", "Seleccionar un seguro médico"],
-        "responses": ["Elige un seguro de salud comparando coberturas, costos, red de proveedores y límites de gastos, considerando tus necesidades médicas y presupuesto."]
+        "patterns": ["¿Como elijo el mejor seguro de salud?", "Comparar planes de salud", "Seleccionar un seguro medico"],
+        "responses": ["Elige un seguro de salud comparando coberturas, costos, red de proveedores y limites de gastos, considerando tus necesidades medicas y presupuesto."]
       },
       {
         "tag": "educacion_financiera_adultos",
-        "patterns": ["¿Dónde pueden los adultos aprender más sobre finanzas?", "Educación financiera para adultos", "Recursos de aprendizaje financiero para mayores"],
-        "responses": ["Los adultos pueden aprender sobre finanzas en cursos en línea, talleres comunitarios, libros de finanzas y mediante asesoría financiera profesional."]
+        "patterns": ["¿Donde pueden los adultos aprender mas sobre finanzas?", "Educacion financiera para adultos", "Recursos de aprendizaje financiero para mayores"],
+        "responses": ["Los adultos pueden aprender sobre finanzas en cursos en linea, talleres comunitarios, libros de finanzas y mediante asesoria financiera profesional."]
       },
       {
         "tag": "gestion_deudas_hipotecarias",
-        "patterns": ["¿Cómo gestiono mejor mi deuda hipotecaria?", "Manejar deudas de la hipoteca", "Consejos para préstamos hipotecarios"],
-        "responses": ["Gestiona tu deuda hipotecaria asegurando una tasa de interés competitiva, haciendo pagos adicionales cuando posible y refinanciando bajo condiciones favorables."]
+        "patterns": ["¿Como gestiono mejor mi deuda hipotecaria?", "Manejar deudas de la hipoteca", "Consejos para prestamos hipotecarios"],
+        "responses": ["Gestiona tu deuda hipotecaria asegurando una tasa de interes competitiva, haciendo pagos adicionales cuando posible y refinanciando bajo condiciones favorables."]
       },
       {
         "tag": "seguros_desempleo",
-        "patterns": ["¿Qué es un seguro de desempleo?", "Beneficios del seguro contra desempleo", "Cómo funciona el seguro de desempleo"],
+        "patterns": ["¿Que es un seguro de desempleo?", "Beneficios del seguro contra desempleo", "Como funciona el seguro de desempleo"],
         "responses": ["El seguro de desempleo proporciona ingresos temporales a trabajadores desempleados que perdieron su trabajo sin culpa propia, ayudando a estabilizar sus finanzas."]
       },
       {
         "tag": "finanzas_freelancers",
-        "patterns": ["¿Cómo manejan su dinero los freelancers?", "Finanzas para trabajadores independientes", "Consejos financieros para freelancers"],
+        "patterns": ["¿Como manejan su dinero los freelancers?", "Finanzas para trabajadores independientes", "Consejos financieros para freelancers"],
         "responses": ["Los freelancers deben gestionar sus finanzas estableciendo un fondo de emergencia, pagando impuestos trimestrales y diversificando sus fuentes de ingresos."]
       },
       {
         "tag": "invertir_fondos_cerrados",
-        "patterns": ["¿Qué son los fondos de inversión cerrados?", "Invertir en fondos cerrados", "Características de los fondos cerrados"],
-        "responses": ["Los fondos de inversión cerrados tienen un número fijo de acciones y suelen operar en mercados específicos o nichos, ofreciendo oportunidades y riesgos distintos a los fondos abiertos."]
+        "patterns": ["¿Que son los fondos de inversion cerrados?", "Invertir en fondos cerrados", "Caracteristicas de los fondos cerrados"],
+        "responses": ["Los fondos de inversion cerrados tienen un numero fijo de acciones y suelen operar en mercados especificos o nichos, ofreciendo oportunidades y riesgos distintos a los fondos abiertos."]
       },
       {
         "tag": "prestamos_consolidacion",
-        "patterns": ["¿Qué son los préstamos de consolidación de deudas?", "Beneficios de consolidar deudas", "Cómo funciona la consolidación de préstamos"],
-        "responses": ["Los préstamos de consolidación de deudas permiten combinar múltiples deudas en un solo préstamo con una tasa de interés más baja, simplificando el pago mensual."]
+        "patterns": ["¿Que son los prestamos de consolidacion de deudas?", "Beneficios de consolidar deudas", "Como funciona la consolidacion de prestamos"],
+        "responses": ["Los prestamos de consolidacion de deudas permiten combinar multiples deudas en un solo prestamo con una tasa de interes mas baja, simplificando el pago mensual."]
       },
       {
         "tag": "optimizar_inversiones",
-        "patterns": ["¿Cómo optimizo mis inversiones?", "Mejorar el rendimiento de inversiones", "Estrategias para optimizar portafolio"],
+        "patterns": ["¿Como optimizo mis inversiones?", "Mejorar el rendimiento de inversiones", "Estrategias para optimizar portafolio"],
         "responses": ["Optimiza tus inversiones evaluando regularmente el rendimiento, rebalanceando tu portafolio para mantener tu estrategia de riesgo y diversificando tus activos."]
       },
       {
         "tag": "financiamiento_proyectos",
-        "patterns": ["¿Cómo se financia un proyecto grande?", "Opciones de financiamiento para proyectos", "Conseguir fondos para proyectos importantes"],
-        "responses": ["Financia proyectos grandes mediante préstamos, emisión de bonos, crowdfunding o buscando inversores que estén interesados en el potencial de retorno del proyecto."]
+        "patterns": ["¿Como se financia un proyecto grande?", "Opciones de financiamiento para proyectos", "Conseguir fondos para proyectos importantes"],
+        "responses": ["Financia proyectos grandes mediante prestamos, emision de bonos, crowdfunding o buscando inversores que esten interesados en el potencial de retorno del proyecto."]
       },
       {
         "tag": "reestructuracion_deudas",
-        "patterns": ["¿Qué es la reestructuración de deudas?", "Cómo reestructurar mis deudas", "Alternativas para reestructurar deudas"],
-        "responses": ["La reestructuración de deudas implica negociar con acreedores para modificar los términos de tus deudas, como reducir la tasa de interés o extender el período de pago."]
+        "patterns": ["¿Que es la reestructuracion de deudas?", "Como reestructurar mis deudas", "Alternativas para reestructurar deudas"],
+        "responses": ["La reestructuracion de deudas implica negociar con acreedores para modificar los terminos de tus deudas, como reducir la tasa de interes o extender el periodo de pago."]
       },
       {
         "tag": "cambios_regulacion_financiera",
-        "patterns": ["¿Cómo me afectan los cambios en la regulación financiera?", "Impacto de nuevas leyes financieras", "Adaptarse a cambios regulatorios"],
-        "responses": ["Los cambios en la regulación financiera pueden afectar cómo operas tus cuentas, tus estrategias de inversión y tus obligaciones fiscales. Es vital mantenerse informado y adaptarse a las nuevas normas."]
+        "patterns": ["¿Como me afectan los cambios en la regulacion financiera?", "Impacto de nuevas leyes financieras", "Adaptarse a cambios regulatorios"],
+        "responses": ["Los cambios en la regulacion financiera pueden afectar Como operas tus cuentas, tus estrategias de inversion y tus obligaciones fiscales. Es vital mantenerse informado y adaptarse a las nuevas normas."]
       },
       {
         "tag": "planificacion_financiera_familias",
-        "patterns": ["¿Cómo hacen las familias para planificar sus finanzas?", "Planificación financiera familiar", "Consejos para finanzas familiares"],
-        "responses": ["Las familias pueden planificar sus finanzas estableciendo presupuestos, ahorrando para la educación y la jubilación, y asegurando adecuada protección financiera a través de seguros."]
+        "patterns": ["¿Como hacen las familias para planificar sus finanzas?", "Planificacion financiera familiar", "Consejos para finanzas familiares"],
+        "responses": ["Las familias pueden planificar sus finanzas estableciendo presupuestos, ahorrando para la educacion y la jubilacion, y asegurando adecuada proteccion financiera a traves de seguros."]
       },
       {
         "tag": "invertir_fondos_patrimoniales",
-        "patterns": ["¿Qué son los fondos patrimoniales?", "Invertir en un fondo patrimonial", "Características de los fondos patrimoniales"],
-        "responses": ["Los fondos patrimoniales son fondos de inversión que buscan preservar el capital y proporcionar un crecimiento constante. Son populares entre instituciones y individuos que buscan estabilidad."]
+        "patterns": ["¿Que son los fondos patrimoniales?", "Invertir en un fondo patrimonial", "Caracteristicas de los fondos patrimoniales"],
+        "responses": ["Los fondos patrimoniales son fondos de inversion que buscan preservar el capital y proporcionar un crecimiento constante. Son populares entre instituciones y individuos que buscan estabilidad."]
       },
       {
         "tag": "ahorrar_gastos_medicos",
-        "patterns": ["¿Cómo puedo ahorrar en gastos médicos?", "Reducir costos de salud", "Consejos para economizar en medicina"],
-        "responses": ["Para ahorrar en gastos médicos, utiliza seguros de salud, compara precios de tratamientos y medicamentos, y aprovecha cuentas de gastos flexibles o de ahorros de salud."]
+        "patterns": ["¿Como puedo ahorrar en gastos medicos?", "Reducir costos de salud", "Consejos para economizar en medicina"],
+        "responses": ["Para ahorrar en gastos medicos, utiliza seguros de salud, compara precios de tratamientos y medicamentos, y aprovecha cuentas de gastos flexibles o de ahorros de salud."]
       },
       {
         "tag": "seguros_vida",
-        "patterns": ["¿Qué debo considerar al elegir un seguro de vida?", "Tipos de seguros de vida", "Seleccionar el mejor seguro de vida"],
-        "responses": ["Al elegir un seguro de vida, considera tu situación financiera, las necesidades de tus dependientes, la cobertura ofrecida y las primas del seguro."]
+        "patterns": ["¿Que debo considerar al elegir un seguro de vida?", "Tipos de seguros de vida", "Seleccionar el mejor seguro de vida"],
+        "responses": ["Al elegir un seguro de vida, considera tu situacion financiera, las necesidades de tus dependientes, la cobertura ofrecida y las primas del seguro."]
       },
       {
         "tag": "educacion_financiera_jovenes",
-        "patterns": ["¿Cómo enseño finanzas a los jóvenes?", "Educación financiera para adolescentes", "Inculcar hábitos financieros en jóvenes"],
-        "responses": ["Enseña finanzas a los jóvenes a través de ejemplos prácticos, como administrar una mesada, ahorrar para objetivos y comprender los conceptos básicos de ingresos y gastos."]
+        "patterns": ["¿Como enseño finanzas a los jovenes?", "Educacion financiera para adolescentes", "Inculcar habitos financieros en jovenes"],
+        "responses": ["Enseña finanzas a los jovenes a traves de ejemplos practicos, como administrar una mesada, ahorrar para objetivos y comprender los conceptos basicos de ingresos y gastos."]
       },
       {
         "tag": "beneficios_fondos_cotizados",
-        "patterns": ["¿Cuáles son los beneficios de los fondos cotizados?", "Ventajas de invertir en ETFs", "Por qué elegir fondos cotizados"],
-        "responses": ["Los fondos cotizados (ETFs) ofrecen diversificación, bajo costo, facilidad de compra y venta, y transparencia en sus holdings."]
+        "patterns": ["¿Cuales son los beneficios de los fondos cotizados?", "Ventajas de invertir en ETFs", "Por que elegir fondos cotizados"],
+        "responses": ["Los fondos cotizados (ETFs) ofrecen diversificacion, bajo costo, facilidad de compra y venta, y transparencia en sus holdings."]
       },
       {
         "tag": "gestionar_herencia",
-        "patterns": ["¿Cómo gestiono una herencia?", "Manejo de bienes heredados", "Consejos para administrar una herencia"],
-        "responses": ["Al gestionar una herencia, considera los impuestos aplicables, paga cualquier deuda del estamento, y planea cómo invertir o usar los bienes heredados de manera prudente."]
+        "patterns": ["¿Como gestiono una herencia?", "Manejo de bienes heredados", "Consejos para administrar una herencia"],
+        "responses": ["Al gestionar una herencia, considera los impuestos aplicables, paga cualquier deuda del estamento, y planea Como invertir o usar los bienes heredados de manera prudente."]
       },
       {
         "tag": "riesgos_financieros_negocio",
-        "patterns": ["¿Cuáles son los riesgos financieros al iniciar un negocio?", "Identificar riesgos en nuevos negocios", "Precauciones financieras para emprendedores"],
+        "patterns": ["¿Cuales son los riesgos financieros al iniciar un negocio?", "Identificar riesgos en nuevos negocios", "Precauciones financieras para emprendedores"],
         "responses": ["Los riesgos financieros al iniciar un negocio incluyen falta de fondos, fluctuaciones de ingresos, gastos inesperados y problemas de flujo de caja."]
       },
       {
         "tag": "invertir_tecnologia",
-        "patterns": ["¿Es buena idea invertir en tecnología?", "Invertir en sector tecnológico", "Riesgos y beneficios de la inversión tecnológica"],
-        "responses": ["Invertir en tecnología puede ofrecer altos retornos debido a la innovación y crecimiento del sector, pero también conlleva riesgos de volatilidad y obsolescencia."]
+        "patterns": ["¿Es buena idea invertir en tecnologia?", "Invertir en sector tecnologico", "Riesgos y beneficios de la inversion tecnologica"],
+        "responses": ["Invertir en tecnologia puede ofrecer altos retornos debido a la innovacion y crecimiento del sector, pero tambien conlleva riesgos de volatilidad y obsolescencia."]
       },
       {
         "tag": "plan_retiro_personalizado",
-        "patterns": ["¿Cómo creo un plan de retiro personalizado?", "Planificación individual para la jubilación", "Construir un plan de retiro a medida"],
-        "responses": ["Crea un plan de retiro personalizado evaluando tus necesidades futuras, estimando gastos, y eligiendo las opciones de inversión y ahorro que mejor se ajusten a tus objetivos y estilo de vida."]
+        "patterns": ["¿Como creo un plan de retiro personalizado?", "Planificacion individual para la jubilacion", "Construir un plan de retiro a medida"],
+        "responses": ["Crea un plan de retiro personalizado evaluando tus necesidades futuras, estimando gastos, y eligiendo las opciones de inversion y ahorro que mejor se ajusten a tus objetivos y estilo de vida."]
       },
       {
         "tag": "invertir_sin_riesgo",
-        "patterns": ["¿Existen inversiones sin riesgo?", "Opciones de inversión segura", "Invertir con garantía de capital"],
-        "responses": ["No existen inversiones completamente sin riesgo, pero opciones como los bonos del Tesoro y cuentas de ahorro aseguradas ofrecen bajo riesgo a cambio de rendimientos más moderados."]
+        "patterns": ["¿Existen inversiones sin riesgo?", "Opciones de inversion segura", "Invertir con garantia de capital"],
+        "responses": ["No existen inversiones completamente sin riesgo, pero opciones como los bonos del Tesoro y cuentas de ahorro aseguradas ofrecen bajo riesgo a cambio de rendimientos mas moderados."]
       },
       {
         "tag": "creditos_refinanciamiento",
-        "patterns": ["¿Qué es el refinanciamiento de créditos?", "Cómo refinanciar mis deudas", "Beneficios del refinanciamiento"],
-        "responses": ["El refinanciamiento de créditos implica reemplazar un préstamo existente por uno nuevo con mejores condiciones, como una tasa de interés más baja, para reducir los pagos mensuales y mejorar el manejo de deudas."]
+        "patterns": ["¿Que es el refinanciamiento de creditos?", "Como refinanciar mis deudas", "Beneficios del refinanciamiento"],
+        "responses": ["El refinanciamiento de creditos implica reemplazar un prestamo existente por uno nuevo con mejores condiciones, como una tasa de interes mas baja, para reducir los pagos mensuales y mejorar el manejo de deudas."]
       },
       {
         "tag": "gestion_deudas_tarjetas",
-        "patterns": ["¿Cómo gestiono la deuda de mis tarjetas de crédito?", "Reducir deuda de tarjeta", "Consejos para manejar deuda de crédito"],
-        "responses": ["Para gestionar deudas de tarjetas de crédito, intenta pagar más que el mínimo cada mes, negocia tasas de interés más bajas y considera transferir saldos a tarjetas con 0% de interés de introducción."]
+        "patterns": ["¿Como gestiono la deuda de mis tarjetas de credito?", "Reducir deuda de tarjeta", "Consejos para manejar deuda de credito"],
+        "responses": ["Para gestionar deudas de tarjetas de credito, intenta pagar mas que el minimo cada mes, negocia tasas de interes mas bajas y considera transferir saldos a tarjetas con 0% de interes de introduccion."]
       },
       {
         "tag": "ahorrar_compras_navidenas",
-        "patterns": ["¿Cómo puedo ahorrar en compras navideñas?", "Presupuesto para festividades", "Economizar en gastos de Navidad"],
-        "responses": ["Para ahorrar en compras navideñas, establece un presupuesto claro, compra con antelación aprovechando ofertas y considera hacer regalos caseros o significativos en lugar de gastar mucho dinero."]
+        "patterns": ["¿Como puedo ahorrar en compras navideñas?", "Presupuesto para festividades", "Economizar en gastos de Navidad"],
+        "responses": ["Para ahorrar en compras navideñas, establece un presupuesto claro, compra con antelacion aprovechando ofertas y considera hacer regalos caseros o significativos en lugar de gastar mucho dinero."]
       },
       {
         "tag": "invertir_fondos_mixtos",
-        "patterns": ["¿Qué son los fondos mixtos y cómo funcionan?", "Invertir en fondos balanceados", "Características de los fondos mixtos"],
-        "responses": ["Los fondos mixtos o balanceados invierten en una combinación de acciones, bonos y otros activos. Están diseñados para proporcionar un equilibrio entre riesgo y retorno, adecuados para inversores que buscan diversificación."]
+        "patterns": ["¿Que son los fondos mixtos y Como funcionan?", "Invertir en fondos balanceados", "Caracteristicas de los fondos mixtos"],
+        "responses": ["Los fondos mixtos o balanceados invierten en una combinacion de acciones, bonos y otros activos. Estan diseñados para proporcionar un equilibrio entre riesgo y retorno, adecuados para inversores que buscan diversificacion."]
       },
       {
         "tag": "preparar_financieramente_crisis",
-        "patterns": ["¿Cómo me preparo financieramente para una crisis?", "Finanzas en tiempos de crisis", "Reserva de emergencia"],
-        "responses": ["Prepárate financieramente para una crisis ahorrando en un fondo de emergencia, diversificando tus inversiones y manteniendo tus gastos bajo control para adaptarte a cambios económicos imprevistos."]
+        "patterns": ["¿Como me preparo financieramente para una crisis?", "Finanzas en tiempos de crisis", "Reserva de emergencia"],
+        "responses": ["Preparate financieramente para una crisis ahorrando en un fondo de emergencia, diversificando tus inversiones y manteniendo tus gastos bajo control para adaptarte a cambios economicos imprevistos."]
       },
       {
         "tag": "estrategias_ahorro_largo_plazo",
-        "patterns": ["¿Cuáles son las mejores estrategias de ahorro a largo plazo?", "Ahorrar a largo plazo", "Construir ahorros para el futuro"],
-        "responses": ["Las mejores estrategias de ahorro a largo plazo incluyen maximizar contribuciones a cuentas de retiro, invertir en fondos indexados o ETFs, y revisar y ajustar tus inversiones periódicamente."]
+        "patterns": ["¿Cuales son las mejores estrategias de ahorro a largo plazo?", "Ahorrar a largo plazo", "Construir ahorros para el futuro"],
+        "responses": ["Las mejores estrategias de ahorro a largo plazo incluyen maximizar contribuciones a cuentas de retiro, invertir en fondos indexados o ETFs, y revisar y ajustar tus inversiones periodicamente."]
       },{
         "tag": "seguros_cobertura_amplia",
-        "patterns": ["¿Qué es un seguro de cobertura amplia?", "Diferencias entre seguros de cobertura amplia y básica", "Beneficios del seguro de cobertura amplia"],
-        "responses": ["El seguro de cobertura amplia ofrece protección más extensa que la básica, cubriendo una variedad más amplia de riesgos y a menudo incluyendo servicios adicionales."]
+        "patterns": ["¿Que es un seguro de cobertura amplia?", "Diferencias entre seguros de cobertura amplia y basica", "Beneficios del seguro de cobertura amplia"],
+        "responses": ["El seguro de cobertura amplia ofrece proteccion mas extensa que la basica, cubriendo una variedad mas amplia de riesgos y a menudo incluyendo servicios adicionales."]
       },
       {
         "tag": "finanzas_responsables_empresa",
-        "patterns": ["¿Cómo implemento finanzas responsables en mi empresa?", "Prácticas de finanzas sostenibles para negocios", "Gestión financiera ética en empresas"],
-        "responses": ["Implementa finanzas responsables en tu empresa adoptando prácticas éticas, transparentes y sostenibles, considerando el impacto social y ambiental de tus decisiones financieras."]
-      },{
+        "patterns": ["¿Como implemento finanzas responsables en mi empresa?", "Practicas de finanzas sostenibles para negocios", "Gestion financiera etica en empresas"],
+        "responses": ["Implementa finanzas responsables en tu empresa adoptando practicas eticas, transparentes y sostenibles, considerando el impacto social y ambiental de tus decisiones financieras."]
+      },
+      
+          {
             "tag": "empatia_perdida",
-            "patterns": ["Estoy muy triste, perdí mucho dinero en una inversión"],
-            "responses": ["Lamento mucho escuchar eso. Las pérdidas pueden ser realmente desafiantes. ¿Hay algo en lo que pueda ayudarte a planificar tu próximo paso?"]
+            "patterns": ["Estoy muy triste, perdi mucho dinero en una inversion"],
+            "responses": ["Lamento mucho escuchar eso. Las perdidas pueden ser realmente desafiantes. ¿Hay algo en lo que pueda ayudarte a planificar tu proximo paso?"]
           },
           {
             "tag": "alegria_logro",
-            "patterns": ["¡Acabo de pagar toda mi deuda!"],
-            "responses": ["¡Eso es increíble! Felicitaciones por alcanzar este gran hito financiero. ¿Tienes algún otro objetivo en mente ahora?"]
+            "patterns": ["¡Acabo de pagar toda mi deuda!", "¡Acabo de pagar toda mi deuda!"],
+            "responses": ["¡Eso es increible! Felicitaciones por alcanzar este gran hito financiero. ¿Tienes algun otro objetivo en mente ahora?"]
           },
           {
             "tag": "consuelo_preocupacion",
-            "patterns": ["Estoy preocupado por no tener suficiente para la jubilación"],
-            "responses": ["Entiendo tus preocupaciones, y estás haciendo bien en pensar en ello ahora. Vamos a ver cómo podemos mejorar tu plan de ahorro para la jubilación."]
+            "patterns": ["Estoy preocupado por no tener suficiente para la jubilacion"],
+            "responses": ["Entiendo tus preocupaciones, y estas haciendo bien en pensar en ello ahora. Vamos a ver Como podemos mejorar tu plan de ahorro para la jubilacion."]
           },
           {
             "tag": "motivacion_desanimo",
-            "patterns": ["No creo que pueda ahorrar suficiente dinero"],
-            "responses": ["No te desanimes, todos empezamos en algún lugar. Puedo ayudarte a revisar tu presupuesto y encontrar formas de ahorrar, sin importar cuán pequeñas sean."]
+            "patterns": ["No creo que pueda ahorrar suficiente dinero", "No tengo suficiente dinero para ahorrar"],
+            "responses": ["No te desanimes, todos empezamos en algun lugar. Puedo ayudarte a revisar tu presupuesto y encontrar formas de ahorrar, sin importar cuan pequeñas sean."]
           },
           {
             "tag": "entusiasmo_meta_ahorro",
             "patterns": ["He alcanzado la mitad de mi meta de ahorro"],
-            "responses": ["¡Eso es genial! Estás a mitad de camino, y cada paso cuenta. Sigue así y pronto alcanzarás tu meta completa."]
+            "responses": ["¡Eso es genial! Estas a mitad de camino, y cada paso cuenta. Sigue asi y pronto alcanzaras tu meta completa."]
           },
           {
             "tag": "apoyo_decision",
-            "patterns": ["¿Debería invertir en este momento?"],
-            "responses": ["Es importante que te sientas seguro con tus decisiones de inversión. Podemos revisar tus opciones y considerar tus objetivos financieros para tomar la mejor decisión."]
+            "patterns": ["¿Deberia invertir en este momento?", "¿Deberia invertir en este hoy en dia?"],
+            "responses": ["Es importante que te sientas seguro con tus decisiones de inversion. Podemos revisar tus opciones y considerar tus objetivos financieros para tomar la mejor decision."]
           },
           {
             "tag": "celebracion_logro_financiero",
-            "patterns": ["Finalmente ahorré suficiente para mi fondo de emergencia"],
-            "responses": ["¡Felicitaciones! Has logrado un importante pilar de seguridad financiera. ¿Estás pensando en establecer una nueva meta de ahorro ahora?"]
+            "patterns": ["Finalmente ahorre suficiente para mi fondo de emergencia"],
+            "responses": ["¡Felicitaciones! Has logrado un importante pilar de seguridad financiera. ¿Estas pensando en establecer una nueva meta de ahorro ahora?"]
           },
           {
             "tag": "solidaridad_error",
-            "patterns": ["Creo que cometí un error con mi presupuesto este mes"],
+            "patterns": ["Creo que cometi un error con mi presupuesto este mes"],
             "responses": ["Todos cometemos errores, lo importante es aprender de ellos. Vamos a revisar tu presupuesto juntos y ajustar lo que sea necesario."]
           },
           {
             "tag": "aliento_nuevo_proyecto",
-            "patterns": ["Estoy pensando en iniciar un negocio"],
-            "responses": ["¡Esa es una iniciativa emocionante! Estoy aquí para ayudarte a planificar y asegurarme de que tienes una base financiera sólida para comenzar."]
+            "patterns": ["Estoy pensando en iniciar un negocio", "Estoy pensando en convertime en un emprendedor", "Estoy pensando un nuevo emprendimiento"],
+            "responses": ["¡Esa es una iniciativa emocionante! Estoy aqui para ayudarte a planificar y asegurarme de que tienes una base financiera solida para comenzar."]
           },
           {
             "tag": "simpatia_frustracion",
-            "patterns": ["Me frustra no entender estos términos financieros"],
-            "responses": ["Puede ser complicado, pero estás haciendo un gran esfuerzo por aprender. ¿Te gustaría que explique algunos términos en particular?"]
+            "patterns": ["Me frustra no entender estos terminos financieros"],
+            "responses": ["Puede ser complicado, pero estas haciendo un gran esfuerzo por aprender. ¿Te gustaria que explique algunos terminos en particular?"]
           },
           
               {
                 "tag": "confusion_general",
                 "patterns": ["No entiendo lo que dices"],
-                "responses": ["Parece que no fui claro. Permíteme intentarlo de nuevo o explicarlo de otra manera."]
+                "responses": ["Parece que no fui claro. Permiteme intentarlo de nuevo o explicarlo de otra manera."]
               },
               {
                 "tag": "sin_datos",
-                "patterns": ["¿Qué datos tienes sobre las tendencias del mercado futuro?"],
-                "responses": ["Actualmente no tengo información sobre futuras tendencias del mercado. ¿Puedo ayudarte con algo más específico o actual?"]
+                "patterns": ["¿Que datos tienes sobre las tendencias del mercado futuro?"],
+                "responses": ["Actualmente no tengo informacion sobre futuras tendencias del mercado. ¿Puedo ayudarte con algo mas especifico o actual?"]
               },
               {
                 "tag": "sin_informacion_especifica",
-                "patterns": ["Dime más sobre esta inversión específica que no encuentro"],
-                "responses": ["No tengo detalles sobre esa inversión específica. ¿Quieres saber más sobre tipos similares de inversiones?"]
+                "patterns": ["Dime mas sobre esta inversion especifica que no encuentro"],
+                "responses": ["No tengo detalles sobre esa inversion especifica. ¿Quieres saber mas sobre tipos similares de inversiones?"]
               },
               {
                 "tag": "confusion_detalle",
                 "patterns": ["No comprendo los detalles que me diste"],
-                "responses": ["Lo siento si los detalles no fueron claros. Vamos a desglosarlos juntos."]
+                "responses": ["Lo siento si los detalles no fueron claros. Vamos a desglosarlos mejor."]
               },
               {
                 "tag": "solicitud_incomprensible",
@@ -918,63 +930,63 @@
               },
               {
                 "tag": "sin_acceso_datos",
-                "patterns": ["¿Puedes darme el último precio de la acción XYZ?"],
+                "patterns": ["¿Puedes darme el ultimo precio de la accion XYZ?"],
                 "responses": ["Lo siento, no tengo acceso en tiempo real a datos del mercado de valores. Te recomiendo verificar una fuente confiable como un sitio de noticias financieras."]
               },
               {
                 "tag": "respuesta_indefinida",
-                "patterns": ["Cuéntame sobre un tema que no conoces"],
-                "responses": ["No tengo información sobre ese tema. Siempre estoy aprendiendo, pero algunas áreas están fuera de mi alcance actual."]
+                "patterns": ["Cuentame sobre un tema que no conoces"],
+                "responses": ["No tengo informacion sobre ese tema. Siempre estoy aprendiendo, pero algunas areas estan fuera de mi alcance actual."]
               },
               {
                 "tag": "error_desconocido",
                 "patterns": ["Esto no tiene sentido"],
-                "responses": ["Parece que algo no salió bien. Vamos a intentarlo de nuevo."]
+                "responses": ["Parece que algo no salio bien. Vamos a intentarlo de nuevo."]
               },
               {
                 "tag": "solicitud_vaga",
-                "patterns": ["Háblame de finanzas"],
-                "responses": ["Las finanzas son un tema amplio. ¿Podrías especificar un poco más sobre qué aspecto de las finanzas te interesa?"]
+                "patterns": ["Hablame de finanzas"],
+                "responses": ["Las finanzas son un tema amplio. ¿Podrias especificar un poco mas sobre que aspecto de las finanzas te interesa?"]
               },
               {
                 "tag": "sin_respuesta",
-                "patterns": ["¿Qué opinas sobre la política económica de Marte?"],
-                "responses": ["Eso está fuera de mi conocimiento actual. ¿Hay algo más terrenal en lo que pueda asistirte?"]
+                "patterns": ["¿Que opinas sobre la politica economica de Marte?"],
+                "responses": ["Eso esta fuera de mi conocimiento actual. ¿Hay algo mas terrenal en lo que pueda asistirte?"]
               },
               {
                 "tag": "ambiguedad",
-                "patterns": ["¿Qué debo hacer con mi dinero?"],
-                "responses": ["Esa es una pregunta muy amplia. Podríamos comenzar revisando tus metas financieras y tu situación actual."]
+                "patterns": ["¿Que debo hacer con mi dinero?"],
+                "responses": ["Esa es una pregunta muy amplia. Podriamos comenzar revisando tus metas financieras y tu situacion actual."]
               },
               {
                 "tag": "sin_informacion_actualizada",
-                "patterns": ["Dame las últimas noticias sobre la economía"],
-                "responses": ["No tengo acceso directo a las noticias más recientes. Te recomiendo consultar un sitio web de noticias confiable para obtener la información más actual."]
+                "patterns": ["Dame las ultimas noticias sobre la economia"],
+                "responses": ["No tengo acceso directo a las noticias mas recientes. Te recomiendo consultar un sitio web de noticias confiable para obtener la informacion mas actual."]
               },
               {
                 "tag": "peticion_irrealizable",
                 "patterns": ["Quiero que inviertas mi dinero ahora mismo"],
-                "responses": ["No puedo realizar inversiones directamente. Sin embargo, puedo ofrecerte consejos sobre cómo y dónde podrías invertir."]
+                "responses": ["No puedo realizar inversiones directamente. Sin embargo, puedo ofrecerte consejos sobre Como y donde podrias invertir."]
               },
               {
                 "tag": "sin_comprender",
                 "patterns": ["No entiendo lo que acabo de leer"],
-                "responses": ["Vamos a revisarlo juntos. Dime qué parte no fue clara y te ayudaré a entenderla mejor."]
+                "responses": ["Vamos a revisarlo juntos. Dime que parte no fue clara y te ayudare a entenderla mejor."]
               },
               {
                 "tag": "sin_capacidad_respuesta",
-                "patterns": ["¿Puedes predecir el futuro de la economía?"],
-                "responses": ["No puedo predecir el futuro, pero puedo ofrecer análisis basados en datos e información histórica. ¿Te interesa alguna tendencia en particular?"]
+                "patterns": ["¿Puedes predecir el futuro de la economia?"],
+                "responses": ["No puedo predecir el futuro, pero puedo ofrecer analisis basados en datos e informacion historica. ¿Te interesa alguna tendencia en particular?"]
               },
               {
                 "tag": "fuera_de_alcance",
                 "patterns": ["Dime si debo comprar esta casa"],
-                "responses": ["Decidir comprar una casa es una decisión significativa y personal. Deberías considerar hablar con un asesor financiero o un agente inmobiliario para discutir todos los factores involucrados."]
+                "responses": ["Decidir comprar una casa es una decision significativa y personal. Deberias considerar hablar con un asesor financiero o un agente inmobiliario para discutir todos los factores involucrados."]
               },
               {
                 "tag": "respuesta_insuficiente",
                 "patterns": ["Tu respuesta no me ayuda"],
-                "responses": ["Lamento escuchar eso. Vamos a intentar abordarlo de otra manera. ¿Qué más necesitas saber?"]
+                "responses": ["Lamento escuchar eso. Vamos a intentar abordarlo de otra manera. ¿Que mas necesitas saber?"]
               },
               {
                 "tag": "solicitud_no_reconocida",
@@ -983,13 +995,13 @@
               },
               {
                 "tag": "respuesta_inapropiada",
-                "patterns": ["Eso no es lo que pregunté"],
-                "responses": ["Mis disculpas por eso. Intentemos de nuevo. ¿Puedes repetir o especificar más tu pregunta?"]
+                "patterns": ["Eso no es lo que pregunte"],
+                "responses": ["Mis disculpas por eso. Intentemos de nuevo. ¿Puedes repetir o especificar mas tu pregunta?"]
               },
               {
                 "tag": "sin_conocimiento_especifico",
-                "patterns": ["Cuéntame sobre la historia del dinero en Antártida"],
-                "responses": ["No tengo información específica sobre la historia del dinero en Antártida. ¿Hay otra área geográfica o tema que te interese?"]
+                "patterns": ["Cuentame sobre la historia del dinero en Antartida"],
+                "responses": ["No tengo informacion especifica sobre la historia del dinero en Antartida. ¿Hay otra area geografica o tema que te interese?"]
               },{
                 "tag": "Acciones",
                 "patterns": ["¿Qué son las acciones?"],
