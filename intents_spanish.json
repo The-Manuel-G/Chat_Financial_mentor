@@ -62,9 +62,9 @@
           "responses": ["Para un fondo de emergencia, ahorra entre 3 a 6 meses de gastos basicos en una cuenta separada y accesible. Contribuye regularmente a este fondo."]
       },
       {
-          "tag": "ahorrar_jubilacion ", // OJO
+          "tag": "ahorrar_jubilacion ", 
           "patterns": ["¿Como ahorro para la jubilacion?", "Consejos para el retiro", "Quiero planificar mi jubilacion"],
-          "responses": ["Para la jubilacion, contribuye a planes como un 401(k) o IRA. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos."]
+          "responses": ["Para la jubilacion, Asegúrate de estar registrado y contribuyendo a tu cuenta en la Administradora de Fondos de Pensiones (AFP). Explora planes voluntarios ofrecidos por bancos y aseguradoras. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos. Estima tus gastos futuros. "]
       },
       {
           "tag": "educacion_financiera",
@@ -134,18 +134,14 @@
       {
           "tag": "crear_fondo_jubilacion ",
           "patterns": ["¿Como creo un fondo de jubilacion?", "Consejos para un fondo de jubilacion", "Quiero crear un fondo de jubilacion"],
-          "responses": ["Contribuye regularmente a planes de retiro como 401(k) o IRA y ajusta tus aportaciones conforme aumenten tus ingresos."]
+          "responses": ["Contribuye regularmente a planes de retiro como la AFP y ajusta tus aportaciones conforme aumenten tus ingresos."]
       },
       {
-        "tag": "que_es_el_plan_401(k)", 
-        "patterns": ["¿Que es el plan de retiro 401(k)?", "Es bueno el plan 401(k)", "Que beneficion tiene el plan 401(k)"],
-        "responses": ["El plan de retiro 401(k) es una cuenta de jubilación patrocinada por el empleador en EE. UU., donde se pueden hacer contribuciones preimpositivas. Es beneficioso por sus ahorros fiscales, igualaciones del empleador y crecimiento con diferimiento de impuestos."]
+        "tag": "que_es_el_plan_AFPs", 
+        "patterns": ["¿Que es el plan de retiro AFPs?", "Es bueno el plan AFPs"],
+        "responses": [" El plan de retiro AFPs en la República Dominicana es un sistema de pensiones obligatorio administrado por Administradoras de Fondos de Pensiones (AFPs). el plan AFPs es beneficioso porque asegura que los trabajadores formales tengan un ahorro sistemático para su jubilación, gestionado por profesionales en inversiones. "]
       },
-      {
-        "tag": "que_es_el_plan_IRA ", //esta parte la voy a cambiar ya que IRA Y 401 esta mas para EE.UU. en RD es planes de pensiones controlada por la AFP
-        "patterns": ["¿Que es el plan de retiro IRA?", "Es bueno el plan IRA", "Que beneficion tiene el plan IRA"],
-        "responses": ["El plan IRA (Individual Retirement Account), es una cuenta de jubilación individual en EE. UU. que ofrece beneficios fiscales y flexibilidad en las inversiones. "]
-      },
+
       {
           "tag": "ahorrar_educacion",
           "patterns": ["¿Como ahorro para la educacion de mis hijos?", "Consejos para ahorrar en educacion", "Quiero ahorrar para la universidad de mis hijos"],
@@ -305,7 +301,7 @@
       {
         "tag": "cuentas_retiro",
         "patterns": ["¿Que tipos de cuentas de retiro existen?", "Cuentas de retiro recomendadas", "Opciones de cuentas para la jubilacion"],
-        "responses": ["Existen diversas cuentas de retiro como el 401(k), IRA tradicional, IRA Roth, y planes de pension, cada una con sus propias ventajas fiscales y condiciones."]
+        "responses": ["Existen diversas cuentas de retiro como la AFP, SDSS, Planes de Ahorro Privado(Servicio ofrecido por bancos) y planes de pension, cada una con sus propias ventajas fiscales y condiciones."]
       },
       {
         "tag": "evaluar_asesor_financiero",
@@ -1746,18 +1742,6 @@
                 "patterns": ["¿Qué es el valor temporal del dinero?"],
                 "responses": ["El valor temporal del dinero es el concepto financiero que establece que el dinero disponible en el presente es más valioso que la misma cantidad en el futuro, debido a su capacidad de generar rendimientos o intereses."]
               }
-
-              
-              
-              
-              
-              
-             
-              
-              
-              
-        
-      
   
   ]
 }
