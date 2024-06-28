@@ -840,9 +840,7 @@
         "tag": "finanzas_responsables_empresa",
         "patterns": ["¿Cómo implemento finanzas responsables en mi empresa?", "Prácticas de finanzas sostenibles para negocios", "Gestión financiera ética en empresas"],
         "responses": ["Implementa finanzas responsables en tu empresa adoptando prácticas éticas, transparentes y sostenibles, considerando el impacto social y ambiental de tus decisiones financieras."]
-      },
-      
-          {
+      },{
             "tag": "empatia_perdida",
             "patterns": ["Estoy muy triste, perdí mucho dinero en una inversión"],
             "responses": ["Lamento mucho escuchar eso. Las pérdidas pueden ser realmente desafiantes. ¿Hay algo en lo que pueda ayudarte a planificar tu próximo paso?"]
@@ -992,7 +990,759 @@
                 "tag": "sin_conocimiento_especifico",
                 "patterns": ["Cuéntame sobre la historia del dinero en Antártida"],
                 "responses": ["No tengo información específica sobre la historia del dinero en Antártida. ¿Hay otra área geográfica o tema que te interese?"]
+              },{
+                "tag": "Acciones",
+                "patterns": ["¿Qué son las acciones?"],
+                "responses": ["Las acciones son títulos valores que representan una parte proporcional del capital social de una empresa."]
+              },{
+                "tag": "Bonos",
+                "patterns": ["¿Qué son los bonos?"],
+                "responses": ["Los bonos son instrumentos de deuda emitidos por entidades para financiarse, que pagan intereses periódicos y devuelven el principal al vencimiento."]
+              },
+              {
+                "tag": "Cartera de inversión",
+                "patterns": ["¿Qué es una cartera de inversión?"],
+                "responses": ["Una cartera de inversión es un conjunto de activos financieros diversificados que posee un inversor."]
+              },
+              {
+                "tag": "Diversificación",
+                "patterns": ["¿Qué es la diversificación?"],
+                "responses": ["La diversificación es una estrategia de inversión que reduce el riesgo distribuyendo las inversiones entre distintos activos."]
+              },
+              {
+                "tag": "Apalancamiento",
+                "patterns": ["¿Qué es el apalancamiento?"],
+                "responses": ["El apalancamiento es el uso de deuda para aumentar el potencial de retorno de una inversión."]
+              },
+              {
+                "tag": "Amortización",
+                "patterns": ["¿Qué es la amortización?"],
+                "responses": ["La amortización es el proceso de reducir una deuda mediante pagos periódicos hasta su eliminación."]
+              },
+              {
+                "tag": "Valor presente neto",
+                "patterns": ["¿Qué es el valor presente neto?"],
+                "responses": ["El valor presente neto es una medida de la rentabilidad de una inversión, calculada como el valor actual de los flujos de caja netos."]
+              },
+              {
+                "tag": "Tasa interna de retorno",
+                "patterns": ["¿Qué es la tasa interna de retorno?"],
+                "responses": ["La tasa interna de retorno es la tasa de descuento que iguala el valor presente neto de una inversión a cero."]
+              },
+              {
+                "tag": "Mercado de capitales",
+                "patterns": ["¿Qué es el mercado de capitales?"],
+                "responses": ["El mercado de capitales es donde se negocian instrumentos financieros de largo plazo, como acciones y bonos."]
+              },{
+                "tag": "Mercado de dinero",
+                "patterns": ["¿Qué es el mercado de dinero?"],
+                "responses": ["El mercado de dinero es donde se negocian instrumentos financieros a corto plazo, como letras del Tesoro y certificados de depósito."]
+              },
+              {
+                "tag": "Depreciación",
+                "patterns": ["¿Qué es la depreciación?"],
+                "responses": ["La depreciación es la reducción del valor de un activo a lo largo del tiempo debido al desgaste y la obsolescencia."]
+              },
+              {
+                "tag": "Crédito",
+                "patterns": ["¿Qué es el crédito?"],
+                "responses": ["El crédito es la capacidad de un individuo o empresa para obtener bienes o servicios antes de pagar por ellos."]
+              },
+              {
+                "tag": "Débito",
+                "patterns": ["¿Qué es el débito?"],
+                "responses": ["El débito es un cargo que se realiza a una cuenta, reduciendo su saldo."]
+              },
+              {
+                "tag": "Tasa de interés",
+                "patterns": ["¿Qué es la tasa de interés?"],
+                "responses": ["La tasa de interés es el porcentaje que se cobra por el uso del dinero prestado o invertido."]
+              },
+              {
+                "tag": "Arbitraje",
+                "patterns": ["¿Qué es el arbitraje?"],
+                "responses": ["El arbitraje es la compra y venta simultánea de un activo en diferentes mercados para aprovechar diferencias de precios."]
+              },
+              {
+                "tag": "Cobertura",
+                "patterns": ["¿Qué es la cobertura?"],
+                "responses": ["La cobertura es una estrategia para reducir el riesgo financiero mediante el uso de instrumentos derivados."]
+              },
+              {
+                "tag": "Riesgo sistemático",
+                "patterns": ["¿Qué es el riesgo sistemático?"],
+                "responses": ["El riesgo sistemático es el riesgo inherente a todo el mercado o sector, no diversificable."]
+              },
+              {
+                "tag": "Riesgo no sistemático",
+                "patterns": ["¿Qué es el riesgo no sistemático?"],
+                "responses": ["El riesgo no sistemático es el riesgo específico de una empresa o industria, diversificable."]
+              },
+              {
+                "tag": "Índice bursátil",
+                "patterns": ["¿Qué es un índice bursátil?"],
+                "responses": ["Un índice bursátil es una medida del rendimiento de un conjunto de acciones que representan un mercado o sector."]
+              },
+              {
+                "tag": "Fondos de cobertura",
+                "patterns": ["¿Qué son los fondos de cobertura?"],
+                "responses": ["Los fondos de cobertura son fondos de inversión que emplean estrategias avanzadas para obtener rendimientos elevados."]
+              },
+              {
+                "tag": "Opciones financieras",
+                "patterns": ["¿Qué son las opciones financieras?"],
+                "responses": ["Las opciones financieras son contratos que otorgan el derecho, pero no la obligación, de comprar o vender un activo a un precio específico."]
+              },
+              {
+                "tag": "Futuros financieros",
+                "patterns": ["¿Qué son los futuros financieros?"],
+                "responses": ["Los futuros financieros son contratos que obligan a comprar o vender un activo a un precio específico en una fecha futura."]
+              },
+              {
+                "tag": "Venta en corto",
+                "patterns": ["¿Qué es la venta en corto?"],
+                "responses": ["La venta en corto es una estrategia de inversión que busca beneficiarse de la caída en el precio de un activo."]
+              },
+              {
+                "tag": "Compra apalancada",
+                "patterns": ["¿Qué es la compra apalancada?"],
+                "responses": ["La compra apalancada es la adquisición de una empresa utilizando una cantidad significativa de deuda."]
+              },
+              {
+                "tag": "Capital de trabajo",
+                "patterns": ["¿Qué es el capital de trabajo?"],
+                "responses": ["El capital de trabajo es la diferencia entre los activos corrientes y los pasivos corrientes de una empresa."]
+              },
+              {
+                "tag": "Ciclo económico",
+                "patterns": ["¿Qué es el ciclo económico?"],
+                "responses": ["El ciclo económico es el patrón de expansión y contracción de la economía a lo largo del tiempo."]
+              },
+              {
+                "tag": "Deflación",
+                "patterns": ["¿Qué es la deflación?"],
+                "responses": ["La deflación es la disminución general de los precios de bienes y servicios en una economía."]
+              },
+              {
+                "tag": "Banca de inversión",
+                "patterns": ["¿Qué es la banca de inversión?"],
+                "responses": ["La banca de inversión ofrece servicios de asesoría financiera y financiamiento a empresas y gobiernos."]
+              },
+              {
+                "tag": "Auditoría",
+                "patterns": ["¿Qué es la auditoría?"],
+                "responses": ["La auditoría es la revisión y verificación de los estados financieros de una empresa."]
+              },
+              {
+                "tag": "Activos intangibles",
+                "patterns": ["¿Qué son los activos intangibles?"],
+                "responses": ["Los activos intangibles son activos no físicos como patentes, marcas y derechos de autor."]
+              },
+              {
+                "tag": "Pasivos contingentes",
+                "patterns": ["¿Qué son los pasivos contingentes?"],
+                "responses": ["Los pasivos contingentes son posibles obligaciones que dependen de eventos futuros inciertos."]
+              },
+              {
+                "tag": "Rendimiento sobre la inversión",
+                "patterns": ["¿Qué es el rendimiento sobre la inversión?"],
+                "responses": ["El rendimiento sobre la inversión mide la ganancia o pérdida generada en relación con la inversión inicial."]
+              },
+              {
+                "tag": "Margen de beneficio",
+                "patterns": ["¿Qué es el margen de beneficio?"],
+                "responses": ["El margen de beneficio es el porcentaje de ingresos que una empresa retiene como ganancia neta después de los costos."]
+              },
+              {
+                "tag": "Punto de equilibrio",
+                "patterns": ["¿Qué es el punto de equilibrio?"],
+                "responses": ["El punto de equilibrio es el nivel de ventas en el cual los ingresos igualan los costos, sin generar ganancias ni pérdidas."]
+              },
+              {
+                "tag": "Estado de flujo de efectivo",
+                "patterns": ["¿Qué es el estado de flujo de efectivo?"],
+                "responses": ["El estado de flujo de efectivo es un informe financiero que muestra las entradas y salidas de efectivo de una empresa."]
+              },
+              {
+                "tag": "Financiamiento a corto plazo",
+                "patterns": ["¿Qué es el financiamiento a corto plazo?"],
+                "responses": ["El financiamiento a corto plazo se refiere a préstamos o créditos que deben ser pagados en menos de un año."]
+              },
+              {
+                "tag": "Financiamiento a largo plazo",
+                "patterns": ["¿Qué es el financiamiento a largo plazo?"],
+                "responses": ["El financiamiento a largo plazo se refiere a préstamos o créditos con un plazo de pago superior a un año."]
+              },
+              {
+                "tag": "Coste de oportunidad",
+                "patterns": ["¿Qué es el coste de oportunidad?"],
+                "responses": ["El coste de oportunidad es el valor de la mejor alternativa no elegida al tomar una decisión."]
+              },
+              {
+                "tag": "Valor de mercado",
+                "patterns": ["¿Qué es el valor de mercado?"],
+                "responses": ["El valor de mercado es el precio al que un activo se puede comprar o vender en un mercado abierto."]
+              },
+              {
+                "tag": "Valor contable",
+                "patterns": ["¿Qué es el valor contable?"],
+                "responses": ["El valor contable es el valor de un activo según los registros contables de una empresa."]
+              },
+              {
+                "tag": "Valor intrínseco",
+                "patterns": ["¿Qué es el valor intrínseco?"],
+                "responses": ["El valor intrínseco es el valor real de un activo basado en análisis fundamentales, sin considerar el precio de mercado."]
+              },
+              {
+                "tag": "Ratio de solvencia",
+                "patterns": ["¿Qué es el ratio de solvencia?"],
+                "responses": ["El ratio de solvencia mide la capacidad de una empresa para cumplir con sus obligaciones a largo plazo."]
+              },
+              {
+                "tag": "Ratio de liquidez",
+                "patterns": ["¿Qué es el ratio de liquidez?"],
+                "responses": ["El ratio de liquidez mide la capacidad de una empresa para cumplir con sus obligaciones a corto plazo."]
+              },
+              {
+                "tag": "Ratio de endeudamiento",
+                "patterns": ["¿Qué es el ratio de endeudamiento?"],
+                "responses": ["El ratio de endeudamiento mide el nivel de deuda de una empresa en relación con su capital."]
+              },
+              {
+                "tag": "Análisis de sensibilidad",
+                "patterns": ["¿Qué es el análisis de sensibilidad?"],
+                "responses": ["El análisis de sensibilidad evalúa cómo diferentes variables afectan el resultado de un modelo financiero."]
+              },
+              {
+                "tag": "Presupuesto de capital",
+                "patterns": ["¿Qué es el presupuesto de capital?"],
+                "responses": ["El presupuesto de capital es el proceso de planificación y gestión de inversiones a largo plazo de una empresa."]
+              },
+              {
+                "tag": "Costos fijos",
+                "patterns": ["¿Qué son los costos fijos?"],
+                "responses": ["Los costos fijos son costos que no cambian con el nivel de producción o ventas."]
+              },
+              {
+                "tag": "Costos variables",
+                "patterns": ["¿Qué son los costos variables?"],
+                "responses": ["Los costos variables cambian en función del nivel de producción o ventas."]
+              },{
+                "tag": "Contabilidad de gestión",
+                "patterns": ["¿Qué es la contabilidad de gestión?"],
+                "responses": ["La contabilidad de gestión se centra en proporcionar información para la toma de decisiones internas de una empresa."]
+              },
+              {
+                "tag": "Contabilidad de costos",
+                "patterns": ["¿Qué es la contabilidad de costos?"],
+                "responses": ["La contabilidad de costos analiza y registra todos los costos asociados con la producción de bienes o servicios."]
+              },
+              {
+                "tag": "Contabilidad financiera",
+                "patterns": ["¿Qué es la contabilidad financiera?"],
+                "responses": ["La contabilidad financiera se ocupa de la preparación de estados financieros para uso externo."]
+              },
+              {
+                "tag": "Contabilidad tributaria",
+                "patterns": ["¿Qué es la contabilidad tributaria?"],
+                "responses": ["La contabilidad tributaria se enfoca en la preparación de declaraciones fiscales y el cumplimiento de las leyes tributarias."]
+              },
+              {
+                "tag": "Plan de negocios",
+                "patterns": ["¿Qué es un plan de negocios?"],
+                "responses": ["Un plan de negocios es un documento que describe los objetivos, estrategias y previsiones financieras de una empresa."]
+              },
+              {
+                "tag": "Estrategia de salida",
+                "patterns": ["¿Qué es una estrategia de salida?"],
+                "responses": ["Una estrategia de salida es un plan para vender una inversión o empresa a fin de obtener ganancias."]
+              },
+              {
+                "tag": "Oferta pública inicial",
+                "patterns": ["¿Qué es una oferta pública inicial?"],
+                "responses": ["Una oferta pública inicial es el proceso mediante el cual una empresa privada se convierte en pública vendiendo acciones en la bolsa."]
+              },
+              {
+                "tag": "Capital riesgo",
+                "patterns": ["¿Qué es el capital riesgo?"],
+                "responses": ["El capital riesgo es financiamiento proporcionado a empresas emergentes con alto potencial de crecimiento a cambio de participación accionaria."]
+              },
+              {
+                "tag": "Capital privado",
+                "patterns": ["¿Qué es el capital privado?"],
+                "responses": ["El capital privado es financiamiento de inversionistas a empresas no cotizadas en bolsa, a menudo para reestructuración o expansión."]
+              },
+              {
+                "tag": "Análisis técnico",
+                "patterns": ["¿Qué es el análisis técnico?"],
+                "responses": ["El análisis técnico es una metodología para evaluar inversiones mediante el análisis de estadísticas generadas por la actividad del mercado."]
+              },
+              {
+                "tag": "Análisis fundamental",
+                "patterns": ["¿Qué es el análisis fundamental?"],
+                "responses": ["El análisis fundamental evalúa el valor de una inversión analizando factores económicos, financieros y otros cualitativos y cuantitativos."]
+              },
+              {
+                "tag": "Indicadores económicos",
+                "patterns": ["¿Qué son los indicadores económicos?"],
+                "responses": ["Los indicadores económicos son estadísticas que muestran el desempeño económico de un país, como el PIB, la inflación y el desempleo."]
+              },
+              {
+                "tag": "Política monetaria",
+                "patterns": ["¿Qué es la política monetaria?"],
+                "responses": ["La política monetaria es la gestión de la oferta de dinero y las tasas de interés por parte de un banco central para influir en la economía."]
+              },
+              {
+                "tag": "Política fiscal",
+                "patterns": ["¿Qué es la política fiscal?"],
+                "responses": ["La política fiscal es el uso de gasto público y recaudación de impuestos por parte del gobierno para influir en la economía."]
+              },{
+                "tag": "Gestión de riesgos",
+                "patterns": ["¿Qué es la gestión de riesgos?"],
+                "responses": ["La gestión de riesgos es el proceso de identificar, evaluar y mitigar los riesgos financieros en una empresa."]
+              },
+              {
+                "tag": "Planificación patrimonial",
+                "patterns": ["¿Qué es la planificación patrimonial?"],
+                "responses": ["La planificación patrimonial es el proceso de organizar y distribuir los activos de una persona para maximizar su valor y minimizar impuestos."]
+              },
+              {
+                "tag": "Fideicomiso",
+                "patterns": ["¿Qué es un fideicomiso?"],
+                "responses": ["Un fideicomiso es un acuerdo legal en el cual una persona o entidad administra activos en beneficio de otra."]
+              },
+              {
+                "tag": "Heredero",
+                "patterns": ["¿Qué es un heredero?"],
+                "responses": ["Un heredero es una persona que recibe los bienes de una persona fallecida según su testamento o las leyes de sucesión."]
+              },
+              {
+                "tag": "Testamento",
+                "patterns": ["¿Qué es un testamento?"],
+                "responses": ["Un testamento es un documento legal en el que una persona expresa cómo quiere que se distribuyan sus bienes después de su muerte."]
+              },
+              {
+                "tag": "Capitalización bursátil",
+                "patterns": ["¿Qué es la capitalización bursátil?"],
+                "responses": ["La capitalización bursátil es el valor total de mercado de todas las acciones en circulación de una empresa."]
+              },
+              {
+                "tag": "Dividendos",
+                "patterns": ["¿Qué son los dividendos?"],
+                "responses": ["Los dividendos son distribuciones de las ganancias de una empresa a sus accionistas."]
+              },
+              {
+                "tag": "Ingreso pasivo",
+                "patterns": ["¿Qué es el ingreso pasivo?"],
+                "responses": ["El ingreso pasivo es el dinero ganado con poco o ningún esfuerzo continuo, como alquileres o inversiones."]
+              },
+              {
+                "tag": "Ingreso residual",
+                "patterns": ["¿Qué es el ingreso residual?"],
+                "responses": ["El ingreso residual es el dinero que una persona sigue ganando después de haber terminado el trabajo inicial, como regalías."]
+              },
+              {
+                "tag": "Escrow",
+                "patterns": ["¿Qué es escrow?"],
+                "responses": ["Escrow es un acuerdo donde un tercero mantiene y regula el pago de fondos requeridos para dos partes involucradas en una transacción."]
+              },
+              {
+                "tag": "Deducción fiscal",
+                "patterns": ["¿Qué es una deducción fiscal?"],
+                "responses": ["Una deducción fiscal es un gasto que se puede restar de los ingresos brutos para reducir la cantidad de ingresos sujetos a impuestos."]
+              },
+              {
+                "tag": "Evasión fiscal",
+                "patterns": ["¿Qué es la evasión fiscal?"],
+                "responses": ["La evasión fiscal es el acto ilegal de no pagar los impuestos debidos."]
+              },
+              {
+                "tag": "Elusión fiscal",
+                "patterns": ["¿Qué es la elusión fiscal?"],
+                "responses": ["La elusión fiscal es el uso de métodos legales para minimizar el pago de impuestos."]
+              },
+              {
+                "tag": "Renta variable",
+                "patterns": ["¿Qué es la renta variable?"],
+                "responses": ["La renta variable se refiere a las inversiones en acciones, cuyo rendimiento no está garantizado."]
+              },
+              {
+                "tag": "Renta fija",
+                "patterns": ["¿Qué es la renta fija?"],
+                "responses": ["La renta fija se refiere a las inversiones que ofrecen retornos periódicos y predecibles, como los bonos."]
+              },
+              {
+                "tag": "Liquidez del mercado",
+                "patterns": ["¿Qué es la liquidez del mercado?"],
+                "responses": ["La liquidez del mercado es la capacidad de comprar o vender activos rápidamente sin afectar significativamente su precio."]
+              },
+              {
+                "tag": "Cotización bursátil",
+                "patterns": ["¿Qué es la cotización bursátil?"],
+                "responses": ["La cotización bursátil es el precio al cual se negocian las acciones de una empresa en el mercado de valores."]
+              },{
+                "tag": "Índice de precios al consumidor",
+                "patterns": ["¿Qué es el índice de precios al consumidor?"],
+                "responses": ["El índice de precios al consumidor mide la variación de los precios de una canasta de bienes y servicios representativa del consumo familiar."]
+              },
+              {
+                "tag": "Índice de precios al productor",
+                "patterns": ["¿Qué es el índice de precios al productor?"],
+                "responses": ["El índice de precios al productor mide la variación de los precios que reciben los productores por sus bienes y servicios."]
+              },
+              {
+                "tag": "Tasa de desempleo",
+                "patterns": ["¿Qué es la tasa de desempleo?"],
+                "responses": ["La tasa de desempleo es el porcentaje de la población activa que se encuentra en busca de trabajo y no lo encuentra."]
+              },
+              {
+                "tag": "Producto Interno Bruto",
+                "patterns": ["¿Qué es el Producto Interno Bruto?"],
+                "responses": ["El Producto Interno Bruto es el valor total de los bienes y servicios producidos en un país durante un periodo determinado."]
+              },
+              {
+                "tag": "Déficit presupuestario",
+                "patterns": ["¿Qué es el déficit presupuestario?"],
+                "responses": ["El déficit presupuestario ocurre cuando los gastos del gobierno superan sus ingresos en un periodo determinado."]
+              },
+              {
+                "tag": "Superávit presupuestario",
+                "patterns": ["¿Qué es el superávit presupuestario?"],
+                "responses": ["El superávit presupuestario ocurre cuando los ingresos del gobierno superan sus gastos en un periodo determinado."]
+              },
+              {
+                "tag": "Cuentas por cobrar",
+                "patterns": ["¿Qué son las cuentas por cobrar?"],
+                "responses": ["Las cuentas por cobrar son derechos de cobro que tiene una empresa por la venta de bienes o servicios a crédito."]
+              },
+              {
+                "tag": "Cuentas por pagar",
+                "patterns": ["¿Qué son las cuentas por pagar?"],
+                "responses": ["Las cuentas por pagar son obligaciones de pago que tiene una empresa por la compra de bienes o servicios a crédito."]
+              },
+              {
+                "tag": "Capital social",
+                "patterns": ["¿Qué es el capital social?"],
+                "responses": ["El capital social es el valor total de las aportaciones de los socios o accionistas de una empresa."]
+              },
+              {
+                "tag": "Autofinanciamiento",
+                "patterns": ["¿Qué es el autofinanciamiento?"],
+                "responses": ["El autofinanciamiento es la capacidad de una empresa para financiar sus operaciones y proyectos con sus propias ganancias."]
+              },
+              {
+                "tag": "Desinversión",
+                "patterns": ["¿Qué es la desinversión?"],
+                "responses": ["La desinversión es la venta de activos o negocios por parte de una empresa para obtener liquidez o reorientar su estrategia."]
+              },
+              {
+                "tag": "Ganancias retenidas",
+                "patterns": ["¿Qué son las ganancias retenidas?"],
+                "responses": ["Las ganancias retenidas son los beneficios no distribuidos a los accionistas y reinvertidos en la empresa."]
+              },
+              {
+                "tag": "Contabilidad por partida doble",
+                "patterns": ["¿Qué es la contabilidad por partida doble?"],
+                "responses": ["La contabilidad por partida doble es un sistema que registra cada transacción en dos cuentas, una de débito y otra de crédito."]
+              },
+              {
+                "tag": "Control interno",
+                "patterns": ["¿Qué es el control interno?"],
+                "responses": ["El control interno es un conjunto de procedimientos y políticas para salvaguardar los activos de una empresa y asegurar la exactitud de su información financiera."]
+              },
+              {
+                "tag": "Fraude financiero",
+                "patterns": ["¿Qué es el fraude financiero?"],
+                "responses": ["El fraude financiero es la manipulación o falsificación de información financiera para obtener beneficios ilegales."]
+              },
+              {
+                "tag": "Compliance",
+                "patterns": ["¿Qué es compliance?"],
+                "responses": ["Compliance se refiere al cumplimiento de leyes, normas y políticas internas por parte de una empresa."]
+              },
+              {
+                "tag": "Normas internacionales de contabilidad",
+                "patterns": ["¿Qué son las Normas Internacionales de Contabilidad?"],
+                "responses": ["Las Normas Internacionales de Contabilidad son estándares para la preparación de estados financieros, garantizando transparencia y comparabilidad."]
+              },
+              {
+                "tag": "Normas internacionales de información financiera",
+                "patterns": ["¿Qué son las Normas Internacionales de Información Financiera?"],
+                "responses": ["Las Normas Internacionales de Información Financiera son un conjunto de normas contables globales para la elaboración de informes financieros."]
+              },
+              {
+                "tag": "Contabilidad creativa",
+                "patterns": ["¿Qué es la contabilidad creativa?"],
+                "responses": ["La contabilidad creativa implica el uso de técnicas contables para presentar los estados financieros de una manera más favorable."]
+              },
+              {
+                "tag": "Valoración de empresas",
+                "patterns": ["¿Qué es la valoración de empresas?"],
+                "responses": ["La valoración de empresas es el proceso de determinar el valor económico de una empresa o unidad de negocio."]
+              },
+              {
+                "tag": "Alianzas estratégicas",
+                "patterns": ["¿Qué son las alianzas estratégicas?"],
+                "responses": ["Las alianzas estratégicas son acuerdos entre empresas para colaborar en proyectos específicos o compartir recursos."]
+              },
+              {
+                "tag": "Fusiones y adquisiciones",
+                "patterns": ["¿Qué son las fusiones y adquisiciones?"],
+                "responses": ["Las fusiones y adquisiciones son procesos donde dos empresas se combinan o una compra a otra para fortalecer su posición en el mercado."]
+              },
+              {
+                "tag": "Debida diligencia",
+                "patterns": ["¿Qué es la debida diligencia?"],
+                "responses": ["La debida diligencia es la investigación y evaluación de una empresa antes de una transacción comercial importante."]
+              },
+              {
+                "tag": "Informe anual",
+                "patterns": ["¿Qué es un informe anual?"],
+                "responses": ["Un informe anual es un documento que proporciona una visión general del desempeño financiero y operativo de una empresa durante el año."]
+              },{
+                "tag": "Ratios de rentabilidad",
+                "patterns": ["¿Qué son los ratios de rentabilidad?"],
+                "responses": ["Los ratios de rentabilidad miden la capacidad de una empresa para generar ganancias en relación con sus ingresos, activos o patrimonio."]
+              },
+              {
+                "tag": "Ratios de eficiencia",
+                "patterns": ["¿Qué son los ratios de eficiencia?"],
+                "responses": ["Los ratios de eficiencia evalúan cómo una empresa utiliza sus recursos para generar ingresos y maximizar beneficios."]
+              },
+              {
+                "tag": "Ratios de endeudamiento",
+                "patterns": ["¿Qué son los ratios de endeudamiento?"],
+                "responses": ["Los ratios de endeudamiento indican el nivel de deuda de una empresa en relación con su capital propio o activos totales."]
+              },
+              {
+                "tag": "Ratios de mercado",
+                "patterns": ["¿Qué son los ratios de mercado?"],
+                "responses": ["Los ratios de mercado evalúan el valor de mercado de una empresa en relación con su rendimiento financiero, como el PER."]
+              },
+              {
+                "tag": "Capital circulante",
+                "patterns": ["¿Qué es el capital circulante?"],
+                "responses": ["El capital circulante es la diferencia entre los activos corrientes y los pasivos corrientes de una empresa."]
+              },
+              {
+                "tag": "Préstamos sindicados",
+                "patterns": ["¿Qué son los préstamos sindicados?"],
+                "responses": ["Los préstamos sindicados son préstamos ofrecidos por un grupo de bancos a un solo prestatario."]
+              },
+              {
+                "tag": "Microfinanzas",
+                "patterns": ["¿Qué son las microfinanzas?"],
+                "responses": ["Las microfinanzas ofrecen servicios financieros a personas de bajos ingresos o pequeñas empresas que no tienen acceso a la banca tradicional."]
+              },
+              {
+                "tag": "Banca móvil",
+                "patterns": ["¿Qué es la banca móvil?"],
+                "responses": ["La banca móvil permite realizar operaciones bancarias a través de dispositivos móviles, como teléfonos inteligentes."]
+              },
+              {
+                "tag": "Criptomonedas",
+                "patterns": ["¿Qué son las criptomonedas?"],
+                "responses": ["Las criptomonedas son monedas digitales que utilizan la criptografía para asegurar y verificar transacciones."]
+              },
+              {
+                "tag": "Blockchain",
+                "patterns": ["¿Qué es blockchain?"],
+                "responses": ["Blockchain es una tecnología de registro distribuido que asegura y verifica transacciones mediante criptografía."]
+              },
+              {
+                "tag": "Fintech",
+                "patterns": ["¿Qué es fintech?"],
+                "responses": ["Fintech se refiere a las tecnologías financieras que buscan mejorar y automatizar los servicios y procesos financieros."]
+              },
+              {
+                "tag": "Economía colaborativa",
+                "patterns": ["¿Qué es la economía colaborativa?"],
+                "responses": ["La economía colaborativa se basa en compartir y utilizar recursos y servicios entre individuos, a menudo a través de plataformas digitales."]
+              },
+              {
+                "tag": "Crowdfunding",
+                "patterns": ["¿Qué es el crowdfunding?"],
+                "responses": ["El crowdfunding es un método de financiamiento donde se recauda dinero para proyectos o negocios a través de pequeñas contribuciones de muchas personas."]
+              },
+              {
+                "tag": "Peer-to-peer lending",
+                "patterns": ["¿Qué es el peer-to-peer lending?"],
+                "responses": ["El peer-to-peer lending es un sistema de préstamos donde los individuos prestan dinero directamente a otros sin intermediarios tradicionales."]
+              },
+              {
+                "tag": "Seguros",
+                "patterns": ["¿Qué son los seguros?"],
+                "responses": ["Los seguros son contratos que transfieren el riesgo de pérdida financiera de una persona o empresa a una aseguradora a cambio de una prima."]
+              },
+              {
+                "tag": "Reaseguro",
+                "patterns": ["¿Qué es el reaseguro?"],
+                "responses": ["El reaseguro es un acuerdo en el que una aseguradora transfiere parte de sus riesgos a otra aseguradora para reducir su exposición a grandes pérdidas."]
+              },
+              {
+                "tag": "Análisis crediticio",
+                "patterns": ["¿Qué es el análisis crediticio?"],
+                "responses": ["El análisis crediticio evalúa la capacidad de un prestatario para cumplir con sus obligaciones de deuda."]
+              },
+              {
+                "tag": "Perfil de riesgo",
+                "patterns": ["¿Qué es el perfil de riesgo?"],
+                "responses": ["El perfil de riesgo describe la disposición y capacidad de una persona o entidad para asumir riesgos financieros."]
+              },
+              {
+                "tag": "Puntuación de crédito",
+                "patterns": ["¿Qué es la puntuación de crédito?"],
+                "responses": ["La puntuación de crédito es una medida numérica de la solvencia crediticia de una persona, basada en su historial crediticio."]
+              },
+              {
+                "tag": "Escala salarial",
+                "patterns": ["¿Qué es una escala salarial?"],
+                "responses": ["Una escala salarial es una tabla que muestra los salarios correspondientes a diferentes niveles de experiencia y responsabilidad en una organización."]
+              },
+              {
+                "tag": "Hedge funds",
+                "patterns": ["¿Qué son los hedge funds?"],
+                "responses": ["Los hedge funds son fondos de inversión que emplean estrategias avanzadas para obtener altos rendimientos, a menudo con mayor riesgo."]
+              },
+              {
+                "tag": "Private equity",
+                "patterns": ["¿Qué es el private equity?"],
+                "responses": ["El private equity es capital invertido en empresas privadas no cotizadas, con el objetivo de mejorar su valor y eventualmente venderlas con ganancias."]
+              },
+              {
+                "tag": "Venture capital",
+                "patterns": ["¿Qué es el venture capital?"],
+                "responses": ["El venture capital es financiamiento proporcionado a startups y empresas emergentes con alto potencial de crecimiento a cambio de participación accionaria."]
+              },
+              {
+                "tag": "Bootstrapping",
+                "patterns": ["¿Qué es el bootstrapping?"],
+                "responses": ["El bootstrapping es la práctica de iniciar y hacer crecer un negocio con recursos mínimos y sin financiamiento externo."]
+              },
+              {
+                "tag": "Capital inicial",
+                "patterns": ["¿Qué es el capital inicial?"],
+                "responses": ["El capital inicial es el dinero necesario para lanzar un negocio y cubrir sus primeros gastos operativos."]
+              },
+              {
+                "tag": "Capital semilla",
+                "patterns": ["¿Qué es el capital semilla?"],
+                "responses": ["El capital semilla es financiamiento temprano proporcionado a startups para desarrollar su producto y modelo de negocio."]
+              },
+              {
+                "tag": "Préstamo puente",
+                "patterns": ["¿Qué es un préstamo puente?"],
+                "responses": ["Un préstamo puente es un financiamiento temporal utilizado para cubrir necesidades inmediatas de efectivo hasta obtener un financiamiento a largo plazo."]
+              },
+              {
+                "tag": "Acciones preferentes",
+                "patterns": ["¿Qué son las acciones preferentes?"],
+                "responses": ["Las acciones preferentes son valores que ofrecen dividendos fijos y tienen prioridad sobre las acciones comunes en la distribución de ganancias."]
+              },
+              {
+                "tag": "Fondos indexados",
+                "patterns": ["¿Qué son los fondos indexados?"],
+                "responses": ["Los fondos indexados son fondos de inversión que replican la composición y rendimiento de un índice de mercado específico."]
+              },
+              {
+                "tag": "Fondos cotizados",
+                "patterns": ["¿Qué son los fondos cotizados?"],
+                "responses": ["Los fondos cotizados (ETF) son fondos de inversión que se negocian en bolsas de valores y siguen el rendimiento de un índice, sector o activo."]
+              },
+              {
+                "tag": "Títulos de deuda",
+                "patterns": ["¿Qué son los títulos de deuda?"],
+                "responses": ["Los títulos de deuda son instrumentos financieros que representan un préstamo a una entidad, que debe ser reembolsado con intereses."]
+              },
+              {
+                "tag": "Bonos convertibles",
+                "patterns": ["¿Qué son los bonos convertibles?"],
+                "responses": ["Los bonos convertibles son títulos de deuda que pueden convertirse en acciones de la empresa emisora bajo ciertas condiciones."]
+              },
+              {
+                "tag": "Certificados de depósito",
+                "patterns": ["¿Qué son los certificados de depósito?"],
+                "responses": ["Los certificados de depósito son instrumentos financieros emitidos por bancos que ofrecen un rendimiento fijo por un periodo determinado."]
+              },
+              {
+                "tag": "Letras del Tesoro",
+                "patterns": ["¿Qué son las letras del Tesoro?"],
+                "responses": ["Las letras del Tesoro son títulos de deuda a corto plazo emitidos por el gobierno para financiar sus necesidades de efectivo."]
+              },
+              {
+                "tag": "Bonos corporativos",
+                "patterns": ["¿Qué son los bonos corporativos?"],
+                "responses": ["Los bonos corporativos son títulos de deuda emitidos por empresas para financiar sus operaciones y proyectos."]
+              },
+              {
+                "tag": "Bonos municipales",
+                "patterns": ["¿Qué son los bonos municipales?"],
+                "responses": ["Los bonos municipales son títulos de deuda emitidos por gobiernos locales para financiar proyectos públicos."]
+              },
+              {
+                "tag": "Bonos basura",
+                "patterns": ["¿Qué son los bonos basura?"],
+                "responses": ["Los bonos basura son títulos de deuda con alto riesgo de impago y por lo tanto ofrecen altos rendimientos."]
+              },
+              {
+                "tag": "Subasta de bonos",
+                "patterns": ["¿Qué es una subasta de bonos?"],
+                "responses": ["Una subasta de bonos es un proceso mediante el cual el gobierno o empresas venden bonos al mejor postor."]
+              },
+              {
+                "tag": "Eurobonos",
+                "patterns": ["¿Qué son los Eurobonos?"],
+                "responses": ["Los Eurobonos son bonos emitidos fuera del país en cuya moneda se denominan, y se colocan internacionalmente."]
+              },
+              {
+                "tag": "Divisas",
+                "patterns": ["¿Qué son las divisas?"],
+                "responses": ["Las divisas son monedas extranjeras utilizadas como medio de intercambio internacional."]
+              },
+              {
+                "tag": "Tipo de cambio",
+                "patterns": ["¿Qué es el tipo de cambio?"],
+                "responses": ["El tipo de cambio es el precio relativo de una moneda frente a otra, determinado por el mercado de divisas."]
+              },
+              {
+                "tag": "Hiperinflación",
+                "patterns": ["¿Qué es la hiperinflación?"],
+                "responses": ["La hiperinflación es un aumento descontrolado y extremo de los precios en una economía, erosionando el valor de la moneda de manera rápida y drástica."]
+              },
+              {
+                "tag": "Ajuste por inflación",
+                "patterns": ["¿Qué es el ajuste por inflación?"],
+                "responses": ["El ajuste por inflación es un proceso contable que corrige los estados financieros para reflejar los efectos de la inflación en el poder adquisitivo."]
+              },
+              {
+                "tag": "Desinflación",
+                "patterns": ["¿Qué es la desinflación?"],
+                "responses": ["La desinflación es la reducción gradual de la tasa de inflación, es decir, una disminución en el ritmo al que los precios aumentan."]
+              },
+              {
+                "tag": "Economía de escala",
+                "patterns": ["¿Qué es la economía de escala?"],
+                "responses": ["La economía de escala se refiere a la reducción de costos unitarios que una empresa obtiene al aumentar la producción o la escala de operaciones."]
+              },
+              {
+                "tag": "Economía de alcance",
+                "patterns": ["¿Qué es la economía de alcance?"],
+                "responses": ["La economía de alcance se refiere a la reducción de costos que una empresa obtiene al producir múltiples productos usando recursos comunes."]
+              },
+              {
+                "tag": "Valor temporal del dinero",
+                "patterns": ["¿Qué es el valor temporal del dinero?"],
+                "responses": ["El valor temporal del dinero es el concepto financiero que establece que el dinero disponible en el presente es más valioso que la misma cantidad en el futuro, debido a su capacidad de generar rendimientos o intereses."]
               }
+
+              
+              
+              
+              
+              
+             
+              
+              
               
         
       
