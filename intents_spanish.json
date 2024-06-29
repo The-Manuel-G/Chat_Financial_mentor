@@ -6,32 +6,8 @@
           "responses": ["¡Hola! ¿Como puedo ayudarte?", "Buenos dias, ¿en que puedo asistirte?", "Buenas tardes, ¿que necesitas?"]
       },
       {
-        "tag": "que_es_el_dinero",
-        "patterns": ["¿Que es el dinero?", "Para que se usa el dinero", "uso del dinero"],
-        "responses": ["Medio de intercambio ampliamente aceptado para la compra de bienes y servicios, unidad de cuenta, almacén de valor, Facilitar el comercio, valorar bienes y servicios, conservar poder adquisitivo, y establecer precios. "]
-    
-      },
-      {
-        "tag": "que_es_el_ahorro",
-        "patterns": ["¿Que es el ahorro?", "es importante ahorrar","Beneficios de ahorrar"],
-        "responses": ["El ahorro es la parte del ingreso que no se gasta inmediatamente y se guarda para usos futuros. Esto puede incluir depositar dinero en una cuenta bancaria, invertir en activos financieros, guardar efectivo Seguridad financiera y Cumplimiento de metas."]
-    
-      },
-      {
-        "tag": "como_puedo_ahorrar_mas",
-        "patterns": ["¿Como puedo ahorrar mas?", "metodos para ahorrar mas", "idea para aumentar mis ahorros"],
-        "responses": ["Haz un presupuesto. Reduce gastos innecesarios. Automatiza el ahorro. Busca ofertas en compras. Evita deudas. Revisa y ajusta servicios. Establece metas de ahorro. Crea un fondo de emergencia."]
-    
-      },
-      {
-        "tag": "como_puedo_ganar_mas_dinero",
-        "patterns": ["¿Como puedo ganar mas dinero?", "Como puedo aumentar mis ingresos", "metodos para ganar mas dinero"],
-        "responses": ["Mejora tus habilidades: Invierte en educación y cursos para aumentar tu valor en el mercado laboral. Avanza en tu carrera: Busca ascensos en tu trabajo actual o cambia a un empleo mejor pagado. Emprende: Inicia tu propio negocio o trabaja como freelance. Invierte: Compra acciones, bonos, bienes raíces o fondos mutuos para generar ingresos pasivos. Trabaja en tus ratos libres: Consigue un trabajo adicional o participa en la economía gig (Uber, entregas, etc.)."]
-    
-      },
-      {
         "tag": "modales",
-        "patterns": ["Hola", "como estas ", "estas listo", "estas lista para trabajar"],
+        "patterns": ["Hola", "como estas ", "estas listo", "estas lisa para trabajar"],
         "responses": ["¿Como puedo ayudarte?", "Estoy bien gracias a Dios , ¿en que puedo asistirte?", "Hola estoy disponible para asistirte , ¿que necesitas?"]
     
       },
@@ -1767,23 +1743,44 @@
                 "responses": ["El valor temporal del dinero es el concepto financiero que establece que el dinero disponible en el presente es más valioso que la misma cantidad en el futuro, debido a su capacidad de generar rendimientos o intereses."]
               },
               {
-                "tag": "Superintendencia",
+                "tag": "superintendencia_bancos",
                 "patterns": ["¿Qué es la Superintendencia de Bancos?"],
                 "responses": ["De acuerdo al Artículo 19 de la Ley No. 183–02, Mon­e­taria y Financiera del 21 de noviembre de 2002, la Super­in­ten­den­cia de Ban­cos tiene por fun­ción: “realizar, con plena autonomía fun­cional, la super­visión de las enti­dades de inter­me­diación financiera, con el objeto de ver­i­ficar el cumplim­iento por parte de dichas enti­dades de lo dis­puesto en esta Ley, Reglamen­tos, Instruc­tivos y Cir­cu­lares; requerir la con­sti­tu­ción de pro­vi­siones para cubrir ries­gos; exi­gir la reg­u­lar­ización de los incumplim­ien­tos a las dis­posi­ciones legales y reglamen­tarias vigentes; e imponer las cor­re­spon­di­entes san­ciones, a excep­ción de las que aplique el Banco Cen­tral en vir­tud de la citada ley."]
             
               },
               {
-                "tag": ["Prestaciones Laborales"],
-                "patterns": ["¿Qué son las prestaciones laborales?"],
+                "tag": ["prestaciones_laborales"],
+                "patterns": ["¿Qué son las prestaciones laborales?", "prestaciones laborables"],
                 "responses": ["Todo trabajador en República Dominicana tiene el derecho y la obligación de estar afiliado a una AFP o administradora de fondos de pensiones, así como al SFS o Seguro Familiar de Salud. Tal como lo indica la Ley de Seguridad Social (87-01), el Sistema Dominicano de Seguridad Social (SDSS) se basa en un sistema único de afiliación, cotización, plan de beneficios y prestaciones de servicios. Igualmente sucede con el registro previsional, que integra a los beneficiarios de todas las cajas y planes de pensión existentes. Una vez que te encuentras afiliado, realizarás un aporte mensual para ambas prestaciones. Este monto por prestaciones sociales es un pequeño porcentaje que se deduce de tu salario ordinario y bonificaciones (no se incluyen las horas extras). Otra parte del aporte lo realiza tu empleador o patrono. Estos fondos son recaudados y administrados por la Tesorería de la Seguridad Social (TSS)."]
               },
               {
-                  "tag":["Tipos de Prestaciones Laborales"],
-                  "patters":["¿Qué tipos de prestaciones laborales existen?"],
+                  "tag":["tipos_prestaciones_laborales"],
+                  "patters":["¿Qué tipos de prestaciones laborales existen?", "tipos prestaciones laborales"],
                   "responses":[
                     "1. Salario\nEl pago regular que el empleado recibe por su trabajo. Puede ser semanal, quincenal o mensual.\n\n2. Vacaciones\nLos empleados tienen derecho a un período de vacaciones remuneradas de 14 días laborables por cada año de servicio continuo. Después de cinco años de servicio continuo, el empleado tiene derecho a 18 días laborables de vacaciones.\n\n3. Doble Sueldo (Salario de Navidad)\nLos empleados tienen derecho a un salario adicional en el mes de diciembre, conocido como 'décimo tercer salario' o 'salario de Navidad'. Este es equivalente a una doceava parte del salario devengado durante el año calendario.\n\n4. Participación en las Utilidades (Bonificación)\nLas empresas deben distribuir el 10% de sus beneficios netos anuales entre sus empleados. Este monto se divide entre todos los empleados en proporción al salario devengado durante el año. La bonificación tiene un tope máximo equivalente a 45 días de salario para empleados ordinarios y 60 días de salario para empleados de larga duración.\n\n5. Preaviso\nEn caso de terminación del contrato de trabajo sin causa justificada, el empleador debe dar un preaviso al empleado. La duración del preaviso depende del tiempo que el empleado ha trabajado en la empresa:\n\nDe 3 a 6 meses: 7 días de preaviso.\nDe 6 meses a un año: 14 días de preaviso.\nMás de un año: 28 días de preaviso.\n\n6. Cesantía\nSi un empleado es despedido sin causa justificada después de haber trabajado por más de tres meses, tiene derecho a una indemnización por cesantía. El monto de la cesantía depende del tiempo de servicio:\n\nDe 3 a 6 meses: 6 días de salario.\nDe 6 meses a un año: 13 días de salario.\nDe 1 a 5 años: 21 días de salario por cada año de servicio.\nMás de 5 años: 23 días de salario por cada año de servicio.\n\n7. Subsidio por Enfermedad y Maternidad\nLas trabajadoras tienen derecho a un permiso de maternidad de 14 semanas (6 semanas antes del parto y 8 semanas después). Durante este período, la Seguridad Social cubre un porcentaje del salario de la empleada. Los empleados también tienen derecho a subsidios por enfermedad que cubren una parte de su salario durante el tiempo que estén incapacitados para trabajar.\n\n8. Seguro Familiar de Salud (SFS)\nParte de la Seguridad Social, el SFS proporciona cobertura médica a los empleados y sus dependientes. Tanto el empleador como el empleado contribuyen a este seguro.\n\n9. Administradora de Fondos de Pensiones (AFP)\nLos empleados y empleadores contribuyen a un fondo de pensiones que asegura una pensión de jubilación para el empleado al final de su vida laboral.\n\n10. Otros Beneficios\nDependiendo de la empresa y del contrato individual, pueden existir otros beneficios como bonos de desempeño, transporte, alimentación, educación, entre otros.\n\nEstas prestaciones laborales están diseñadas para proteger los derechos de los empleados y asegurar un ambiente de trabajo justo y equitativo. Es importante que tanto empleadores como empleados conozcan y respeten estas disposiciones legales."]
-                  }
-        
-  
+                  },
+                  {
+                    "tag": ["Productos Financieros"],
+                    "patterns": ["¿Qué productos financieros están disponibles en la República Dominicana?",
+                        "Productos financieros en RD",
+                        "¿Cuáles son los productos financieros en la República Dominicana?",
+                        "Diferentes tipos de productos financieros en RD",
+                        "Servicios financieros disponibles en la República Dominicana"],
+                    "responses": ["1. Cuentas de Ahorro\nOfrecen la posibilidad de depositar dinero y obtener intereses sobre el saldo.\n\n2. Cuentas Corrientes\nPermiten la gestión diaria del dinero, con facilidades de cheques y tarjetas de débito.\n\n3. Préstamos Personales\nCréditos otorgados a individuos para diversos propósitos, como la compra de bienes o la consolidación de deudas.\n\n4. Préstamos Hipotecarios\nFinanciamiento a largo plazo para la adquisición de viviendas.\n\n5. Tarjetas de Crédito\nLíneas de crédito rotativo que permiten a los usuarios realizar compras y pagar a plazos.\n\n6. Certificados de Depósito\nInversiones a plazo fijo que ofrecen un interés garantizado.\n\n7. Inversiones en Fondos Mutuos\nPermiten a los inversionistas diversificar su capital en una cartera gestionada profesionalmente.\n\n8. Seguros\nProductos financieros que proporcionan cobertura contra riesgos específicos, como seguros de vida, salud, vehículos y propiedades.\n\nEstos productos financieros están diseñados para satisfacer diversas necesidades económicas y están disponibles a través de diferentes instituciones financieras en la República Dominicana."]
+                },
+                {
+                  "tag": ["Tipos de Instituciones Financieras"],
+                  "patterns": [
+                      "¿Qué tipos de instituciones financieras existen en la República Dominicana?",
+                      "Tipos de instituciones financieras en RD",
+                      "¿Cuáles son las instituciones financieras en la República Dominicana?",
+                      "Diferentes tipos de instituciones financieras en RD",
+                      "Clasificación de instituciones financieras en la República Dominicana"
+                  ],
+                  "responses": [
+                      "1. Bancos Comerciales\nInstituciones que ofrecen servicios financieros como cuentas de ahorro, cuentas corrientes, préstamos y tarjetas de crédito a individuos y empresas.\n\n2. Asociaciones de Ahorros y Préstamos\nInstituciones dedicadas a fomentar el ahorro y proporcionar financiamiento hipotecario para la adquisición de viviendas.\n\n3. Bancos de Desarrollo\nInstituciones que financian proyectos de desarrollo económico y social, con énfasis en sectores productivos.\n\n4. Corporaciones de Crédito\nEntidades que otorgan financiamiento a empresas y proyectos específicos, generalmente a mediano y largo plazo.\n\n5. Casas de Cambio\nEstablecimientos que se dedican a la compra y venta de divisas extranjeras.\n\n6. Cooperativas de Ahorro y Crédito\nOrganizaciones financieras sin fines de lucro que proporcionan servicios financieros a sus miembros.\n\n7. Financieras\nEntidades que ofrecen créditos y préstamos a individuos y empresas, aunque no tienen la capacidad de captar depósitos como los bancos comerciales.\n\n8. Bancos de Ahorro y Crédito\nInstituciones que captan recursos del público y otorgan créditos, enfocándose en sectores específicos como el microcrédito.\n\nEstas instituciones están reguladas por la Superintendencia de Bancos de la República Dominicana para asegurar la estabilidad y transparencia del sistema financiero."
+                  ]
+              }
+            
   ]
 }
