@@ -6,8 +6,32 @@
           "responses": ["¡Hola! ¿Como puedo ayudarte?", "Buenos dias, ¿en que puedo asistirte?", "Buenas tardes, ¿que necesitas?"]
       },
       {
+        "tag": "que_es_el_dinero",
+        "patterns": ["¿Que es el dinero?", "Para que se usa el dinero", "uso del dinero"],
+        "responses": ["Medio de intercambio ampliamente aceptado para la compra de bienes y servicios, unidad de cuenta, almacén de valor, Facilitar el comercio, valorar bienes y servicios, conservar poder adquisitivo, y establecer precios. "]
+    
+      },
+      {
+        "tag": "que_es_el_ahorro",
+        "patterns": ["¿Que es el ahorro?", "es importante ahorrar","Beneficios de ahorrar"],
+        "responses": ["El ahorro es la parte del ingreso que no se gasta inmediatamente y se guarda para usos futuros. Esto puede incluir depositar dinero en una cuenta bancaria, invertir en activos financieros, guardar efectivo Seguridad financiera y Cumplimiento de metas."]
+    
+      },
+      {
+        "tag": "como_puedo_ahorrar_mas",
+        "patterns": ["¿Como puedo ahorrar mas?", "metodos para ahorrar mas", "idea para aumentar mis ahorros"],
+        "responses": ["Haz un presupuesto. Reduce gastos innecesarios. Automatiza el ahorro. Busca ofertas en compras. Evita deudas. Revisa y ajusta servicios. Establece metas de ahorro. Crea un fondo de emergencia."]
+    
+      },
+      {
+        "tag": "como_puedo_ganar_mas_dinero",
+        "patterns": ["¿Como puedo ganar mas dinero?", "Como puedo aumentar mis ingresos", "metodos para ganar mas dinero"],
+        "responses": ["Mejora tus habilidades: Invierte en educación y cursos para aumentar tu valor en el mercado laboral. Avanza en tu carrera: Busca ascensos en tu trabajo actual o cambia a un empleo mejor pagado. Emprende: Inicia tu propio negocio o trabaja como freelance. Invierte: Compra acciones, bonos, bienes raíces o fondos mutuos para generar ingresos pasivos. Trabaja en tus ratos libres: Consigue un trabajo adicional o participa en la economía gig (Uber, entregas, etc.)."]
+    
+      },
+      {
         "tag": "modales",
-        "patterns": ["Hola", "como estas ", "estas listo", "estas lisa para trabajar"],
+        "patterns": ["Hola", "como estas ", "estas listo", "estas lista para trabajar"],
         "responses": ["¿Como puedo ayudarte?", "Estoy bien gracias a Dios , ¿en que puedo asistirte?", "Hola estoy disponible para asistirte , ¿que necesitas?"]
     
       },
