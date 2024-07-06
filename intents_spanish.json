@@ -64,7 +64,7 @@
       {
           "tag": "ahorrar_jubilacion ", 
           "patterns": ["¿Como ahorro para la jubilacion?", "Consejos para el retiro", "Quiero planificar mi jubilacion"],
-          "responses": ["Para la jubilacion, Asegúrate de estar registrado y contribuyendo a tu cuenta en la Administradora de Fondos de Pensiones (AFP). Explora planes voluntarios ofrecidos por bancos y aseguradoras. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos. Estima tus gastos futuros. "]
+          "responses": ["Para la jubilacion, Asegurate de estar registrado y contribuyendo a tu cuenta en la Administradora de Fondos de Pensiones (AFP). Explora planes voluntarios ofrecidos por bancos y aseguradoras. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos. Estima tus gastos futuros. "]
       },
       {
           "tag": "educacion_financiera",
@@ -139,7 +139,7 @@
       {
         "tag": "que_es_el_plan_AFPs", 
         "patterns": ["¿Que es el plan de retiro AFPs?", "Es bueno el plan AFPs"],
-        "responses": [" El plan de retiro AFPs en la República Dominicana es un sistema de pensiones obligatorio administrado por Administradoras de Fondos de Pensiones (AFPs). el plan AFPs es beneficioso porque asegura que los trabajadores formales tengan un ahorro sistemático para su jubilación, gestionado por profesionales en inversiones. "]
+        "responses": [" El plan de retiro AFPs en la Republica Dominicana es un sistema de pensiones obligatorio administrado por Administradoras de Fondos de Pensiones (AFPs). el plan AFPs es beneficioso porque asegura que los trabajadores formales tengan un ahorro sistemático para su jubilacion, gestionado por profesionales en inversiones. "]
       },
 
       {
@@ -1000,878 +1000,1054 @@
                 "responses": ["No tengo informacion especifica sobre la historia del dinero en Antartida. ¿Hay otra area geografica o tema que te interese?"]
               },{
                 "tag": "Acciones",
-                "patterns": ["¿Qué son las acciones?"],
-                "responses": ["Las acciones son títulos valores que representan una parte proporcional del capital social de una empresa."]
+                "patterns": ["¿Que son las acciones?"],
+                "responses": ["Las acciones son titulos valores que representan una parte proporcional del capital social de una empresa."]
               },{
                 "tag": "Bonos",
-                "patterns": ["¿Qué son los bonos?"],
-                "responses": ["Los bonos son instrumentos de deuda emitidos por entidades para financiarse, que pagan intereses periódicos y devuelven el principal al vencimiento."]
+                "patterns": ["¿Que son los bonos?"],
+                "responses": ["Los bonos son instrumentos de deuda emitidos por entidades para financiarse, que pagan intereses periodicos y devuelven el principal al vencimiento."]
               },
               {
-                "tag": "Cartera de inversión",
-                "patterns": ["¿Qué es una cartera de inversión?"],
-                "responses": ["Una cartera de inversión es un conjunto de activos financieros diversificados que posee un inversor."]
+                "tag": "Cartera de inversion",
+                "patterns": ["¿Que es una cartera de inversion?"],
+                "responses": ["Una cartera de inversion es un conjunto de activos financieros diversificados que posee un inversor."]
               },
               {
-                "tag": "Diversificación",
-                "patterns": ["¿Qué es la diversificación?"],
-                "responses": ["La diversificación es una estrategia de inversión que reduce el riesgo distribuyendo las inversiones entre distintos activos."]
+                "tag": "Diversificacion",
+                "patterns": ["¿Que es la diversificacion?"],
+                "responses": ["La diversificacion es una estrategia de inversion que reduce el riesgo distribuyendo las inversiones entre distintos activos."]
               },
               {
                 "tag": "Apalancamiento",
-                "patterns": ["¿Qué es el apalancamiento?"],
-                "responses": ["El apalancamiento es el uso de deuda para aumentar el potencial de retorno de una inversión."]
+                "patterns": ["¿Que es el apalancamiento?"],
+                "responses": ["El apalancamiento es el uso de deuda para aumentar el potencial de retorno de una inversion."]
               },
               {
-                "tag": "Amortización",
-                "patterns": ["¿Qué es la amortización?"],
-                "responses": ["La amortización es el proceso de reducir una deuda mediante pagos periódicos hasta su eliminación."]
+                "tag": "Amortizacion",
+                "patterns": ["¿Que es la amortizacion?"],
+                "responses": ["La amortizacion es el proceso de reducir una deuda mediante pagos periodicos hasta su eliminacion."]
               },
               {
                 "tag": "Valor presente neto",
-                "patterns": ["¿Qué es el valor presente neto?"],
-                "responses": ["El valor presente neto es una medida de la rentabilidad de una inversión, calculada como el valor actual de los flujos de caja netos."]
+                "patterns": ["¿Que es el valor presente neto?"],
+                "responses": ["El valor presente neto es una medida de la rentabilidad de una inversion, calculada como el valor actual de los flujos de caja netos."]
               },
               {
                 "tag": "Tasa interna de retorno",
-                "patterns": ["¿Qué es la tasa interna de retorno?"],
-                "responses": ["La tasa interna de retorno es la tasa de descuento que iguala el valor presente neto de una inversión a cero."]
+                "patterns": ["¿Que es la tasa interna de retorno?"],
+                "responses": ["La tasa interna de retorno es la tasa de descuento que iguala el valor presente neto de una inversion a cero."]
               },
               {
                 "tag": "Mercado de capitales",
-                "patterns": ["¿Qué es el mercado de capitales?"],
+                "patterns": ["¿Que es el mercado de capitales?"],
                 "responses": ["El mercado de capitales es donde se negocian instrumentos financieros de largo plazo, como acciones y bonos."]
               },{
                 "tag": "Mercado de dinero",
-                "patterns": ["¿Qué es el mercado de dinero?"],
-                "responses": ["El mercado de dinero es donde se negocian instrumentos financieros a corto plazo, como letras del Tesoro y certificados de depósito."]
+                "patterns": ["¿Que es el mercado de dinero?"],
+                "responses": ["El mercado de dinero es donde se negocian instrumentos financieros a corto plazo, como letras del Tesoro y certificados de deposito."]
               },
               {
-                "tag": "Depreciación",
-                "patterns": ["¿Qué es la depreciación?"],
-                "responses": ["La depreciación es la reducción del valor de un activo a lo largo del tiempo debido al desgaste y la obsolescencia."]
+                "tag": "Depreciacion",
+                "patterns": ["¿Que es la depreciacion?"],
+                "responses": ["La depreciacion es la reduccion del valor de un activo a lo largo del tiempo debido al desgaste y la obsolescencia."]
               },
               {
-                "tag": "Crédito",
-                "patterns": ["¿Qué es el crédito?"],
-                "responses": ["El crédito es la capacidad de un individuo o empresa para obtener bienes o servicios antes de pagar por ellos."]
+                "tag": "Credito",
+                "patterns": ["¿Que es el credito?"],
+                "responses": ["El credito es la capacidad de un individuo o empresa para obtener bienes o servicios antes de pagar por ellos."]
               },
               {
-                "tag": "Débito",
-                "patterns": ["¿Qué es el débito?"],
-                "responses": ["El débito es un cargo que se realiza a una cuenta, reduciendo su saldo."]
+                "tag": "Debito",
+                "patterns": ["¿Que es el debito?"],
+                "responses": ["El debito es un cargo que se realiza a una cuenta, reduciendo su saldo."]
               },
               {
-                "tag": "Tasa de interés",
-                "patterns": ["¿Qué es la tasa de interés?"],
-                "responses": ["La tasa de interés es el porcentaje que se cobra por el uso del dinero prestado o invertido."]
+                "tag": "Tasa de interes",
+                "patterns": ["¿Que es la tasa de interes?"],
+                "responses": ["La tasa de interes es el porcentaje que se cobra por el uso del dinero prestado o invertido."]
               },
               {
                 "tag": "Arbitraje",
-                "patterns": ["¿Qué es el arbitraje?"],
+                "patterns": ["¿Que es el arbitraje?"],
                 "responses": ["El arbitraje es la compra y venta simultánea de un activo en diferentes mercados para aprovechar diferencias de precios."]
               },
               {
                 "tag": "Cobertura",
-                "patterns": ["¿Qué es la cobertura?"],
+                "patterns": ["¿Que es la cobertura?"],
                 "responses": ["La cobertura es una estrategia para reducir el riesgo financiero mediante el uso de instrumentos derivados."]
               },
               {
                 "tag": "Riesgo sistemático",
-                "patterns": ["¿Qué es el riesgo sistemático?"],
+                "patterns": ["¿Que es el riesgo sistemático?"],
                 "responses": ["El riesgo sistemático es el riesgo inherente a todo el mercado o sector, no diversificable."]
               },
               {
                 "tag": "Riesgo no sistemático",
-                "patterns": ["¿Qué es el riesgo no sistemático?"],
-                "responses": ["El riesgo no sistemático es el riesgo específico de una empresa o industria, diversificable."]
+                "patterns": ["¿Que es el riesgo no sistemático?"],
+                "responses": ["El riesgo no sistemático es el riesgo especifico de una empresa o industria, diversificable."]
               },
               {
-                "tag": "Índice bursátil",
-                "patterns": ["¿Qué es un índice bursátil?"],
-                "responses": ["Un índice bursátil es una medida del rendimiento de un conjunto de acciones que representan un mercado o sector."]
+                "tag": "indice bursátil",
+                "patterns": ["¿Que es un indice bursátil?"],
+                "responses": ["Un indice bursátil es una medida del rendimiento de un conjunto de acciones que representan un mercado o sector."]
               },
               {
                 "tag": "Fondos de cobertura",
-                "patterns": ["¿Qué son los fondos de cobertura?"],
-                "responses": ["Los fondos de cobertura son fondos de inversión que emplean estrategias avanzadas para obtener rendimientos elevados."]
+                "patterns": ["¿Que son los fondos de cobertura?"],
+                "responses": ["Los fondos de cobertura son fondos de inversion que emplean estrategias avanzadas para obtener rendimientos elevados."]
               },
               {
                 "tag": "Opciones financieras",
-                "patterns": ["¿Qué son las opciones financieras?"],
-                "responses": ["Las opciones financieras son contratos que otorgan el derecho, pero no la obligación, de comprar o vender un activo a un precio específico."]
+                "patterns": ["¿Que son las opciones financieras?"],
+                "responses": ["Las opciones financieras son contratos que otorgan el derecho, pero no la obligacion, de comprar o vender un activo a un precio especifico."]
               },
               {
                 "tag": "Futuros financieros",
-                "patterns": ["¿Qué son los futuros financieros?"],
-                "responses": ["Los futuros financieros son contratos que obligan a comprar o vender un activo a un precio específico en una fecha futura."]
+                "patterns": ["¿Que son los futuros financieros?"],
+                "responses": ["Los futuros financieros son contratos que obligan a comprar o vender un activo a un precio especifico en una fecha futura."]
               },
               {
                 "tag": "Venta en corto",
-                "patterns": ["¿Qué es la venta en corto?"],
-                "responses": ["La venta en corto es una estrategia de inversión que busca beneficiarse de la caída en el precio de un activo."]
+                "patterns": ["¿Que es la venta en corto?"],
+                "responses": ["La venta en corto es una estrategia de inversion que busca beneficiarse de la caida en el precio de un activo."]
               },
               {
                 "tag": "Compra apalancada",
-                "patterns": ["¿Qué es la compra apalancada?"],
-                "responses": ["La compra apalancada es la adquisición de una empresa utilizando una cantidad significativa de deuda."]
+                "patterns": ["¿Que es la compra apalancada?"],
+                "responses": ["La compra apalancada es la adquisicion de una empresa utilizando una cantidad significativa de deuda."]
               },
               {
                 "tag": "Capital de trabajo",
-                "patterns": ["¿Qué es el capital de trabajo?"],
+                "patterns": ["¿Que es el capital de trabajo?"],
                 "responses": ["El capital de trabajo es la diferencia entre los activos corrientes y los pasivos corrientes de una empresa."]
               },
               {
-                "tag": "Ciclo económico",
-                "patterns": ["¿Qué es el ciclo económico?"],
-                "responses": ["El ciclo económico es el patrón de expansión y contracción de la economía a lo largo del tiempo."]
+                "tag": "Ciclo economico",
+                "patterns": ["¿Que es el ciclo economico?"],
+                "responses": ["El ciclo economico es el patron de expansion y contraccion de la economia a lo largo del tiempo."]
               },
               {
-                "tag": "Deflación",
-                "patterns": ["¿Qué es la deflación?"],
-                "responses": ["La deflación es la disminución general de los precios de bienes y servicios en una economía."]
+                "tag": "Deflacion",
+                "patterns": ["¿Que es la deflacion?"],
+                "responses": ["La deflacion es la disminucion general de los precios de bienes y servicios en una economia."]
               },
               {
-                "tag": "Banca de inversión",
-                "patterns": ["¿Qué es la banca de inversión?"],
-                "responses": ["La banca de inversión ofrece servicios de asesoría financiera y financiamiento a empresas y gobiernos."]
+                "tag": "Banca de inversion",
+                "patterns": ["¿Que es la banca de inversion?"],
+                "responses": ["La banca de inversion ofrece servicios de asesoria financiera y financiamiento a empresas y gobiernos."]
               },
               {
-                "tag": "Auditoría",
-                "patterns": ["¿Qué es la auditoría?"],
-                "responses": ["La auditoría es la revisión y verificación de los estados financieros de una empresa."]
+                "tag": "Auditoria",
+                "patterns": ["¿Que es la auditoria?"],
+                "responses": ["La auditoria es la revision y verificacion de los estados financieros de una empresa."]
               },
               {
                 "tag": "Activos intangibles",
-                "patterns": ["¿Qué son los activos intangibles?"],
-                "responses": ["Los activos intangibles son activos no físicos como patentes, marcas y derechos de autor."]
+                "patterns": ["¿Que son los activos intangibles?"],
+                "responses": ["Los activos intangibles son activos no fisicos como patentes, marcas y derechos de autor."]
               },
               {
                 "tag": "Pasivos contingentes",
-                "patterns": ["¿Qué son los pasivos contingentes?"],
+                "patterns": ["¿Que son los pasivos contingentes?"],
                 "responses": ["Los pasivos contingentes son posibles obligaciones que dependen de eventos futuros inciertos."]
               },
               {
-                "tag": "Rendimiento sobre la inversión",
-                "patterns": ["¿Qué es el rendimiento sobre la inversión?"],
-                "responses": ["El rendimiento sobre la inversión mide la ganancia o pérdida generada en relación con la inversión inicial."]
+                "tag": "Rendimiento sobre la inversion",
+                "patterns": ["¿Que es el rendimiento sobre la inversion?"],
+                "responses": ["El rendimiento sobre la inversion mide la ganancia o perdida generada en relacion con la inversion inicial."]
               },
               {
                 "tag": "Margen de beneficio",
-                "patterns": ["¿Qué es el margen de beneficio?"],
-                "responses": ["El margen de beneficio es el porcentaje de ingresos que una empresa retiene como ganancia neta después de los costos."]
+                "patterns": ["¿Que es el margen de beneficio?"],
+                "responses": ["El margen de beneficio es el porcentaje de ingresos que una empresa retiene como ganancia neta despues de los costos."]
               },
               {
                 "tag": "Punto de equilibrio",
-                "patterns": ["¿Qué es el punto de equilibrio?"],
-                "responses": ["El punto de equilibrio es el nivel de ventas en el cual los ingresos igualan los costos, sin generar ganancias ni pérdidas."]
+                "patterns": ["¿Que es el punto de equilibrio?"],
+                "responses": ["El punto de equilibrio es el nivel de ventas en el cual los ingresos igualan los costos, sin generar ganancias ni perdidas."]
               },
               {
                 "tag": "Estado de flujo de efectivo",
-                "patterns": ["¿Qué es el estado de flujo de efectivo?"],
+                "patterns": ["¿Que es el estado de flujo de efectivo?"],
                 "responses": ["El estado de flujo de efectivo es un informe financiero que muestra las entradas y salidas de efectivo de una empresa."]
               },
               {
                 "tag": "Financiamiento a corto plazo",
-                "patterns": ["¿Qué es el financiamiento a corto plazo?"],
-                "responses": ["El financiamiento a corto plazo se refiere a préstamos o créditos que deben ser pagados en menos de un año."]
+                "patterns": ["¿Que es el financiamiento a corto plazo?"],
+                "responses": ["El financiamiento a corto plazo se refiere a prestamos o creditos que deben ser pagados en menos de un año."]
               },
               {
                 "tag": "Financiamiento a largo plazo",
-                "patterns": ["¿Qué es el financiamiento a largo plazo?"],
-                "responses": ["El financiamiento a largo plazo se refiere a préstamos o créditos con un plazo de pago superior a un año."]
+                "patterns": ["¿Que es el financiamiento a largo plazo?"],
+                "responses": ["El financiamiento a largo plazo se refiere a prestamos o creditos con un plazo de pago superior a un año."]
               },
               {
                 "tag": "Coste de oportunidad",
-                "patterns": ["¿Qué es el coste de oportunidad?"],
-                "responses": ["El coste de oportunidad es el valor de la mejor alternativa no elegida al tomar una decisión."]
+                "patterns": ["¿Que es el coste de oportunidad?"],
+                "responses": ["El coste de oportunidad es el valor de la mejor alternativa no elegida al tomar una decision."]
               },
               {
                 "tag": "Valor de mercado",
-                "patterns": ["¿Qué es el valor de mercado?"],
+                "patterns": ["¿Que es el valor de mercado?"],
                 "responses": ["El valor de mercado es el precio al que un activo se puede comprar o vender en un mercado abierto."]
               },
               {
                 "tag": "Valor contable",
-                "patterns": ["¿Qué es el valor contable?"],
-                "responses": ["El valor contable es el valor de un activo según los registros contables de una empresa."]
+                "patterns": ["¿Que es el valor contable?"],
+                "responses": ["El valor contable es el valor de un activo segun los registros contables de una empresa."]
               },
               {
-                "tag": "Valor intrínseco",
-                "patterns": ["¿Qué es el valor intrínseco?"],
-                "responses": ["El valor intrínseco es el valor real de un activo basado en análisis fundamentales, sin considerar el precio de mercado."]
+                "tag": "Valor intrinseco",
+                "patterns": ["¿Que es el valor intrinseco?"],
+                "responses": ["El valor intrinseco es el valor real de un activo basado en análisis fundamentales, sin considerar el precio de mercado."]
               },
               {
                 "tag": "Ratio de solvencia",
-                "patterns": ["¿Qué es el ratio de solvencia?"],
+                "patterns": ["¿Que es el ratio de solvencia?"],
                 "responses": ["El ratio de solvencia mide la capacidad de una empresa para cumplir con sus obligaciones a largo plazo."]
               },
               {
                 "tag": "Ratio de liquidez",
-                "patterns": ["¿Qué es el ratio de liquidez?"],
+                "patterns": ["¿Que es el ratio de liquidez?"],
                 "responses": ["El ratio de liquidez mide la capacidad de una empresa para cumplir con sus obligaciones a corto plazo."]
               },
               {
                 "tag": "Ratio de endeudamiento",
-                "patterns": ["¿Qué es el ratio de endeudamiento?"],
-                "responses": ["El ratio de endeudamiento mide el nivel de deuda de una empresa en relación con su capital."]
+                "patterns": ["¿Que es el ratio de endeudamiento?"],
+                "responses": ["El ratio de endeudamiento mide el nivel de deuda de una empresa en relacion con su capital."]
               },
               {
                 "tag": "Análisis de sensibilidad",
-                "patterns": ["¿Qué es el análisis de sensibilidad?"],
-                "responses": ["El análisis de sensibilidad evalúa cómo diferentes variables afectan el resultado de un modelo financiero."]
+                "patterns": ["¿Que es el análisis de sensibilidad?"],
+                "responses": ["El análisis de sensibilidad evalua como diferentes variables afectan el resultado de un modelo financiero."]
               },
               {
                 "tag": "Presupuesto de capital",
-                "patterns": ["¿Qué es el presupuesto de capital?"],
-                "responses": ["El presupuesto de capital es el proceso de planificación y gestión de inversiones a largo plazo de una empresa."]
+                "patterns": ["¿Que es el presupuesto de capital?"],
+                "responses": ["El presupuesto de capital es el proceso de planificacion y gestion de inversiones a largo plazo de una empresa."]
               },
               {
                 "tag": "Costos fijos",
-                "patterns": ["¿Qué son los costos fijos?"],
-                "responses": ["Los costos fijos son costos que no cambian con el nivel de producción o ventas."]
+                "patterns": ["¿Que son los costos fijos?"],
+                "responses": ["Los costos fijos son costos que no cambian con el nivel de produccion o ventas."]
               },
               {
                 "tag": "Costos variables",
-                "patterns": ["¿Qué son los costos variables?"],
-                "responses": ["Los costos variables cambian en función del nivel de producción o ventas."]
+                "patterns": ["¿Que son los costos variables?"],
+                "responses": ["Los costos variables cambian en funcion del nivel de produccion o ventas."]
               },{
-                "tag": "Contabilidad de gestión",
-                "patterns": ["¿Qué es la contabilidad de gestión?"],
-                "responses": ["La contabilidad de gestión se centra en proporcionar información para la toma de decisiones internas de una empresa."]
+                "tag": "Contabilidad de gestion",
+                "patterns": ["¿Que es la contabilidad de gestion?"],
+                "responses": ["La contabilidad de gestion se centra en proporcionar informacion para la toma de decisiones internas de una empresa."]
               },
               {
                 "tag": "Contabilidad de costos",
-                "patterns": ["¿Qué es la contabilidad de costos?"],
-                "responses": ["La contabilidad de costos analiza y registra todos los costos asociados con la producción de bienes o servicios."]
+                "patterns": ["¿Que es la contabilidad de costos?"],
+                "responses": ["La contabilidad de costos analiza y registra todos los costos asociados con la produccion de bienes o servicios."]
               },
               {
                 "tag": "Contabilidad financiera",
-                "patterns": ["¿Qué es la contabilidad financiera?"],
-                "responses": ["La contabilidad financiera se ocupa de la preparación de estados financieros para uso externo."]
+                "patterns": ["¿Que es la contabilidad financiera?"],
+                "responses": ["La contabilidad financiera se ocupa de la preparacion de estados financieros para uso externo."]
               },
               {
                 "tag": "Contabilidad tributaria",
-                "patterns": ["¿Qué es la contabilidad tributaria?"],
-                "responses": ["La contabilidad tributaria se enfoca en la preparación de declaraciones fiscales y el cumplimiento de las leyes tributarias."]
+                "patterns": ["¿Que es la contabilidad tributaria?"],
+                "responses": ["La contabilidad tributaria se enfoca en la preparacion de declaraciones fiscales y el cumplimiento de las leyes tributarias."]
               },
               {
                 "tag": "Plan de negocios",
-                "patterns": ["¿Qué es un plan de negocios?"],
+                "patterns": ["¿Que es un plan de negocios?"],
                 "responses": ["Un plan de negocios es un documento que describe los objetivos, estrategias y previsiones financieras de una empresa."]
               },
               {
                 "tag": "Estrategia de salida",
-                "patterns": ["¿Qué es una estrategia de salida?"],
-                "responses": ["Una estrategia de salida es un plan para vender una inversión o empresa a fin de obtener ganancias."]
+                "patterns": ["¿Que es una estrategia de salida?"],
+                "responses": ["Una estrategia de salida es un plan para vender una inversion o empresa a fin de obtener ganancias."]
               },
               {
-                "tag": "Oferta pública inicial",
-                "patterns": ["¿Qué es una oferta pública inicial?"],
-                "responses": ["Una oferta pública inicial es el proceso mediante el cual una empresa privada se convierte en pública vendiendo acciones en la bolsa."]
+                "tag": "Oferta publica inicial",
+                "patterns": ["¿Que es una oferta publica inicial?"],
+                "responses": ["Una oferta publica inicial es el proceso mediante el cual una empresa privada se convierte en publica vendiendo acciones en la bolsa."]
               },
               {
                 "tag": "Capital riesgo",
-                "patterns": ["¿Qué es el capital riesgo?"],
-                "responses": ["El capital riesgo es financiamiento proporcionado a empresas emergentes con alto potencial de crecimiento a cambio de participación accionaria."]
+                "patterns": ["¿Que es el capital riesgo?"],
+                "responses": ["El capital riesgo es financiamiento proporcionado a empresas emergentes con alto potencial de crecimiento a cambio de participacion accionaria."]
               },
               {
                 "tag": "Capital privado",
-                "patterns": ["¿Qué es el capital privado?"],
-                "responses": ["El capital privado es financiamiento de inversionistas a empresas no cotizadas en bolsa, a menudo para reestructuración o expansión."]
+                "patterns": ["¿Que es el capital privado?"],
+                "responses": ["El capital privado es financiamiento de inversionistas a empresas no cotizadas en bolsa, a menudo para reestructuracion o expansion."]
               },
               {
-                "tag": "Análisis técnico",
-                "patterns": ["¿Qué es el análisis técnico?"],
-                "responses": ["El análisis técnico es una metodología para evaluar inversiones mediante el análisis de estadísticas generadas por la actividad del mercado."]
+                "tag": "Análisis tecnico",
+                "patterns": ["¿Que es el análisis tecnico?"],
+                "responses": ["El análisis tecnico es una metodologia para evaluar inversiones mediante el análisis de estadisticas generadas por la actividad del mercado."]
               },
               {
                 "tag": "Análisis fundamental",
-                "patterns": ["¿Qué es el análisis fundamental?"],
-                "responses": ["El análisis fundamental evalúa el valor de una inversión analizando factores económicos, financieros y otros cualitativos y cuantitativos."]
+                "patterns": ["¿Que es el análisis fundamental?"],
+                "responses": ["El análisis fundamental evalua el valor de una inversion analizando factores economicos, financieros y otros cualitativos y cuantitativos."]
               },
               {
-                "tag": "Indicadores económicos",
-                "patterns": ["¿Qué son los indicadores económicos?"],
-                "responses": ["Los indicadores económicos son estadísticas que muestran el desempeño económico de un país, como el PIB, la inflación y el desempleo."]
+                "tag": "Indicadores economicos",
+                "patterns": ["¿Que son los indicadores economicos?"],
+                "responses": ["Los indicadores economicos son estadisticas que muestran el desempeño economico de un pais, como el PIB, la inflacion y el desempleo."]
               },
               {
-                "tag": "Política monetaria",
-                "patterns": ["¿Qué es la política monetaria?"],
-                "responses": ["La política monetaria es la gestión de la oferta de dinero y las tasas de interés por parte de un banco central para influir en la economía."]
+                "tag": "Politica monetaria",
+                "patterns": ["¿Que es la politica monetaria?"],
+                "responses": ["La politica monetaria es la gestion de la oferta de dinero y las tasas de interes por parte de un banco central para influir en la economia."]
               },
               {
-                "tag": "Política fiscal",
-                "patterns": ["¿Qué es la política fiscal?"],
-                "responses": ["La política fiscal es el uso de gasto público y recaudación de impuestos por parte del gobierno para influir en la economía."]
+                "tag": "Politica fiscal",
+                "patterns": ["¿Que es la politica fiscal?"],
+                "responses": ["La politica fiscal es el uso de gasto publico y recaudacion de impuestos por parte del gobierno para influir en la economia."]
               },{
-                "tag": "Gestión de riesgos",
-                "patterns": ["¿Qué es la gestión de riesgos?"],
-                "responses": ["La gestión de riesgos es el proceso de identificar, evaluar y mitigar los riesgos financieros en una empresa."]
+                "tag": "Gestion de riesgos",
+                "patterns": ["¿Que es la gestion de riesgos?"],
+                "responses": ["La gestion de riesgos es el proceso de identificar, evaluar y mitigar los riesgos financieros en una empresa."]
               },
               {
-                "tag": "Planificación patrimonial",
-                "patterns": ["¿Qué es la planificación patrimonial?"],
-                "responses": ["La planificación patrimonial es el proceso de organizar y distribuir los activos de una persona para maximizar su valor y minimizar impuestos."]
+                "tag": "Planificacion patrimonial",
+                "patterns": ["¿Que es la planificacion patrimonial?"],
+                "responses": ["La planificacion patrimonial es el proceso de organizar y distribuir los activos de una persona para maximizar su valor y minimizar impuestos."]
               },
               {
                 "tag": "Fideicomiso",
-                "patterns": ["¿Qué es un fideicomiso?"],
+                "patterns": ["¿Que es un fideicomiso?"],
                 "responses": ["Un fideicomiso es un acuerdo legal en el cual una persona o entidad administra activos en beneficio de otra."]
               },
               {
                 "tag": "Heredero",
-                "patterns": ["¿Qué es un heredero?"],
-                "responses": ["Un heredero es una persona que recibe los bienes de una persona fallecida según su testamento o las leyes de sucesión."]
+                "patterns": ["¿Que es un heredero?"],
+                "responses": ["Un heredero es una persona que recibe los bienes de una persona fallecida segun su testamento o las leyes de sucesion."]
               },
               {
                 "tag": "Testamento",
-                "patterns": ["¿Qué es un testamento?"],
-                "responses": ["Un testamento es un documento legal en el que una persona expresa cómo quiere que se distribuyan sus bienes después de su muerte."]
+                "patterns": ["¿Que es un testamento?"],
+                "responses": ["Un testamento es un documento legal en el que una persona expresa como quiere que se distribuyan sus bienes despues de su muerte."]
               },
               {
-                "tag": "Capitalización bursátil",
-                "patterns": ["¿Qué es la capitalización bursátil?"],
-                "responses": ["La capitalización bursátil es el valor total de mercado de todas las acciones en circulación de una empresa."]
+                "tag": "Capitalizacion bursátil",
+                "patterns": ["¿Que es la capitalizacion bursátil?"],
+                "responses": ["La capitalizacion bursátil es el valor total de mercado de todas las acciones en circulacion de una empresa."]
               },
               {
                 "tag": "Dividendos",
-                "patterns": ["¿Qué son los dividendos?"],
+                "patterns": ["¿Que son los dividendos?"],
                 "responses": ["Los dividendos son distribuciones de las ganancias de una empresa a sus accionistas."]
               },
               {
                 "tag": "Ingreso pasivo",
-                "patterns": ["¿Qué es el ingreso pasivo?"],
-                "responses": ["El ingreso pasivo es el dinero ganado con poco o ningún esfuerzo continuo, como alquileres o inversiones."]
+                "patterns": ["¿Que es el ingreso pasivo?"],
+                "responses": ["El ingreso pasivo es el dinero ganado con poco o ningun esfuerzo continuo, como alquileres o inversiones."]
               },
               {
                 "tag": "Ingreso residual",
-                "patterns": ["¿Qué es el ingreso residual?"],
-                "responses": ["El ingreso residual es el dinero que una persona sigue ganando después de haber terminado el trabajo inicial, como regalías."]
+                "patterns": ["¿Que es el ingreso residual?"],
+                "responses": ["El ingreso residual es el dinero que una persona sigue ganando despues de haber terminado el trabajo inicial, como regalias."]
               },
               {
                 "tag": "Escrow",
-                "patterns": ["¿Qué es escrow?"],
-                "responses": ["Escrow es un acuerdo donde un tercero mantiene y regula el pago de fondos requeridos para dos partes involucradas en una transacción."]
+                "patterns": ["¿Que es escrow?"],
+                "responses": ["Escrow es un acuerdo donde un tercero mantiene y regula el pago de fondos requeridos para dos partes involucradas en una transaccion."]
               },
               {
-                "tag": "Deducción fiscal",
-                "patterns": ["¿Qué es una deducción fiscal?"],
-                "responses": ["Una deducción fiscal es un gasto que se puede restar de los ingresos brutos para reducir la cantidad de ingresos sujetos a impuestos."]
+                "tag": "Deduccion fiscal",
+                "patterns": ["¿Que es una deduccion fiscal?"],
+                "responses": ["Una deduccion fiscal es un gasto que se puede restar de los ingresos brutos para reducir la cantidad de ingresos sujetos a impuestos."]
               },
               {
-                "tag": "Evasión fiscal",
-                "patterns": ["¿Qué es la evasión fiscal?"],
-                "responses": ["La evasión fiscal es el acto ilegal de no pagar los impuestos debidos."]
+                "tag": "Evasion fiscal",
+                "patterns": ["¿Que es la evasion fiscal?"],
+                "responses": ["La evasion fiscal es el acto ilegal de no pagar los impuestos debidos."]
               },
               {
-                "tag": "Elusión fiscal",
-                "patterns": ["¿Qué es la elusión fiscal?"],
-                "responses": ["La elusión fiscal es el uso de métodos legales para minimizar el pago de impuestos."]
+                "tag": "Elusion fiscal",
+                "patterns": ["¿Que es la elusion fiscal?"],
+                "responses": ["La elusion fiscal es el uso de metodos legales para minimizar el pago de impuestos."]
               },
               {
                 "tag": "Renta variable",
-                "patterns": ["¿Qué es la renta variable?"],
+                "patterns": ["¿Que es la renta variable?"],
                 "responses": ["La renta variable se refiere a las inversiones en acciones, cuyo rendimiento no está garantizado."]
               },
               {
                 "tag": "Renta fija",
-                "patterns": ["¿Qué es la renta fija?"],
-                "responses": ["La renta fija se refiere a las inversiones que ofrecen retornos periódicos y predecibles, como los bonos."]
+                "patterns": ["¿Que es la renta fija?"],
+                "responses": ["La renta fija se refiere a las inversiones que ofrecen retornos periodicos y predecibles, como los bonos."]
               },
               {
                 "tag": "Liquidez del mercado",
-                "patterns": ["¿Qué es la liquidez del mercado?"],
+                "patterns": ["¿Que es la liquidez del mercado?"],
                 "responses": ["La liquidez del mercado es la capacidad de comprar o vender activos rápidamente sin afectar significativamente su precio."]
               },
               {
-                "tag": "Cotización bursátil",
-                "patterns": ["¿Qué es la cotización bursátil?"],
-                "responses": ["La cotización bursátil es el precio al cual se negocian las acciones de una empresa en el mercado de valores."]
+                "tag": "Cotizacion bursátil",
+                "patterns": ["¿Que es la cotizacion bursátil?"],
+                "responses": ["La cotizacion bursátil es el precio al cual se negocian las acciones de una empresa en el mercado de valores."]
               },{
-                "tag": "Índice de precios al consumidor",
-                "patterns": ["¿Qué es el índice de precios al consumidor?"],
-                "responses": ["El índice de precios al consumidor mide la variación de los precios de una canasta de bienes y servicios representativa del consumo familiar."]
+                "tag": "indice de precios al consumidor",
+                "patterns": ["¿Que es el indice de precios al consumidor?"],
+                "responses": ["El indice de precios al consumidor mide la variacion de los precios de una canasta de bienes y servicios representativa del consumo familiar."]
               },
               {
-                "tag": "Índice de precios al productor",
-                "patterns": ["¿Qué es el índice de precios al productor?"],
-                "responses": ["El índice de precios al productor mide la variación de los precios que reciben los productores por sus bienes y servicios."]
+                "tag": "indice de precios al productor",
+                "patterns": ["¿Que es el indice de precios al productor?"],
+                "responses": ["El indice de precios al productor mide la variacion de los precios que reciben los productores por sus bienes y servicios."]
               },
               {
                 "tag": "Tasa de desempleo",
-                "patterns": ["¿Qué es la tasa de desempleo?"],
-                "responses": ["La tasa de desempleo es el porcentaje de la población activa que se encuentra en busca de trabajo y no lo encuentra."]
+                "patterns": ["¿Que es la tasa de desempleo?"],
+                "responses": ["La tasa de desempleo es el porcentaje de la poblacion activa que se encuentra en busca de trabajo y no lo encuentra."]
               },
               {
                 "tag": "Producto Interno Bruto",
-                "patterns": ["¿Qué es el Producto Interno Bruto?"],
-                "responses": ["El Producto Interno Bruto es el valor total de los bienes y servicios producidos en un país durante un periodo determinado."]
+                "patterns": ["¿Que es el Producto Interno Bruto?"],
+                "responses": ["El Producto Interno Bruto es el valor total de los bienes y servicios producidos en un pais durante un periodo determinado."]
               },
               {
-                "tag": "Déficit presupuestario",
-                "patterns": ["¿Qué es el déficit presupuestario?"],
-                "responses": ["El déficit presupuestario ocurre cuando los gastos del gobierno superan sus ingresos en un periodo determinado."]
+                "tag": "Deficit presupuestario",
+                "patterns": ["¿Que es el deficit presupuestario?"],
+                "responses": ["El deficit presupuestario ocurre cuando los gastos del gobierno superan sus ingresos en un periodo determinado."]
               },
               {
                 "tag": "Superávit presupuestario",
-                "patterns": ["¿Qué es el superávit presupuestario?"],
+                "patterns": ["¿Que es el superávit presupuestario?"],
                 "responses": ["El superávit presupuestario ocurre cuando los ingresos del gobierno superan sus gastos en un periodo determinado."]
               },
               {
                 "tag": "Cuentas por cobrar",
-                "patterns": ["¿Qué son las cuentas por cobrar?"],
-                "responses": ["Las cuentas por cobrar son derechos de cobro que tiene una empresa por la venta de bienes o servicios a crédito."]
+                "patterns": ["¿Que son las cuentas por cobrar?"],
+                "responses": ["Las cuentas por cobrar son derechos de cobro que tiene una empresa por la venta de bienes o servicios a credito."]
               },
               {
                 "tag": "Cuentas por pagar",
-                "patterns": ["¿Qué son las cuentas por pagar?"],
-                "responses": ["Las cuentas por pagar son obligaciones de pago que tiene una empresa por la compra de bienes o servicios a crédito."]
+                "patterns": ["¿Que son las cuentas por pagar?"],
+                "responses": ["Las cuentas por pagar son obligaciones de pago que tiene una empresa por la compra de bienes o servicios a credito."]
               },
               {
                 "tag": "Capital social",
-                "patterns": ["¿Qué es el capital social?"],
+                "patterns": ["¿Que es el capital social?"],
                 "responses": ["El capital social es el valor total de las aportaciones de los socios o accionistas de una empresa."]
               },
               {
                 "tag": "Autofinanciamiento",
-                "patterns": ["¿Qué es el autofinanciamiento?"],
+                "patterns": ["¿Que es el autofinanciamiento?"],
                 "responses": ["El autofinanciamiento es la capacidad de una empresa para financiar sus operaciones y proyectos con sus propias ganancias."]
               },
               {
-                "tag": "Desinversión",
-                "patterns": ["¿Qué es la desinversión?"],
-                "responses": ["La desinversión es la venta de activos o negocios por parte de una empresa para obtener liquidez o reorientar su estrategia."]
+                "tag": "Desinversion",
+                "patterns": ["¿Que es la desinversion?"],
+                "responses": ["La desinversion es la venta de activos o negocios por parte de una empresa para obtener liquidez o reorientar su estrategia."]
               },
               {
                 "tag": "Ganancias retenidas",
-                "patterns": ["¿Qué son las ganancias retenidas?"],
+                "patterns": ["¿Que son las ganancias retenidas?"],
                 "responses": ["Las ganancias retenidas son los beneficios no distribuidos a los accionistas y reinvertidos en la empresa."]
               },
               {
                 "tag": "Contabilidad por partida doble",
-                "patterns": ["¿Qué es la contabilidad por partida doble?"],
-                "responses": ["La contabilidad por partida doble es un sistema que registra cada transacción en dos cuentas, una de débito y otra de crédito."]
+                "patterns": ["¿Que es la contabilidad por partida doble?"],
+                "responses": ["La contabilidad por partida doble es un sistema que registra cada transaccion en dos cuentas, una de debito y otra de credito."]
               },
               {
                 "tag": "Control interno",
-                "patterns": ["¿Qué es el control interno?"],
-                "responses": ["El control interno es un conjunto de procedimientos y políticas para salvaguardar los activos de una empresa y asegurar la exactitud de su información financiera."]
+                "patterns": ["¿Que es el control interno?"],
+                "responses": ["El control interno es un conjunto de procedimientos y politicas para salvaguardar los activos de una empresa y asegurar la exactitud de su informacion financiera."]
               },
               {
                 "tag": "Fraude financiero",
-                "patterns": ["¿Qué es el fraude financiero?"],
-                "responses": ["El fraude financiero es la manipulación o falsificación de información financiera para obtener beneficios ilegales."]
+                "patterns": ["¿Que es el fraude financiero?"],
+                "responses": ["El fraude financiero es la manipulacion o falsificacion de informacion financiera para obtener beneficios ilegales."]
               },
               {
                 "tag": "Compliance",
-                "patterns": ["¿Qué es compliance?"],
-                "responses": ["Compliance se refiere al cumplimiento de leyes, normas y políticas internas por parte de una empresa."]
+                "patterns": ["¿Que es compliance?"],
+                "responses": ["Compliance se refiere al cumplimiento de leyes, normas y politicas internas por parte de una empresa."]
               },
               {
                 "tag": "Normas internacionales de contabilidad",
-                "patterns": ["¿Qué son las Normas Internacionales de Contabilidad?"],
-                "responses": ["Las Normas Internacionales de Contabilidad son estándares para la preparación de estados financieros, garantizando transparencia y comparabilidad."]
+                "patterns": ["¿Que son las Normas Internacionales de Contabilidad?"],
+                "responses": ["Las Normas Internacionales de Contabilidad son estándares para la preparacion de estados financieros, garantizando transparencia y comparabilidad."]
               },
               {
-                "tag": "Normas internacionales de información financiera",
-                "patterns": ["¿Qué son las Normas Internacionales de Información Financiera?"],
-                "responses": ["Las Normas Internacionales de Información Financiera son un conjunto de normas contables globales para la elaboración de informes financieros."]
+                "tag": "Normas internacionales de informacion financiera",
+                "patterns": ["¿Que son las Normas Internacionales de Informacion Financiera?"],
+                "responses": ["Las Normas Internacionales de Informacion Financiera son un conjunto de normas contables globales para la elaboracion de informes financieros."]
               },
               {
                 "tag": "Contabilidad creativa",
-                "patterns": ["¿Qué es la contabilidad creativa?"],
-                "responses": ["La contabilidad creativa implica el uso de técnicas contables para presentar los estados financieros de una manera más favorable."]
+                "patterns": ["¿Que es la contabilidad creativa?"],
+                "responses": ["La contabilidad creativa implica el uso de tecnicas contables para presentar los estados financieros de una manera más favorable."]
               },
               {
-                "tag": "Valoración de empresas",
-                "patterns": ["¿Qué es la valoración de empresas?"],
-                "responses": ["La valoración de empresas es el proceso de determinar el valor económico de una empresa o unidad de negocio."]
+                "tag": "Valoracion de empresas",
+                "patterns": ["¿Que es la valoracion de empresas?"],
+                "responses": ["La valoracion de empresas es el proceso de determinar el valor economico de una empresa o unidad de negocio."]
               },
               {
-                "tag": "Alianzas estratégicas",
-                "patterns": ["¿Qué son las alianzas estratégicas?"],
-                "responses": ["Las alianzas estratégicas son acuerdos entre empresas para colaborar en proyectos específicos o compartir recursos."]
+                "tag": "Alianzas estrategicas",
+                "patterns": ["¿Que son las alianzas estrategicas?"],
+                "responses": ["Las alianzas estrategicas son acuerdos entre empresas para colaborar en proyectos especificos o compartir recursos."]
               },
               {
                 "tag": "Fusiones y adquisiciones",
-                "patterns": ["¿Qué son las fusiones y adquisiciones?"],
-                "responses": ["Las fusiones y adquisiciones son procesos donde dos empresas se combinan o una compra a otra para fortalecer su posición en el mercado."]
+                "patterns": ["¿Que son las fusiones y adquisiciones?"],
+                "responses": ["Las fusiones y adquisiciones son procesos donde dos empresas se combinan o una compra a otra para fortalecer su posicion en el mercado."]
               },
               {
                 "tag": "Debida diligencia",
-                "patterns": ["¿Qué es la debida diligencia?"],
-                "responses": ["La debida diligencia es la investigación y evaluación de una empresa antes de una transacción comercial importante."]
+                "patterns": ["¿Que es la debida diligencia?"],
+                "responses": ["La debida diligencia es la investigacion y evaluacion de una empresa antes de una transaccion comercial importante."]
               },
               {
                 "tag": "Informe anual",
-                "patterns": ["¿Qué es un informe anual?"],
-                "responses": ["Un informe anual es un documento que proporciona una visión general del desempeño financiero y operativo de una empresa durante el año."]
+                "patterns": ["¿Que es un informe anual?"],
+                "responses": ["Un informe anual es un documento que proporciona una vision general del desempeño financiero y operativo de una empresa durante el año."]
               },{
                 "tag": "Ratios de rentabilidad",
-                "patterns": ["¿Qué son los ratios de rentabilidad?"],
-                "responses": ["Los ratios de rentabilidad miden la capacidad de una empresa para generar ganancias en relación con sus ingresos, activos o patrimonio."]
+                "patterns": ["¿Que son los ratios de rentabilidad?"],
+                "responses": ["Los ratios de rentabilidad miden la capacidad de una empresa para generar ganancias en relacion con sus ingresos, activos o patrimonio."]
               },
               {
                 "tag": "Ratios de eficiencia",
-                "patterns": ["¿Qué son los ratios de eficiencia?"],
-                "responses": ["Los ratios de eficiencia evalúan cómo una empresa utiliza sus recursos para generar ingresos y maximizar beneficios."]
+                "patterns": ["¿Que son los ratios de eficiencia?"],
+                "responses": ["Los ratios de eficiencia evaluan como una empresa utiliza sus recursos para generar ingresos y maximizar beneficios."]
               },
               {
                 "tag": "Ratios de endeudamiento",
-                "patterns": ["¿Qué son los ratios de endeudamiento?"],
-                "responses": ["Los ratios de endeudamiento indican el nivel de deuda de una empresa en relación con su capital propio o activos totales."]
+                "patterns": ["¿Que son los ratios de endeudamiento?"],
+                "responses": ["Los ratios de endeudamiento indican el nivel de deuda de una empresa en relacion con su capital propio o activos totales."]
               },
               {
                 "tag": "Ratios de mercado",
-                "patterns": ["¿Qué son los ratios de mercado?"],
-                "responses": ["Los ratios de mercado evalúan el valor de mercado de una empresa en relación con su rendimiento financiero, como el PER."]
+                "patterns": ["¿Que son los ratios de mercado?"],
+                "responses": ["Los ratios de mercado evaluan el valor de mercado de una empresa en relacion con su rendimiento financiero, como el PER."]
               },
               {
                 "tag": "Capital circulante",
-                "patterns": ["¿Qué es el capital circulante?"],
+                "patterns": ["¿Que es el capital circulante?"],
                 "responses": ["El capital circulante es la diferencia entre los activos corrientes y los pasivos corrientes de una empresa."]
               },
               {
-                "tag": "Préstamos sindicados",
-                "patterns": ["¿Qué son los préstamos sindicados?"],
-                "responses": ["Los préstamos sindicados son préstamos ofrecidos por un grupo de bancos a un solo prestatario."]
+                "tag": "Prestamos sindicados",
+                "patterns": ["¿Que son los prestamos sindicados?"],
+                "responses": ["Los prestamos sindicados son prestamos ofrecidos por un grupo de bancos a un solo prestatario."]
               },
               {
                 "tag": "Microfinanzas",
-                "patterns": ["¿Qué son las microfinanzas?"],
+                "patterns": ["¿Que son las microfinanzas?"],
                 "responses": ["Las microfinanzas ofrecen servicios financieros a personas de bajos ingresos o pequeñas empresas que no tienen acceso a la banca tradicional."]
               },
               {
-                "tag": "Banca móvil",
-                "patterns": ["¿Qué es la banca móvil?"],
-                "responses": ["La banca móvil permite realizar operaciones bancarias a través de dispositivos móviles, como teléfonos inteligentes."]
+                "tag": "Banca movil",
+                "patterns": ["¿Que es la banca movil?"],
+                "responses": ["La banca movil permite realizar operaciones bancarias a traves de dispositivos moviles, como telefonos inteligentes."]
               },
               {
                 "tag": "Criptomonedas",
-                "patterns": ["¿Qué son las criptomonedas?"],
-                "responses": ["Las criptomonedas son monedas digitales que utilizan la criptografía para asegurar y verificar transacciones."]
+                "patterns": ["¿Que son las criptomonedas?"],
+                "responses": ["Las criptomonedas son monedas digitales que utilizan la criptografia para asegurar y verificar transacciones."]
               },
               {
                 "tag": "Blockchain",
-                "patterns": ["¿Qué es blockchain?"],
-                "responses": ["Blockchain es una tecnología de registro distribuido que asegura y verifica transacciones mediante criptografía."]
+                "patterns": ["¿Que es blockchain?"],
+                "responses": ["Blockchain es una tecnologia de registro distribuido que asegura y verifica transacciones mediante criptografia."]
               },
               {
                 "tag": "Fintech",
-                "patterns": ["¿Qué es fintech?"],
-                "responses": ["Fintech se refiere a las tecnologías financieras que buscan mejorar y automatizar los servicios y procesos financieros."]
+                "patterns": ["¿Que es fintech?"],
+                "responses": ["Fintech se refiere a las tecnologias financieras que buscan mejorar y automatizar los servicios y procesos financieros."]
               },
               {
-                "tag": "Economía colaborativa",
-                "patterns": ["¿Qué es la economía colaborativa?"],
-                "responses": ["La economía colaborativa se basa en compartir y utilizar recursos y servicios entre individuos, a menudo a través de plataformas digitales."]
+                "tag": "Economia colaborativa",
+                "patterns": ["¿Que es la economia colaborativa?"],
+                "responses": ["La economia colaborativa se basa en compartir y utilizar recursos y servicios entre individuos, a menudo a traves de plataformas digitales."]
               },
               {
                 "tag": "Crowdfunding",
-                "patterns": ["¿Qué es el crowdfunding?"],
-                "responses": ["El crowdfunding es un método de financiamiento donde se recauda dinero para proyectos o negocios a través de pequeñas contribuciones de muchas personas."]
+                "patterns": ["¿Que es el crowdfunding?"],
+                "responses": ["El crowdfunding es un metodo de financiamiento donde se recauda dinero para proyectos o negocios a traves de pequeñas contribuciones de muchas personas."]
               },
               {
                 "tag": "Peer-to-peer lending",
-                "patterns": ["¿Qué es el peer-to-peer lending?"],
-                "responses": ["El peer-to-peer lending es un sistema de préstamos donde los individuos prestan dinero directamente a otros sin intermediarios tradicionales."]
+                "patterns": ["¿Que es el peer-to-peer lending?"],
+                "responses": ["El peer-to-peer lending es un sistema de prestamos donde los individuos prestan dinero directamente a otros sin intermediarios tradicionales."]
               },
               {
                 "tag": "Seguros",
-                "patterns": ["¿Qué son los seguros?"],
-                "responses": ["Los seguros son contratos que transfieren el riesgo de pérdida financiera de una persona o empresa a una aseguradora a cambio de una prima."]
+                "patterns": ["¿Que son los seguros?"],
+                "responses": ["Los seguros son contratos que transfieren el riesgo de perdida financiera de una persona o empresa a una aseguradora a cambio de una prima."]
               },
               {
                 "tag": "Reaseguro",
-                "patterns": ["¿Qué es el reaseguro?"],
-                "responses": ["El reaseguro es un acuerdo en el que una aseguradora transfiere parte de sus riesgos a otra aseguradora para reducir su exposición a grandes pérdidas."]
+                "patterns": ["¿Que es el reaseguro?"],
+                "responses": ["El reaseguro es un acuerdo en el que una aseguradora transfiere parte de sus riesgos a otra aseguradora para reducir su exposicion a grandes perdidas."]
               },
               {
                 "tag": "Análisis crediticio",
-                "patterns": ["¿Qué es el análisis crediticio?"],
-                "responses": ["El análisis crediticio evalúa la capacidad de un prestatario para cumplir con sus obligaciones de deuda."]
+                "patterns": ["¿Que es el análisis crediticio?"],
+                "responses": ["El análisis crediticio evalua la capacidad de un prestatario para cumplir con sus obligaciones de deuda."]
               },
               {
                 "tag": "Perfil de riesgo",
-                "patterns": ["¿Qué es el perfil de riesgo?"],
-                "responses": ["El perfil de riesgo describe la disposición y capacidad de una persona o entidad para asumir riesgos financieros."]
+                "patterns": ["¿Que es el perfil de riesgo?"],
+                "responses": ["El perfil de riesgo describe la disposicion y capacidad de una persona o entidad para asumir riesgos financieros."]
               },
               {
-                "tag": "Puntuación de crédito",
-                "patterns": ["¿Qué es la puntuación de crédito?"],
-                "responses": ["La puntuación de crédito es una medida numérica de la solvencia crediticia de una persona, basada en su historial crediticio."]
+                "tag": "Puntuacion de credito",
+                "patterns": ["¿Que es la puntuacion de credito?"],
+                "responses": ["La puntuacion de credito es una medida numerica de la solvencia crediticia de una persona, basada en su historial crediticio."]
               },
               {
                 "tag": "Escala salarial",
-                "patterns": ["¿Qué es una escala salarial?"],
-                "responses": ["Una escala salarial es una tabla que muestra los salarios correspondientes a diferentes niveles de experiencia y responsabilidad en una organización."]
+                "patterns": ["¿Que es una escala salarial?"],
+                "responses": ["Una escala salarial es una tabla que muestra los salarios correspondientes a diferentes niveles de experiencia y responsabilidad en una organizacion."]
               },
               {
                 "tag": "Hedge funds",
-                "patterns": ["¿Qué son los hedge funds?"],
-                "responses": ["Los hedge funds son fondos de inversión que emplean estrategias avanzadas para obtener altos rendimientos, a menudo con mayor riesgo."]
+                "patterns": ["¿Que son los hedge funds?"],
+                "responses": ["Los hedge funds son fondos de inversion que emplean estrategias avanzadas para obtener altos rendimientos, a menudo con mayor riesgo."]
               },
               {
                 "tag": "Private equity",
-                "patterns": ["¿Qué es el private equity?"],
+                "patterns": ["¿Que es el private equity?"],
                 "responses": ["El private equity es capital invertido en empresas privadas no cotizadas, con el objetivo de mejorar su valor y eventualmente venderlas con ganancias."]
               },
               {
                 "tag": "Venture capital",
-                "patterns": ["¿Qué es el venture capital?"],
-                "responses": ["El venture capital es financiamiento proporcionado a startups y empresas emergentes con alto potencial de crecimiento a cambio de participación accionaria."]
+                "patterns": ["¿Que es el venture capital?"],
+                "responses": ["El venture capital es financiamiento proporcionado a startups y empresas emergentes con alto potencial de crecimiento a cambio de participacion accionaria."]
               },
               {
                 "tag": "Bootstrapping",
-                "patterns": ["¿Qué es el bootstrapping?"],
-                "responses": ["El bootstrapping es la práctica de iniciar y hacer crecer un negocio con recursos mínimos y sin financiamiento externo."]
+                "patterns": ["¿Que es el bootstrapping?"],
+                "responses": ["El bootstrapping es la práctica de iniciar y hacer crecer un negocio con recursos minimos y sin financiamiento externo."]
               },
               {
                 "tag": "Capital inicial",
-                "patterns": ["¿Qué es el capital inicial?"],
+                "patterns": ["¿Que es el capital inicial?"],
                 "responses": ["El capital inicial es el dinero necesario para lanzar un negocio y cubrir sus primeros gastos operativos."]
               },
               {
                 "tag": "Capital semilla",
-                "patterns": ["¿Qué es el capital semilla?"],
+                "patterns": ["¿Que es el capital semilla?"],
                 "responses": ["El capital semilla es financiamiento temprano proporcionado a startups para desarrollar su producto y modelo de negocio."]
               },
               {
-                "tag": "Préstamo puente",
-                "patterns": ["¿Qué es un préstamo puente?"],
-                "responses": ["Un préstamo puente es un financiamiento temporal utilizado para cubrir necesidades inmediatas de efectivo hasta obtener un financiamiento a largo plazo."]
+                "tag": "Prestamo puente",
+                "patterns": ["¿Que es un prestamo puente?"],
+                "responses": ["Un prestamo puente es un financiamiento temporal utilizado para cubrir necesidades inmediatas de efectivo hasta obtener un financiamiento a largo plazo."]
               },
               {
                 "tag": "Acciones preferentes",
-                "patterns": ["¿Qué son las acciones preferentes?"],
-                "responses": ["Las acciones preferentes son valores que ofrecen dividendos fijos y tienen prioridad sobre las acciones comunes en la distribución de ganancias."]
+                "patterns": ["¿Que son las acciones preferentes?"],
+                "responses": ["Las acciones preferentes son valores que ofrecen dividendos fijos y tienen prioridad sobre las acciones comunes en la distribucion de ganancias."]
               },
               {
                 "tag": "Fondos indexados",
-                "patterns": ["¿Qué son los fondos indexados?"],
-                "responses": ["Los fondos indexados son fondos de inversión que replican la composición y rendimiento de un índice de mercado específico."]
+                "patterns": ["¿Que son los fondos indexados?"],
+                "responses": ["Los fondos indexados son fondos de inversion que replican la composicion y rendimiento de un indice de mercado especifico."]
               },
               {
                 "tag": "Fondos cotizados",
-                "patterns": ["¿Qué son los fondos cotizados?"],
-                "responses": ["Los fondos cotizados (ETF) son fondos de inversión que se negocian en bolsas de valores y siguen el rendimiento de un índice, sector o activo."]
+                "patterns": ["¿Que son los fondos cotizados?"],
+                "responses": ["Los fondos cotizados (ETF) son fondos de inversion que se negocian en bolsas de valores y siguen el rendimiento de un indice, sector o activo."]
               },
               {
-                "tag": "Títulos de deuda",
-                "patterns": ["¿Qué son los títulos de deuda?"],
-                "responses": ["Los títulos de deuda son instrumentos financieros que representan un préstamo a una entidad, que debe ser reembolsado con intereses."]
+                "tag": "Titulos de deuda",
+                "patterns": ["¿Que son los titulos de deuda?"],
+                "responses": ["Los titulos de deuda son instrumentos financieros que representan un prestamo a una entidad, que debe ser reembolsado con intereses."]
               },
               {
                 "tag": "Bonos convertibles",
-                "patterns": ["¿Qué son los bonos convertibles?"],
-                "responses": ["Los bonos convertibles son títulos de deuda que pueden convertirse en acciones de la empresa emisora bajo ciertas condiciones."]
+                "patterns": ["¿Que son los bonos convertibles?"],
+                "responses": ["Los bonos convertibles son titulos de deuda que pueden convertirse en acciones de la empresa emisora bajo ciertas condiciones."]
               },
               {
-                "tag": "Certificados de depósito",
-                "patterns": ["¿Qué son los certificados de depósito?"],
-                "responses": ["Los certificados de depósito son instrumentos financieros emitidos por bancos que ofrecen un rendimiento fijo por un periodo determinado."]
+                "tag": "Certificados de deposito",
+                "patterns": ["¿Que son los certificados de deposito?"],
+                "responses": ["Los certificados de deposito son instrumentos financieros emitidos por bancos que ofrecen un rendimiento fijo por un periodo determinado."]
               },
               {
                 "tag": "Letras del Tesoro",
-                "patterns": ["¿Qué son las letras del Tesoro?"],
-                "responses": ["Las letras del Tesoro son títulos de deuda a corto plazo emitidos por el gobierno para financiar sus necesidades de efectivo."]
+                "patterns": ["¿Que son las letras del Tesoro?"],
+                "responses": ["Las letras del Tesoro son titulos de deuda a corto plazo emitidos por el gobierno para financiar sus necesidades de efectivo."]
               },
               {
+                "tag": "La Cuenta de Capitalizacion Individual (CCI)",
+                "patterns": ["La Cuenta de Capitalizacion Individual (CCI)", "Que es la CCI", "Que es una cuenta de capitalizacion individual"],
+                "responses": ["La Cuenta de Capitalizacion Individual (CCI) es el registro individual unificado de los aportes que son propiedad exclusiva de cada afiliado. Este registro comprende todos los aportes voluntarios y obligatorios, el monto que corresponda al bono de reconocimiento cuando se haga efectivo, si aplica, pago de prestaciones y la rentabilidad que le corresponda del fondo administrado. El afiliado podrá tener solo una cuenta para fines de ahorro de pension, por tanto ninguna persona podrá afiliarse a más de una AFP."]
+              },
+              {
+                "tag": "Administradoras de Fondos de Pensiones (AFP)",
+                "patterns": ["Administradoras de Fondos de Pensiones (AFP)", "Que es la AFP", "Que es la administradora de fondos de pensiones"],
+                "responses": ["Las Administradoras de Fondos de Pensiones (AFP) son empresas especializadas, cuyo unico objeto es administrar las cuentas personales de los afiliados e invertir adecuadamente los fondos de pensiones. De igual modo, otorgar y administrar las pensiones correspondientes. Todo esto obedeciendo estrictamente los principios de la seguridad social y las disposiciones de la Ley 87-01 y sus normas complementarias. Las AFP podrán ser publicas, privadas o mixtas. \n\nLas AFP serán supervisadas y controladas directamente por la Superintendencia de Pensiones, cuya funcion principal será velar por el estricto cumplimiento de la Ley y sus normas complementarias, proteger los intereses de los afiliados, vigilar la solvencia financiera de las AFP y contribuir al fortalecimiento del Sistema. \n\n"]
+              },
+              {
+                "tag": "Regimenes de financiamiento del SDSS",
+                "patterns": ["Regimenes de financiamiento del SDSS"],
+                "responses": ["Para garantizar la cobertura de toda la poblacion, La Ley 87-01 establece tres regimenes de financiamiento para el Sistema Dominicano de Seguridad Social: Contributivo, Subsidiado y Contributivo Subsidiado. \n\nRegimen Contributivo: comprende a todos los trabajadores asalariados publicos y privados a los empleadores, financiado por los trabajadores (70%) y empleadores (30%), incluyendo al Estado como empleador. \n\nRegimen Subsidiado: protege a los trabajadores por cuenta propia con ingresos inestables e inferiores al salario minimo nacional, asi como a los desempleados, discapacitados e indigentes, y el mismo es financiado fundamentalmente por el Estado Dominicano. \n\nRegimen Contributivo Subsidiado: protege a los profesionales tecnicos independientes y a los trabajadores por cuenta propia con ingresos promedio, iguales o superiores a un salario minimo nacional, con aportes del trabajador y un subsidio estatal para suplir la falta del empleador."]
+              },
+              {
+                "tag": "Sistema Dominicano de Seguridad Social (SDSS)",
+                "patterns": ["Sistema Dominicano de Seguridad Social (SDSS)", "Que es el SDSS", "Que es el sistema dominicano de seguridad social"],
+                "responses": ["La ley No. 87-01, promulgada en el año 2001, crea el Sistema Dominicano de Seguridad Social (SDSS), cuyo objetivo es la proteccion de la poblacion contra ciertos riesgos a traves de la operacion de los sistemas de pensiones, salud y riesgos laborales. Todos los dominicanos y extranjeros residentes legales en el territorio nacional están cubiertos."]
+              },
+              {
+                "tag": "Que_es_la_contabilidad",
+                "patterns": ["¿Que es la contabilidad?", "contabilidad"],
+                "responses": ["Es una disciplina que se encarga de estudiar ,medir y analizar el patrimonio, la situacion patrimonial economica y financiera de una empresa u organizacion, con el fin de facilitar la toma de decisiones en el seno de la misma y el control externo, presentando la informacion, previamente registrada, de manera sistemática y util para las distintas partes interesadas."]
+              },
+              {
+                "tag": "Ventaja de la tarjeta de credito",
+                "patterns": ["Cual es seria la ventaja de tener una tarjeta de credito", "ventajas de la tarjeta de credito"],
+                "responses": ["Algunas de las ventajas de utilizar una tarjeta de credito son: \n\n 1-Control de gastos. Todo consumo que realices con la tarjeta de credito queda registrado en tus movimientos, lo cual te facilita verificar en que estás gastando tu dinero.\n\n2-Financiamiento gratuito. Si pagas mensualmente la deuda de tu tarjeta de credito en su totalidad antes de la fecha de vencimiento, estás recibiendo financiamiento sin pagar intereses. \n\n3-Beneficios por uso. Con el fin de incentivar el uso de la tarjeta de credito, las instituciones financieras, además de los planes de recompensa o devoluciones, ofrecen otros beneficios como pueden ser  descuentos en comercios, seguros de vida, seguros para autos alquilados, asistencia en viajes, acceso a salas VIP en aeropuertos, entre otros. Estos varian por tarjeta y es bueno conocerlos para sacarle el mejor provecho posible. \n\n4-No usar efectivo. La tarjeta de credito es un medio de pago muy popular con el cual puedes hacer compras en un gran numero de comercios, tanto local como internacionalmente. Esto te ofrece la oportunidad de no tener que utilizar efectivo y lidiar con el riesgo que implica cargar tu dinero en fisico, ya sea que se deteriore, que se extravie o que te lo roben, por ejemplo. Además del espacio que ocupa en tus bolsillos. \n\n5-Mejorar tu historial y puntaje de credito. Cada vez que realizas consumos con tu tarjeta de credito estás tomando un prestamo, por lo que tu comportamiento de uso y pago quedará registrado en tu historial de credito. Por lo que, utilizarla correctamente, puede mejorar tu historial y puntaje de credito. \n\n6-Generacion de recompensas o devoluciones. Por solo utilizar la tarjeta como medio de pago para realizar tus compras puedes generar puntos que, luego de acumular una cantidad determinada, los puedes canjear por premios como pueden ser dinero, bonos de compras, pasajes de avion, etc."]
+              },
+              {
+                "tag": "Que_es_una_tarjeta_de_credito",
+                "patterns": ["Definicion de tarjeta de credito", "Que es una tarjeta de credito", "tarjeta de credito"],
+                "responses": ["La tarjeta de credito es un instrumento de financiamiento que cuenta con un limite de credito que puedes utilizar para realizar compras en comercios que lo acepten como medio de pago. En Republica Dominicana solo pueden ser emitidas por un Banco multiple, Banco de ahorro y credito o Asociacion de ahorros y prestamos. Al utilizarla, el usuario o tarjetahabiente asume la obligacion de devolver los montos consumidos y, en caso de aplicar, pagar los intereses y comisiones bancarias asociadas. "]
+              },
+              {
+                "tag": "Desventajas de usar una tarjeta de credito",
+                "patterns": ["Desventajas de usar una tarjeta de credito", "Desventaja de una tarjeta de credito"],
+                "responses": [" Endeudamiento rápido. Cada consumo que realizas con tu tarjeta de credito es una deuda que debes pagar luego y lo unico que te detiene al momento de hacer compras es el limite de credito de la misma, por lo que es muy fácil acumular una deuda que se te dificulte pagar luego. \n\nEmpeorar historial y puntaje de credito. Cada vez que realizas consumos con tu tarjeta de credito estás tomando un prestamo, por lo que tu comportamiento de uso y pago quedará registrado en tu historial de credito. Por lo que, utilizarla incorrectamente, puede empeorar tu historial y puntaje de credito. \n\n"]
+              },
+              {
+                "tag": "Fecha de corte de una tarjeta de credito",
+                "patterns": ["Fecha de corte de una tarjeta de credito"],
+                "responses": ["Es la fecha que agrupa el conjunto de transacciones dentro de un periodo determinado, y define los movimientos que aparecen en tu estado de cuenta de tarjeta de credito."]
+              },
+              {
+                "tag": "Estado de cuenta de una tarjeta de credito",
+                "patterns": ["Estado de cuenta de una tarjeta de credito"],
+                "responses": ["El estado de cuenta es un documento que se genera mensualmente en la fecha de corte de la tarjeta de credito. Este documento muestra todos los consumos y pagos realizados durante el mes anterior y la deuda total acumulada a pagarse antes de la fecha de vencimiento."]
+              },
+              {
+                "tag": "Pago minimo de una tarjeta de credito",
+                "patterns": ["Pago minimo de una tarjeta de credito", "Pago minimo tarjeta de credito"],
+                "responses": ["Es el pago que, como minimo, debe abonarse al monto o saldo adeudado en una tarjeta de credito para mantener la deuda al dia o vigente y evitar cargos por mora o retrasos. \n\nLuego de calcular los intereses correspondientes al mes del estado de corte, se le agregan los cargos y comisiones bancarias asociados a la tarjeta que han sido registrados en el transcurso de ese mes. A este monto, se le agrega la treintaiseisava parte (1/36) del monto adeudado al corte, de tal manera que al cabo de tres años se habria amortizado la deuda en su totalidad, de no generarse cargos o consumos adicionales y haberse mantenido los pagos siempre al dia."]
+              },
+              {
+                "tag": "Calculo de intereses de una tarjeta de credito",
+                "patterns": ["Calculo de intereses de una tarjeta de credito"],
+                "responses": ["En terminos tecnicos, se calcula sobre el saldo insoluto de capital a la fecha de corte, es decir, cuando se genero el estado de cuenta mensual. Dicho saldo o balance excluirá, para fines de cálculos, los intereses, comisiones y otros cargos. \n\nQuizás la mejor forma de entenderlo es con un ejemplo hipotetico. Digamos que vas a un hotel con tu familia el 1ro de enero. Consumes ese mismo dia RD$10,000, en una tarjeta de credito nueva, en la que nunca has realizado otros consumos. El 31 de enero es tu “Fecha de Corte” y en ese dia se genera tu estado de cuenta. \nEn el estado, se te indica que puedes hacer el pago de dos formas: \n\nEl “Pago Total” del “Balance a la fecha de corte” (es decir, de RD$10,000). Un “Pago Minimo”, digamos que de RD$1,000. Tambien en el estado se establece que tu “Fecha Limite de Pago” es el 23 de febrero. \n\n Si el 23 de febrero haces el “Pago Total”, habrás logrado financiar por 53 dias (los 30 dias del mes de enero, más los 23 dias de febrero) a un costo de cero por ciento (0%). Ahora bien, si el 23 de febrero solo haces el pago minimo, el banco emisor de tu tarjeta de credito te cobrará intereses sobre el “saldo insoluto” o el monto debido. ¿Por cuánto tiempo? Desde la fecha que se origino el consumo (1ro de enero) hasta la “Fecha de Corte” (el 31 de enero). Es decir, 30 dias. \n\nSi la tasa de interes es un 60% anual, se multiplicará RD$10,000 por 60% por la cantidad de dias (30) entre los dias del año (360). Es decir, que se te cobrarán intereses equivalentes a aproximadamente RD$500. \n\n ¿Que ocurre si el 23 de febrero abonas RD$9,000 y dejas pendiente pagar solamente RD$1,000? ¿Te cobrarán intereses sobre los RD$1,000? No. El banco cobrará intereses por el saldo insoluto adeudado durante el transcurso del mes, que fue de RD$10,000."]
+              },
+              {
+                "tag": "Sobregiro de una tarjeta de credito",
+                "patterns": ["Sobregiro de una tarjeta de credito"],
+                "responses": ["Aunque las tarjetas de credito tienen un limite de credito, en base al cual puedes realizar consumos, estás te lo permiten sobrepasar hasta cierto punto. A este limite adicional le llaman sobregiro y suele representar, en muchos casos, el 20% del limite regular. Es bueno tener en cuenta que utilizar el sobregiro tiene un costo, que puede ser un porcentaje o un monto fijo. Utilizarlo es normalmente señal de un mal manejo de la tarjeta de credito y es preferible nunca hacerlo."]
+              },
+              {
+                "tag": "Avance de efectivo con una tarjeta de credito",
+                "patterns": ["Avance de efectivo con una tarjeta de credito"],
+                "responses": ["Las tarjetas de credito te ofrecen la posibilidad de retirar dinero en efectivo a traves de cajeros automáticos o, en algunos casos, via una aplicacion movil o web. A estos retiros se les llama “Avance de efectivo”. Hacer un avance de efectivo tiene un costo, el cual puede ascender a poco más del 6% del monto retirado. Y además, al igual que con los consumos que realizas, estás tomando un prestamo que debes pagar."]
+              },
+              {
+                "tag": "Requisitos para solicitar una tarjeta de credito",
+                "patterns": ["Requisitos para solicitar una tarjeta de credito"],
+                "responses": ["Estos pueden variar por institucion financiera, pero normalmente son estos: \n\n 1-Edad entre 18 y 70 años. \n\n2-Ingresos minimos mensuales RD$8,000. \n\n3-Si es empleado, minimo seis (6) meses de servicio en la empresa donde laboras. \n\n4-Constancia de ingresos: carta de trabajo y/o fotocopia de los tres (3) ultimos estados de cuenta de ahorros o corriente. \n\n5-Completar formulario de solicitud."]
+              },
+              {
+                "tag": "Definicion de un prestamo para vehiculo",
+                "patterns": ["Definicion de un prestamo para vehiculo", "Como puedo hacer un prestamo para un vehiculo"],
+                "responses": ["Los prestamos para vehiculos, como su nombre lo dice, está dirigido a la adquisicion de un vehiculo, el cual a la vez sirve de garantia. Por estar garantizado por un vehiculo, estos prestamos ofrecen condiciones más atractivas que las de un prestamo personal regular, como son menores tasas de interes y mayores plazos. \n\nLas institucion financiera no presta el dinero completo para adquirir el vehiculo, solo una proporcion. El monto restante debe ser pagado por el cliente y es lo que se conoce como “inicial”. Esta proporcion a prestar varia segun la antigüedad del vehiculo, por lo que uno nuevo requiere un menor inicial que uno usado."]
+              },
+              {
+                "tag": "Requisitos para solicitar un prestamo de vehiculo",
+                "patterns": ["Requisitos para solicitar un prestamo de vehiculo", "requisitos necesarios para solicitar un prestamo de vehiculo"],
+                "responses": ["Estos pueden variar por institucion financiera, pero normalmente son estos: \n\nEdad entre 18 y 70 años. \n\nSi es empleado, minimo seis (6) meses de servicio en la empresa donde laboras. \n\nConstancia de ingresos: carta de trabajo y/o los tres (3) ultimos estados de cuenta de ahorros o corriente. \n\nPara vehiculos nuevos: cotizacion emitida por el suplidor. \n\nPara vehiculos usados: tasacion emitida por tasador autorizado por la institucion financiera. \n\nCompletar formulario de solicitud."]
+              },
+              {
+                "tag": "Sobre el puntaje o score de credito",
+                "patterns": ["Puntaje de una tarjeta de credito", "Score de credito", "puntaje de credito"],
+                "responses": ["El puntaje o “score” crediticio indica que probabilidad existe de que honres o incumplas tus compromisos financieros. A mayor puntuacion, menor es el riesgo de que un potencial cliente incumpla su obligacion de pago. \n\nEs importante conocer tu puntaje de credito para monitorear en que nivel está y saber con tiempo si necesitas mejorarlo e identificar que lo puede estar afectando."]
+              },
+              {
+                "tag": "Diferencias entre el puntaje o score de credito y el historial de credito",
+                "patterns": ["Diferencias entre el puntaje o score de credito y el historial de credito", "diferecias entre el puntaje y le historial de credito"],
+                "responses": ["El historial de credito es el registro de todos los financiamientos que has tenido durante un periodo determinado, junto a su estatus y comportamiento de pago de los mismos. Mientras que el puntaje, es un cálculo que hace un buro de credito, partiendo del historial de credito, para determinar un numero, dentro de una escala determinada, que representa la probabilidad que existe de que el usuario honre o incumpla sus compromisos financieros."]
+              },
+              {
+                "tag": "Fideicomiso",
+                "patterns": ["Fideicomiso", "Que es un Fideicomiso"],
+                "responses": ["Acto mediante el cual una o varias personas, llamadas fideicomitentes, transfieren derechos de propiedad a personas juridicas, llamadas fiduciarios, para la constitucion de un patrimonio separado, llamado patrimonio fideicomitido, cuya administracion o disposicion será ejercida por el o los fiduciarios segun las instrucciones del o de los fideicomitentes, en favor de una o varias personas, llamadas fideicomisarios o beneficiarios."]
+              },
+              {
+                "tag": "Fiduciarios",
+                "patterns": ["Fiduciarios", "que es el Fiduciarios"],
+                "responses": ["Corresponde a la persona juridica, debidamente autorizadas, que reciben los bienes dados o derechos cedidos para la constitucion de un fideicomiso, debiendo cumplir las instrucciones del o de los fideicomitentes establecidas en el acto constitutivo del fideicomiso."]
+              },
+              {
+                "tag": "Fideicomitido",
+                "patterns": ["Fideicomitido", "Que es el Fideicomitido"],
+                "responses": ["El patrimonio fideicomitido está constituido por los bienes o derechos, de naturaleza mobiliaria o inmobiliaria, corporal o incorporal, transferidos para la constitucion de un fideicomiso y por los frutos que estos generen. El patrimonio fideicomitido es distinto al patrimonio del fideicomitente, del fiduciario, del fideicomisario o beneficiario o de cualquier otro patrimonio fideicomitido administrado por el fiduciario."]
+              },
+              {
+                "tag": "Fideicomitente",
+                "patterns": ["Fideicomitente", "Que es el Fideicomitente"],
+                "responses": ["Corresponde a la persona fisica o juridica que transfiere derechos de propiedad u otros derechos reales o personales al o a los fiduciarios para la constitucion del fideicomiso."]
+              },
+              {
+                "tag": "Fideicomisario o beneficiario",
+                "patterns": ["Fideicomisario o beneficiario", "que es el fideicomisario", "Que es el beneficiario"],
+                "responses": ["El fideicomisario es el destinatario final de los bienes fideicomitidos, una vez cumplido el plazo o la condicion estipulada en el acto constitutivo. Mientras que el beneficiario es quien recibe los beneficios de la administracion fiduciaria, sin necesariamente ser la destinataria final de los bienes fideicomitidos."]
+              },
+              {
+                "tag": "Definicion y funcionamiento de un certificado de deposito",
+                "patterns": ["Definicion y funcionamiento de un certificado de deposito", "Que es un certificado de deposito", "Funcionamiento de un certificado de deposito"],
+                "responses": ["El certificado de deposito, certificado financiero o deposito a plazo fijo es un instrumento de inversion ofrecido por las instituciones financieras para captar recursos por un tiempo determinado, comercializar con el, y rendir parte de las ganancias con quien lo abre en dicha institucion. En Republica Dominicana tienes la posibilidad de invertir en certificados de deposito en pesos, dolares y euros. \n\nCuando abres un certificado de deposito te comprometes a dejar un monto de tus ahorros por un plazo determinado sin retirarlos, por lo cual la institucion te otorgará una tasa de interes fija y mayor a la ofrecida por una cuenta de ahorros. Dependiendo del monto y el plazo elegidos, la tasa de interes puede ser mayor o menor. Los intereses serán generados mensualmente y podrás elegir que estos sean capitalizados (sumados al capital) o credito a cuenta (depositados a tu cuenta de ahorros). \n\n Si al finalizar el periodo pautado no cancelas el certificado de deposito, este se renovará automáticamente por el mismo plazo. En cuanto a la tasa de interes, esta se ajustará a las condiciones del mercado, aunque normalmente solo si estás empeoran. Por esta razon, al momento de renovar es recomendable visitar la institucion para negociar la tasa en caso de que las ofrecidas en ese momento sean más altas."]
+              },
+              {
+                "tag": "Monedas disponibles para abrir un certificado de deposito",
+                "patterns": ["Monedas disponibles para abrir un certificado de deposito"],
+                "responses": ["En Republica Dominicana tienes la posibilidad de abrir un certificado de deposito en pesos, dolares o euros. \n\n¿Cuál te conviene más? Eso va a depender de para que lo quieras y para cuando vayas a utilizar el dinero. Si lo que estás buscando es amasar dinero para el futuro guardando la estabilidad cambiaria, entonces un certificado en moneda extranjera es una buena opcion. \n\nSi por el contrario, lo que buscas es tener beneficios más a corto plazo, independientemente de lo que pueda pasar con la tasa cambiaria, entonces la moneda local te puede servir. \n\nPor regla general los certificados en moneda extranjera ofrecen menor rentabilidad y suelen requerir montos más altos de inversion. Sin embargo, proveen de ciertos niveles de estabilidad y te permiten guardar valor."]
+              },
+              {
+                "tag": "Pago de intereses de un certificado de deposito",
+                "patterns": ["Pago de intereses de un certificado de deposito"],
+                "responses": ["Los intereses que genera un certificado de deposito serán calculados cada mes y podrás elegir que el pago de los mismo sea capitalizable o credito a cuenta. Los intereses capitalizados serán sumados al capital invertido por lo que el proximo mes los intereses serán calculados por el nuevo monto y por ende se generarán más intereses. Mientras que los intereses pagados credito a cuenta serán depositados a tu cuenta de ahorros mensualmente de modo que puedas utilizarlos sin esperar el vencimiento del certificado."]
+              },
+              {
+                "tag": "Definicion de un Producto estructurado.",
+                "patterns": ["Definicion de un Producto estructurado."],
+                "responses": ["Los productos estructurados abarcan distintas operaciones financieras, principalmente los acuerdos de recompra, donde el vendedor de un activo financiero, tipicamente un bono de deuda, se compromete a volver a comprarlo al adquirente, en una fecha y a un precio predeterminados, establecidos en el contrato. La ganancia para el inversionista está en la diferencia entre el precio de venta y el de compra acordados. \n\nEstos son ofrecidos en el mercado de valores por los Puestos de bolsa y está pensado para inversiones a corto plazo, con plazos que suelen ir desde 30 dias hasta 1 año. Tipicamente, estos no pueden ser cancelados antes del vencimiento del plazo acordado y son ofrecidos en dos tipos: SBB y SBB con Mutuo."]
+              },
+              {
+                "tag": "Mercado primario",
+                "patterns": ["Mercado primario", "Que es el mercado primario"],
+                "responses": ["El mercado primario es el sector del mercado de valores donde ocurre la venta inicial de valores directamente por los emisores."]
+              },
+              {
+                "tag": "Mercado secundario",
+                "patterns": ["Mercado secundario", "Que es el Mercado secundario"],
+                "responses": ["El mercado secundario es en el cual se comercializan los titulos previamente emitidos y colocados en el mercado primario."]
+              },
+              {
+                "tag": "Administradora de Fondos de Inversion (AFI)",
+                "patterns": ["Administradora de Fondos de Inversion (AFI)", "Que es la (AFI)", "Que es la administradora de fondos de inversionres"],
+                "responses": ["Las Sociedades Administradoras de Fondos de Inversion de la Republica Dominicana (SAFI) son entidades autorizadas por la Superintendencia del Mercado de Valores (SIMV) para crear y administrar Fondos de Inversiones. Pueden tener varios fondos administrados, cada uno con su propia estrategia de inversion. \n\nLas SAFI pueden desarrollar fondos de inversion en certificados o en valores de oferta publica (acciones, bonos, etc.) pero tambien pueden crear fondos con activos fuera del ámbito del mercado de valores. Las SAFI pueden desarrollar fondos de inversiones para invertir en empresas privadas, en proyectos inmobiliarios, en activos inmobiliarios, en carteras de prestamos, entre otros."]
+              },
+              {
+                "tag": "Ley del mercado de valores vigente",
+                "patterns": ["Ley del mercado de valores vigente"],
+                "responses": ["La ley No. 249-17, promulgada en el año 2017, establece el regimen regulatorio vigente del Mercado de Valores de la Republica Dominicana."]
+              },
+              {
+                "tag": "Deposito centralizado de valores",
+                "patterns": ["Deposito centralizado de valores"],
+                "responses": ["Entidad facultada para crear y llevar el libro contable que conforma el registro de propiedad de los valores entregados en deposito, mediante el cual se instrumenta el sistema de anotacion en cuenta. En el mercado de dominicano este servicio es ofrecido por Cevaldom."]
+              },
+              {
+                "tag": "Bolsa de valores",
+                "patterns": ["Bolsa de valores", "Que es la bolsa de valores"],
+                "responses": ["Mecanismo centralizado de negociacion que tiene por objeto prestar todos los servicios necesarios para la realizacion eficaz de transacciones con instrumentos de valores de manera continua y ordenadas, asi como efectuar actividades y servicios relacionados al desarrollo del mercado de valores, previa aprobacion de la Superintendencia del Mercado de Valores"]
+              },
+              {
+                "tag": "Emisor de valores",
+                "patterns": ["Emisor de valores", "Que es el emisor de valores"],
+                "responses": ["Los emisores de valores son empresas que buscan crecer y financiarse mediante una oferta publica en el mercado bursátil, al emitir valores de deuda o de capital. Pueden ser entidades del estado o empresas privadas, pero es el emisor quien respalda la inversion. Por ejemplo, si inviertes en titulos de deuda del estado, el está obligado a pagarle el capital e intereses al inversionista. \n\nLa emision de valores permite la obtencion de financiamiento a menor costo, diversificacion de las fuentes de recursos, promueve una cultura de planificacion para una administracion más eficiente y eficaz, estimula la disciplina y el manejo profesional, entre otros."]
+              },
+
+              {
                 "tag": "Bonos corporativos",
-                "patterns": ["¿Qué son los bonos corporativos?"],
-                "responses": ["Los bonos corporativos son títulos de deuda emitidos por empresas para financiar sus operaciones y proyectos."]
+                "patterns": ["¿Que son los bonos corporativos?"],
+                "responses": ["Los bonos corporativos son titulos de deuda emitidos por empresas para financiar sus operaciones y proyectos."]
               },
               {
                 "tag": "Bonos municipales",
-                "patterns": ["¿Qué son los bonos municipales?"],
-                "responses": ["Los bonos municipales son títulos de deuda emitidos por gobiernos locales para financiar proyectos públicos."]
+                "patterns": ["¿Que son los bonos municipales?"],
+                "responses": ["Los bonos municipales son titulos de deuda emitidos por gobiernos locales para financiar proyectos publicos."]
               },
               {
                 "tag": "Bonos basura",
-                "patterns": ["¿Qué son los bonos basura?"],
-                "responses": ["Los bonos basura son títulos de deuda con alto riesgo de impago y por lo tanto ofrecen altos rendimientos."]
+                "patterns": ["¿Que son los bonos basura?"],
+                "responses": ["Los bonos basura son titulos de deuda con alto riesgo de impago y por lo tanto ofrecen altos rendimientos."]
               },
               {
                 "tag": "Subasta de bonos",
-                "patterns": ["¿Qué es una subasta de bonos?"],
+                "patterns": ["¿Que es una subasta de bonos?"],
                 "responses": ["Una subasta de bonos es un proceso mediante el cual el gobierno o empresas venden bonos al mejor postor."]
               },
               {
                 "tag": "Eurobonos",
-                "patterns": ["¿Qué son los Eurobonos?"],
-                "responses": ["Los Eurobonos son bonos emitidos fuera del país en cuya moneda se denominan, y se colocan internacionalmente."]
+                "patterns": ["¿Que son los Eurobonos?"],
+                "responses": ["Los Eurobonos son bonos emitidos fuera del pais en cuya moneda se denominan, y se colocan internacionalmente."]
               },
               {
                 "tag": "Divisas",
-                "patterns": ["¿Qué son las divisas?"],
+                "patterns": ["¿Que son las divisas?"],
                 "responses": ["Las divisas son monedas extranjeras utilizadas como medio de intercambio internacional."]
               },
               {
                 "tag": "Tipo de cambio",
-                "patterns": ["¿Qué es el tipo de cambio?"],
+                "patterns": ["¿Que es el tipo de cambio?"],
                 "responses": ["El tipo de cambio es el precio relativo de una moneda frente a otra, determinado por el mercado de divisas."]
               },
               {
-                "tag": "Hiperinflación",
-                "patterns": ["¿Qué es la hiperinflación?"],
-                "responses": ["La hiperinflación es un aumento descontrolado y extremo de los precios en una economía, erosionando el valor de la moneda de manera rápida y drástica."]
+                "tag": "Hiperinflacion",
+                "patterns": ["¿Que es la hiperinflacion?"],
+                "responses": ["La hiperinflacion es un aumento descontrolado y extremo de los precios en una economia, erosionando el valor de la moneda de manera rápida y drástica."]
               },
               {
-                "tag": "Ajuste por inflación",
-                "patterns": ["¿Qué es el ajuste por inflación?"],
-                "responses": ["El ajuste por inflación es un proceso contable que corrige los estados financieros para reflejar los efectos de la inflación en el poder adquisitivo."]
+                "tag": "Ajuste por inflacion",
+                "patterns": ["¿Que es el ajuste por inflacion?"],
+                "responses": ["El ajuste por inflacion es un proceso contable que corrige los estados financieros para reflejar los efectos de la inflacion en el poder adquisitivo."]
               },
               {
-                "tag": "Desinflación",
-                "patterns": ["¿Qué es la desinflación?"],
-                "responses": ["La desinflación es la reducción gradual de la tasa de inflación, es decir, una disminución en el ritmo al que los precios aumentan."]
+                "tag": "Desinflacion",
+                "patterns": ["¿Que es la desinflacion?"],
+                "responses": ["La desinflacion es la reduccion gradual de la tasa de inflacion, es decir, una disminucion en el ritmo al que los precios aumentan."]
               },
               {
-                "tag": "Economía de escala",
-                "patterns": ["¿Qué es la economía de escala?"],
-                "responses": ["La economía de escala se refiere a la reducción de costos unitarios que una empresa obtiene al aumentar la producción o la escala de operaciones."]
+                "tag": "Economia de escala",
+                "patterns": ["¿Que es la economia de escala?"],
+                "responses": ["La economia de escala se refiere a la reduccion de costos unitarios que una empresa obtiene al aumentar la produccion o la escala de operaciones."]
               },
               {
-                "tag": "Economía de alcance",
-                "patterns": ["¿Qué es la economía de alcance?"],
-                "responses": ["La economía de alcance se refiere a la reducción de costos que una empresa obtiene al producir múltiples productos usando recursos comunes."]
+                "tag": "Economia de alcance",
+                "patterns": ["¿Que es la economia de alcance?"],
+                "responses": ["La economia de alcance se refiere a la reduccion de costos que una empresa obtiene al producir multiples productos usando recursos comunes."]
               },
               {
                 "tag": "Valor temporal del dinero",
-                "patterns": ["¿Qué es el valor temporal del dinero?"],
+                "patterns": ["¿Que es el valor temporal del dinero?"],
                 "responses": ["El valor temporal del dinero es el concepto financiero que establece que el dinero disponible en el presente es más valioso que la misma cantidad en el futuro, debido a su capacidad de generar rendimientos o intereses."]
               },
               {
                 "tag": "superintendencia_bancos",
-                "patterns": ["¿Qué es la Superintendencia de Bancos?"],
-                "responses": ["De acuerdo al Artículo 19 de la Ley No. 183–02, Mon­e­taria y Financiera del 21 de noviembre de 2002, la Super­in­ten­den­cia de Ban­cos tiene por fun­ción: “realizar, con plena autonomía fun­cional, la super­visión de las enti­dades de inter­me­diación financiera, con el objeto de ver­i­ficar el cumplim­iento por parte de dichas enti­dades de lo dis­puesto en esta Ley, Reglamen­tos, Instruc­tivos y Cir­cu­lares; requerir la con­sti­tu­ción de pro­vi­siones para cubrir ries­gos; exi­gir la reg­u­lar­ización de los incumplim­ien­tos a las dis­posi­ciones legales y reglamen­tarias vigentes; e imponer las cor­re­spon­di­entes san­ciones, a excep­ción de las que aplique el Banco Cen­tral en vir­tud de la citada ley."]
+                "patterns": ["¿Que es la Superintendencia de Bancos?"],
+                "responses": ["De acuerdo al Articulo 19 de la Ley No. 183–02, Mon­e­taria y Financiera del 21 de noviembre de 2002, la Super­in­ten­den­cia de Ban­cos tiene por fun­cion: “realizar, con plena autonomia fun­cional, la super­vision de las enti­dades de inter­me­diacion financiera, con el objeto de ver­i­ficar el cumplim­iento por parte de dichas enti­dades de lo dis­puesto en esta Ley, Reglamen­tos, Instruc­tivos y Cir­cu­lares; requerir la con­sti­tu­cion de pro­vi­siones para cubrir ries­gos; exi­gir la reg­u­lar­izacion de los incumplim­ien­tos a las dis­posi­ciones legales y reglamen­tarias vigentes; e imponer las cor­re­spon­di­entes san­ciones, a excep­cion de las que aplique el Banco Cen­tral en vir­tud de la citada ley."]
             
               },
               {
                 "tag": ["prestaciones_laborales"],
-                "patterns": ["¿Qué son las prestaciones laborales?", "prestaciones laborables"],
-                "responses": ["Todo trabajador en República Dominicana tiene el derecho y la obligación de estar afiliado a una AFP o administradora de fondos de pensiones, así como al SFS o Seguro Familiar de Salud. Tal como lo indica la Ley de Seguridad Social (87-01), el Sistema Dominicano de Seguridad Social (SDSS) se basa en un sistema único de afiliación, cotización, plan de beneficios y prestaciones de servicios. Igualmente sucede con el registro previsional, que integra a los beneficiarios de todas las cajas y planes de pensión existentes. Una vez que te encuentras afiliado, realizarás un aporte mensual para ambas prestaciones. Este monto por prestaciones sociales es un pequeño porcentaje que se deduce de tu salario ordinario y bonificaciones (no se incluyen las horas extras). Otra parte del aporte lo realiza tu empleador o patrono. Estos fondos son recaudados y administrados por la Tesorería de la Seguridad Social (TSS)."]
+                "patterns": ["¿Que son las prestaciones laborales?", "prestaciones laborables"],
+                "responses": ["Todo trabajador en Republica Dominicana tiene el derecho y la obligacion de estar afiliado a una AFP o administradora de fondos de pensiones, asi como al SFS o Seguro Familiar de Salud. Tal como lo indica la Ley de Seguridad Social (87-01), el Sistema Dominicano de Seguridad Social (SDSS) se basa en un sistema unico de afiliacion, cotizacion, plan de beneficios y prestaciones de servicios. Igualmente sucede con el registro previsional, que integra a los beneficiarios de todas las cajas y planes de pension existentes. Una vez que te encuentras afiliado, realizarás un aporte mensual para ambas prestaciones. Este monto por prestaciones sociales es un pequeño porcentaje que se deduce de tu salario ordinario y bonificaciones (no se incluyen las horas extras). Otra parte del aporte lo realiza tu empleador o patrono. Estos fondos son recaudados y administrados por la Tesoreria de la Seguridad Social (TSS)."]
               },
               {
                   "tag":["tipos_prestaciones_laborales"],
-                  "patters":["¿Qué tipos de prestaciones laborales existen?", "tipos prestaciones laborales"],
+                  "patters":["¿Que tipos de prestaciones laborales existen?", "tipos prestaciones laborales"],
                   "responses":[
-                    "1. Salario\nEl pago regular que el empleado recibe por su trabajo. Puede ser semanal, quincenal o mensual.\n\n2. Vacaciones\nLos empleados tienen derecho a un período de vacaciones remuneradas de 14 días laborables por cada año de servicio continuo. Después de cinco años de servicio continuo, el empleado tiene derecho a 18 días laborables de vacaciones.\n\n3. Doble Sueldo (Salario de Navidad)\nLos empleados tienen derecho a un salario adicional en el mes de diciembre, conocido como 'décimo tercer salario' o 'salario de Navidad'. Este es equivalente a una doceava parte del salario devengado durante el año calendario.\n\n4. Participación en las Utilidades (Bonificación)\nLas empresas deben distribuir el 10% de sus beneficios netos anuales entre sus empleados. Este monto se divide entre todos los empleados en proporción al salario devengado durante el año. La bonificación tiene un tope máximo equivalente a 45 días de salario para empleados ordinarios y 60 días de salario para empleados de larga duración.\n\n5. Preaviso\nEn caso de terminación del contrato de trabajo sin causa justificada, el empleador debe dar un preaviso al empleado. La duración del preaviso depende del tiempo que el empleado ha trabajado en la empresa:\n\nDe 3 a 6 meses: 7 días de preaviso.\nDe 6 meses a un año: 14 días de preaviso.\nMás de un año: 28 días de preaviso.\n\n6. Cesantía\nSi un empleado es despedido sin causa justificada después de haber trabajado por más de tres meses, tiene derecho a una indemnización por cesantía. El monto de la cesantía depende del tiempo de servicio:\n\nDe 3 a 6 meses: 6 días de salario.\nDe 6 meses a un año: 13 días de salario.\nDe 1 a 5 años: 21 días de salario por cada año de servicio.\nMás de 5 años: 23 días de salario por cada año de servicio.\n\n7. Subsidio por Enfermedad y Maternidad\nLas trabajadoras tienen derecho a un permiso de maternidad de 14 semanas (6 semanas antes del parto y 8 semanas después). Durante este período, la Seguridad Social cubre un porcentaje del salario de la empleada. Los empleados también tienen derecho a subsidios por enfermedad que cubren una parte de su salario durante el tiempo que estén incapacitados para trabajar.\n\n8. Seguro Familiar de Salud (SFS)\nParte de la Seguridad Social, el SFS proporciona cobertura médica a los empleados y sus dependientes. Tanto el empleador como el empleado contribuyen a este seguro.\n\n9. Administradora de Fondos de Pensiones (AFP)\nLos empleados y empleadores contribuyen a un fondo de pensiones que asegura una pensión de jubilación para el empleado al final de su vida laboral.\n\n10. Otros Beneficios\nDependiendo de la empresa y del contrato individual, pueden existir otros beneficios como bonos de desempeño, transporte, alimentación, educación, entre otros.\n\nEstas prestaciones laborales están diseñadas para proteger los derechos de los empleados y asegurar un ambiente de trabajo justo y equitativo. Es importante que tanto empleadores como empleados conozcan y respeten estas disposiciones legales."]
+                    "1. Salario\nEl pago regular que el empleado recibe por su trabajo. Puede ser semanal, quincenal o mensual.\n\n2. Vacaciones\nLos empleados tienen derecho a un periodo de vacaciones remuneradas de 14 dias laborables por cada año de servicio continuo. Despues de cinco años de servicio continuo, el empleado tiene derecho a 18 dias laborables de vacaciones.\n\n3. Doble Sueldo (Salario de Navidad)\nLos empleados tienen derecho a un salario adicional en el mes de diciembre, conocido como 'decimo tercer salario' o 'salario de Navidad'. Este es equivalente a una doceava parte del salario devengado durante el año calendario.\n\n4. Participacion en las Utilidades (Bonificacion)\nLas empresas deben distribuir el 10% de sus beneficios netos anuales entre sus empleados. Este monto se divide entre todos los empleados en proporcion al salario devengado durante el año. La bonificacion tiene un tope máximo equivalente a 45 dias de salario para empleados ordinarios y 60 dias de salario para empleados de larga duracion.\n\n5. Preaviso\nEn caso de terminacion del contrato de trabajo sin causa justificada, el empleador debe dar un preaviso al empleado. La duracion del preaviso depende del tiempo que el empleado ha trabajado en la empresa:\n\nDe 3 a 6 meses: 7 dias de preaviso.\nDe 6 meses a un año: 14 dias de preaviso.\nMás de un año: 28 dias de preaviso.\n\n6. Cesantia\nSi un empleado es despedido sin causa justificada despues de haber trabajado por más de tres meses, tiene derecho a una indemnizacion por cesantia. El monto de la cesantia depende del tiempo de servicio:\n\nDe 3 a 6 meses: 6 dias de salario.\nDe 6 meses a un año: 13 dias de salario.\nDe 1 a 5 años: 21 dias de salario por cada año de servicio.\nMás de 5 años: 23 dias de salario por cada año de servicio.\n\n7. Subsidio por Enfermedad y Maternidad\nLas trabajadoras tienen derecho a un permiso de maternidad de 14 semanas (6 semanas antes del parto y 8 semanas despues). Durante este periodo, la Seguridad Social cubre un porcentaje del salario de la empleada. Los empleados tambien tienen derecho a subsidios por enfermedad que cubren una parte de su salario durante el tiempo que esten incapacitados para trabajar.\n\n8. Seguro Familiar de Salud (SFS)\nParte de la Seguridad Social, el SFS proporciona cobertura medica a los empleados y sus dependientes. Tanto el empleador como el empleado contribuyen a este seguro.\n\n9. Administradora de Fondos de Pensiones (AFP)\nLos empleados y empleadores contribuyen a un fondo de pensiones que asegura una pension de jubilacion para el empleado al final de su vida laboral.\n\n10. Otros Beneficios\nDependiendo de la empresa y del contrato individual, pueden existir otros beneficios como bonos de desempeño, transporte, alimentacion, educacion, entre otros.\n\nEstas prestaciones laborales están diseñadas para proteger los derechos de los empleados y asegurar un ambiente de trabajo justo y equitativo. Es importante que tanto empleadores como empleados conozcan y respeten estas disposiciones legales."]
                   },
                   {
                     "tag": ["Productos Financieros"],
-                    "patterns": ["¿Qué productos financieros están disponibles en la República Dominicana?",
+                    "patterns": ["¿Que productos financieros están disponibles en la Republica Dominicana?",
                         "Productos financieros en RD",
-                        "¿Cuáles son los productos financieros en la República Dominicana?",
+                        "¿Cuáles son los productos financieros en la Republica Dominicana?",
                         "Diferentes tipos de productos financieros en RD",
-                        "Servicios financieros disponibles en la República Dominicana"],
-                    "responses": ["1. Cuentas de Ahorro\nOfrecen la posibilidad de depositar dinero y obtener intereses sobre el saldo.\n\n2. Cuentas Corrientes\nPermiten la gestión diaria del dinero, con facilidades de cheques y tarjetas de débito.\n\n3. Préstamos Personales\nCréditos otorgados a individuos para diversos propósitos, como la compra de bienes o la consolidación de deudas.\n\n4. Préstamos Hipotecarios\nFinanciamiento a largo plazo para la adquisición de viviendas.\n\n5. Tarjetas de Crédito\nLíneas de crédito rotativo que permiten a los usuarios realizar compras y pagar a plazos.\n\n6. Certificados de Depósito\nInversiones a plazo fijo que ofrecen un interés garantizado.\n\n7. Inversiones en Fondos Mutuos\nPermiten a los inversionistas diversificar su capital en una cartera gestionada profesionalmente.\n\n8. Seguros\nProductos financieros que proporcionan cobertura contra riesgos específicos, como seguros de vida, salud, vehículos y propiedades.\n\nEstos productos financieros están diseñados para satisfacer diversas necesidades económicas y están disponibles a través de diferentes instituciones financieras en la República Dominicana."]
+                        "Servicios financieros disponibles en la Republica Dominicana"],
+                    "responses": ["1. Cuentas de Ahorro\nOfrecen la posibilidad de depositar dinero y obtener intereses sobre el saldo.\n\n2. Cuentas Corrientes\nPermiten la gestion diaria del dinero, con facilidades de cheques y tarjetas de debito.\n\n3. Prestamos Personales\nCreditos otorgados a individuos para diversos propositos, como la compra de bienes o la consolidacion de deudas.\n\n4. Prestamos Hipotecarios\nFinanciamiento a largo plazo para la adquisicion de viviendas.\n\n5. Tarjetas de Credito\nLineas de credito rotativo que permiten a los usuarios realizar compras y pagar a plazos.\n\n6. Certificados de Deposito\nInversiones a plazo fijo que ofrecen un interes garantizado.\n\n7. Inversiones en Fondos Mutuos\nPermiten a los inversionistas diversificar su capital en una cartera gestionada profesionalmente.\n\n8. Seguros\nProductos financieros que proporcionan cobertura contra riesgos especificos, como seguros de vida, salud, vehiculos y propiedades.\n\nEstos productos financieros están diseñados para satisfacer diversas necesidades economicas y están disponibles a traves de diferentes instituciones financieras en la Republica Dominicana."]
                 },
                 {
                   "tag": ["Tipos de Instituciones Financieras"],
                   "patterns": [
-                      "¿Qué tipos de instituciones financieras existen en la República Dominicana?",
+                      "¿Que tipos de instituciones financieras existen en la Republica Dominicana?",
                       "Tipos de instituciones financieras en RD",
-                      "¿Cuáles son las instituciones financieras en la República Dominicana?",
+                      "¿Cuáles son las instituciones financieras en la Republica Dominicana?",
                       "Diferentes tipos de instituciones financieras en RD",
-                      "Clasificación de instituciones financieras en la República Dominicana"
+                      "Clasificacion de instituciones financieras en la Republica Dominicana"
                   ],
                   "responses": [
-                      "1. Bancos Comerciales\nInstituciones que ofrecen servicios financieros como cuentas de ahorro, cuentas corrientes, préstamos y tarjetas de crédito a individuos y empresas.\n\n2. Asociaciones de Ahorros y Préstamos\nInstituciones dedicadas a fomentar el ahorro y proporcionar financiamiento hipotecario para la adquisición de viviendas.\n\n3. Bancos de Desarrollo\nInstituciones que financian proyectos de desarrollo económico y social, con énfasis en sectores productivos.\n\n4. Corporaciones de Crédito\nEntidades que otorgan financiamiento a empresas y proyectos específicos, generalmente a mediano y largo plazo.\n\n5. Casas de Cambio\nEstablecimientos que se dedican a la compra y venta de divisas extranjeras.\n\n6. Cooperativas de Ahorro y Crédito\nOrganizaciones financieras sin fines de lucro que proporcionan servicios financieros a sus miembros.\n\n7. Financieras\nEntidades que ofrecen créditos y préstamos a individuos y empresas, aunque no tienen la capacidad de captar depósitos como los bancos comerciales.\n\n8. Bancos de Ahorro y Crédito\nInstituciones que captan recursos del público y otorgan créditos, enfocándose en sectores específicos como el microcrédito.\n\nEstas instituciones están reguladas por la Superintendencia de Bancos de la República Dominicana para asegurar la estabilidad y transparencia del sistema financiero."
+                      "1. Bancos Comerciales\nInstituciones que ofrecen servicios financieros como cuentas de ahorro, cuentas corrientes, prestamos y tarjetas de credito a individuos y empresas.\n\n2. Asociaciones de Ahorros y Prestamos\nInstituciones dedicadas a fomentar el ahorro y proporcionar financiamiento hipotecario para la adquisicion de viviendas.\n\n3. Bancos de Desarrollo\nInstituciones que financian proyectos de desarrollo economico y social, con enfasis en sectores productivos.\n\n4. Corporaciones de Credito\nEntidades que otorgan financiamiento a empresas y proyectos especificos, generalmente a mediano y largo plazo.\n\n5. Casas de Cambio\nEstablecimientos que se dedican a la compra y venta de divisas extranjeras.\n\n6. Cooperativas de Ahorro y Credito\nOrganizaciones financieras sin fines de lucro que proporcionan servicios financieros a sus miembros.\n\n7. Financieras\nEntidades que ofrecen creditos y prestamos a individuos y empresas, aunque no tienen la capacidad de captar depositos como los bancos comerciales.\n\n8. Bancos de Ahorro y Credito\nInstituciones que captan recursos del publico y otorgan creditos, enfocándose en sectores especificos como el microcredito.\n\nEstas instituciones están reguladas por la Superintendencia de Bancos de la Republica Dominicana para asegurar la estabilidad y transparencia del sistema financiero."
                   ]
               },{
                 "tag": ["Cálculo de Impuestos"],
                 "patterns": [
-                    "¿Cómo calcular los impuestos sobre la renta en República Dominicana?",
+                    "¿Como calcular los impuestos sobre la renta en Republica Dominicana?",
                     "¿Cuáles son las tasas de impuestos sobre la renta en RD?",
-                    "¿Cómo se determina el monto de impuestos a pagar en RD?",
-                    "¿Qué impuestos debo pagar en República Dominicana?",
-                    "¿Cómo se calcula el ISR en RD?",
-                    "¿Qué deducciones puedo hacer para calcular mis impuestos en RD?",
+                    "¿Como se determina el monto de impuestos a pagar en RD?",
+                    "¿Que impuestos debo pagar en Republica Dominicana?",
+                    "¿Como se calcula el ISR en RD?",
+                    "¿Que deducciones puedo hacer para calcular mis impuestos en RD?",
                     "¿Cuál es el salario exento de impuestos en RD?",
-                    "¿Cómo funciona el sistema de impuestos sobre la renta en República Dominicana?",
+                    "¿Como funciona el sistema de impuestos sobre la renta en Republica Dominicana?",
                     "¿Cuánto debo pagar de impuestos si gano X cantidad en RD?",
                     "¿Cuál es el porcentaje de impuestos sobre la renta en RD?"
                 ],
                 "responses": [
-                    "Para calcular los impuestos sobre la renta en la República Dominicana, sigue estos pasos:\n\n1. Determina el ingreso bruto anual del empleado.\n\n2. Resta las deducciones permitidas, como el salario exento (RD$416,220 anuales para el año fiscal 2024).\n\n3. Aplica las tasas impositivas según los tramos de ingresos:\n\n   - Ingresos anuales hasta RD$416,220: Exento\n   - Ingresos anuales desde RD$416,220.01 hasta RD$624,329: 15% del excedente de RD$416,220\n   - Ingresos anuales desde RD$624,329.01 hasta RD$867,123: RD$31,216.35 más el 20% del excedente de RD$624,329\n   - Ingresos anuales desde RD$867,123.01 en adelante: RD$79,776.85 más el 25% del excedente de RD$867,123\n\n4. Calcula el monto de impuestos a pagar basado en las tasas aplicables.\n\n5. Ejemplo de cálculo:\n\n   - Supongamos que un empleado tiene un ingreso bruto anual de RD$1,000,000.\n   - La porción exenta es RD$416,220.\n   - El ingreso gravable es RD$1,000,000 - RD$416,220 = RD$583,780.\n   - La porción entre RD$416,220.01 y RD$624,329 es RD$208,109, que se grava al 15%: RD$208,109 x 0.15 = RD$31,216.35.\n   - La porción entre RD$624,329.01 y RD$867,123 es RD$242,794, que se grava al 20%: RD$242,794 x 0.20 = RD$48,558.80.\n   - La porción superior a RD$867,123 es RD$132,877, que se grava al 25%: RD$132,877 x 0.25 = RD$33,219.25.\n   - La suma de impuestos es RD$31,216.35 + RD$48,558.80 + RD$33,219.25 = RD$112,994.40.\n\n   Por lo tanto, el impuesto anual a pagar sería RD$112,994.40.\n\nEs importante consultar las tablas de impuestos actualizadas y cualquier cambio en las leyes fiscales vigentes para obtener un cálculo preciso."
+                    "Para calcular los impuestos sobre la renta en la Republica Dominicana, sigue estos pasos:\n\n1. Determina el ingreso bruto anual del empleado.\n\n2. Resta las deducciones permitidas, como el salario exento (RD$416,220 anuales para el año fiscal 2024).\n\n3. Aplica las tasas impositivas segun los tramos de ingresos:\n\n   - Ingresos anuales hasta RD$416,220: Exento\n   - Ingresos anuales desde RD$416,220.01 hasta RD$624,329: 15% del excedente de RD$416,220\n   - Ingresos anuales desde RD$624,329.01 hasta RD$867,123: RD$31,216.35 más el 20% del excedente de RD$624,329\n   - Ingresos anuales desde RD$867,123.01 en adelante: RD$79,776.85 más el 25% del excedente de RD$867,123\n\n4. Calcula el monto de impuestos a pagar basado en las tasas aplicables.\n\n5. Ejemplo de cálculo:\n\n   - Supongamos que un empleado tiene un ingreso bruto anual de RD$1,000,000.\n   - La porcion exenta es RD$416,220.\n   - El ingreso gravable es RD$1,000,000 - RD$416,220 = RD$583,780.\n   - La porcion entre RD$416,220.01 y RD$624,329 es RD$208,109, que se grava al 15%: RD$208,109 x 0.15 = RD$31,216.35.\n   - La porcion entre RD$624,329.01 y RD$867,123 es RD$242,794, que se grava al 20%: RD$242,794 x 0.20 = RD$48,558.80.\n   - La porcion superior a RD$867,123 es RD$132,877, que se grava al 25%: RD$132,877 x 0.25 = RD$33,219.25.\n   - La suma de impuestos es RD$31,216.35 + RD$48,558.80 + RD$33,219.25 = RD$112,994.40.\n\n   Por lo tanto, el impuesto anual a pagar seria RD$112,994.40.\n\nEs importante consultar las tablas de impuestos actualizadas y cualquier cambio en las leyes fiscales vigentes para obtener un cálculo preciso."
                 ]
             },{
               "tag": "Marco Legal y Normativo",
               "patterns": [
-                  "¿Qué leyes y regulaciones contables existen en RD?",
-                  "¿Cuál es el marco legal de la contabilidad en República Dominicana?",
-                  "¿Qué normas contables debo conocer en RD?"
+                  "¿Que leyes y regulaciones contables existen en RD?",
+                  "¿Cuál es el marco legal de la contabilidad en Republica Dominicana?",
+                  "¿Que normas contables debo conocer en RD?"
               ],
               "responses": [
-                  "Conocer las leyes y regulaciones que rigen la contabilidad en la República Dominicana es fundamental. Esto incluye el Código de Comercio, que establece las normas generales para la contabilidad y las obligaciones de los comerciantes. La Ley 11-92 (Código Tributario) define las obligaciones fiscales de las empresas y requiere el uso de principios contables aceptados. Además, la República Dominicana ha adoptado las Normas Internacionales de Información Financiera (NIIF), que aseguran que los estados financieros sean comparables y de alta calidad."
+                  "Conocer las leyes y regulaciones que rigen la contabilidad en la Republica Dominicana es fundamental. Esto incluye el Codigo de Comercio, que establece las normas generales para la contabilidad y las obligaciones de los comerciantes. La Ley 11-92 (Codigo Tributario) define las obligaciones fiscales de las empresas y requiere el uso de principios contables aceptados. Además, la Republica Dominicana ha adoptado las Normas Internacionales de Informacion Financiera (NIIF), que aseguran que los estados financieros sean comparables y de alta calidad."
               ]
           },
           {
               "tag": "Estados Financieros",
               "patterns": [
-                  "¿Qué son los estados financieros?",
-                  "¿Cómo se preparan los estados financieros en RD?",
+                  "¿Que son los estados financieros?",
+                  "¿Como se preparan los estados financieros en RD?",
                   "¿Cuáles son los principales estados financieros?"
               ],
               "responses": [
-                  "Es crucial entender la preparación y presentación de estados financieros, que incluyen:\n\n1. Estado de Situación Financiera (Balance General): Muestra los activos, pasivos y patrimonio de la empresa en una fecha específica.\n\n2. Estado de Resultados: Presenta los ingresos, costos y gastos para determinar la ganancia o pérdida neta durante un período determinado.\n\n3. Estado de Cambios en el Patrimonio: Detalla los cambios en el patrimonio de los propietarios durante el período contable.\n\n4. Estado de Flujos de Efectivo: Muestra las entradas y salidas de efectivo durante el período contable.\n\n5. Notas a los Estados Financieros: Proporcionan información adicional y detallada sobre las cifras presentadas en los estados financieros."
+                  "Es crucial entender la preparacion y presentacion de estados financieros, que incluyen:\n\n1. Estado de Situacion Financiera (Balance General): Muestra los activos, pasivos y patrimonio de la empresa en una fecha especifica.\n\n2. Estado de Resultados: Presenta los ingresos, costos y gastos para determinar la ganancia o perdida neta durante un periodo determinado.\n\n3. Estado de Cambios en el Patrimonio: Detalla los cambios en el patrimonio de los propietarios durante el periodo contable.\n\n4. Estado de Flujos de Efectivo: Muestra las entradas y salidas de efectivo durante el periodo contable.\n\n5. Notas a los Estados Financieros: Proporcionan informacion adicional y detallada sobre las cifras presentadas en los estados financieros."
               ]
           },
           {
               "tag": "Impuestos y Obligaciones Fiscales",
               "patterns": [
-                  "¿Qué impuestos deben pagar las empresas en RD?",
-                  "¿Cuáles son las obligaciones fiscales en República Dominicana?",
-                  "¿Cómo se calculan los impuestos en RD?"
+                  "¿Que impuestos deben pagar las empresas en RD?",
+                  "¿Cuáles son las obligaciones fiscales en Republica Dominicana?",
+                  "¿Como se calculan los impuestos en RD?"
               ],
               "responses": [
-                  "Aprender sobre los diferentes impuestos y obligaciones fiscales en la República Dominicana es esencial para el cumplimiento legal. Esto incluye:\n\n1. Impuesto Sobre la Renta (ISR): Las empresas deben calcular y pagar el ISR sobre sus ganancias netas. La tasa del ISR varía según el tipo de empresa y el nivel de ingresos.\n\n2. Impuesto sobre Transferencias de Bienes Industrializados y Servicios (ITBIS): Similar al IVA en otros países, las empresas deben cobrar el ITBIS en sus ventas y servicios y pueden deducir el ITBIS pagado en sus compras.\n\n3. Otras Obligaciones Fiscales: Incluyen el Impuesto a los Activos, Retenciones de ISR e ITBIS, y Contribuciones a la Seguridad Social."
+                  "Aprender sobre los diferentes impuestos y obligaciones fiscales en la Republica Dominicana es esencial para el cumplimiento legal. Esto incluye:\n\n1. Impuesto Sobre la Renta (ISR): Las empresas deben calcular y pagar el ISR sobre sus ganancias netas. La tasa del ISR varia segun el tipo de empresa y el nivel de ingresos.\n\n2. Impuesto sobre Transferencias de Bienes Industrializados y Servicios (ITBIS): Similar al IVA en otros paises, las empresas deben cobrar el ITBIS en sus ventas y servicios y pueden deducir el ITBIS pagado en sus compras.\n\n3. Otras Obligaciones Fiscales: Incluyen el Impuesto a los Activos, Retenciones de ISR e ITBIS, y Contribuciones a la Seguridad Social."
               ]
           },
           {
               "tag": "Contabilidad de Costos",
               "patterns": [
-                  "¿Qué es la contabilidad de costos?",
-                  "¿Cómo se calcula el costo de producción?",
-                  "¿Qué es el costeo ABC?"
+                  "¿Que es la contabilidad de costos?",
+                  "¿Como se calcula el costo de produccion?",
+                  "¿Que es el costeo ABC?"
               ],
               "responses": [
-                  "Estudiar la contabilidad de costos ayuda a las empresas a gestionar y controlar sus gastos. Los aspectos clave incluyen:\n\n1. Costo de Producción: Las empresas manufactureras deben calcular los costos de producción, que incluyen materiales directos, mano de obra directa y costos indirectos de fabricación.\n\n2. Costeo ABC (Activity-Based Costing): Método que asigna costos indirectos a productos y servicios basándose en las actividades que generan dichos costos. Esto proporciona una visión más precisa de los costos verdaderos de producción."
+                  "Estudiar la contabilidad de costos ayuda a las empresas a gestionar y controlar sus gastos. Los aspectos clave incluyen:\n\n1. Costo de Produccion: Las empresas manufactureras deben calcular los costos de produccion, que incluyen materiales directos, mano de obra directa y costos indirectos de fabricacion.\n\n2. Costeo ABC (Activity-Based Costing): Metodo que asigna costos indirectos a productos y servicios basándose en las actividades que generan dichos costos. Esto proporciona una vision más precisa de los costos verdaderos de produccion."
               ]
           },
           {
-              "tag": "Auditoría y Control Interno",
+              "tag": "Auditoria y Control Interno",
               "patterns": [
-                  "¿Qué es una auditoría externa?",
-                  "¿Por qué es importante el control interno?",
-                  "¿Cuáles son las normas de auditoría en RD?"
+                  "¿Que es una auditoria externa?",
+                  "¿Por que es importante el control interno?",
+                  "¿Cuáles son las normas de auditoria en RD?"
               ],
               "responses": [
-                  "Comprender la importancia de la auditoría y el control interno es vital para mantener la integridad financiera. Esto incluye:\n\n1. Auditoría Externa: Las empresas están obligadas a someter sus estados financieros a una auditoría externa anual realizada por contadores públicos autorizados. Esto asegura la transparencia y exactitud de los estados financieros.\n\n2. Control Interno: Las empresas deben implementar sistemas de control interno para asegurar la integridad de su información financiera y operativa, prevenir fraudes y garantizar el cumplimiento de las políticas y procedimientos."
+                  "Comprender la importancia de la auditoria y el control interno es vital para mantener la integridad financiera. Esto incluye:\n\n1. Auditoria Externa: Las empresas están obligadas a someter sus estados financieros a una auditoria externa anual realizada por contadores publicos autorizados. Esto asegura la transparencia y exactitud de los estados financieros.\n\n2. Control Interno: Las empresas deben implementar sistemas de control interno para asegurar la integridad de su informacion financiera y operativa, prevenir fraudes y garantizar el cumplimiento de las politicas y procedimientos."
               ]
           },
           {
-              "tag": "Tecnología en la Contabilidad",
+              "tag": "Tecnologia en la Contabilidad",
               "patterns": [
-                  "¿Qué tecnologías se usan en contabilidad?",
-                  "¿Qué es la facturación electrónica?",
-                  "¿Cómo mejora la tecnología la contabilidad?"
+                  "¿Que tecnologias se usan en contabilidad?",
+                  "¿Que es la facturacion electronica?",
+                  "¿Como mejora la tecnologia la contabilidad?"
               ],
               "responses": [
-                  "Familiarizarse con las tecnologías usadas en contabilidad puede mejorar significativamente la eficiencia y precisión. Esto incluye:\n\n1. Sistemas de Contabilidad Computarizada: Las empresas utilizan software de contabilidad para llevar registros precisos y facilitar la preparación de informes financieros.\n\n2. Facturación Electrónica: La Dirección General de Impuestos Internos (DGII) está promoviendo la implementación de la facturación electrónica para mejorar la eficiencia y reducir la evasión fiscal. Este sistema permite a las empresas emitir y recibir facturas electrónicas de manera segura y eficiente."
+                  "Familiarizarse con las tecnologias usadas en contabilidad puede mejorar significativamente la eficiencia y precision. Esto incluye:\n\n1. Sistemas de Contabilidad Computarizada: Las empresas utilizan software de contabilidad para llevar registros precisos y facilitar la preparacion de informes financieros.\n\n2. Facturacion Electronica: La Direccion General de Impuestos Internos (DGII) está promoviendo la implementacion de la facturacion electronica para mejorar la eficiencia y reducir la evasion fiscal. Este sistema permite a las empresas emitir y recibir facturas electronicas de manera segura y eficiente."
               ]
           },
           {
-              "tag": "Educación y Capacitación Continua",
+              "tag": "Educacion y Capacitacion Continua",
               "patterns": [
-                  "¿Cómo me convierto en contador en RD?",
-                  "¿Qué certificaciones necesito para ser contador?",
-                  "¿Por qué es importante la educación continua en contabilidad?"
+                  "¿Como me convierto en contador en RD?",
+                  "¿Que certificaciones necesito para ser contador?",
+                  "¿Por que es importante la educacion continua en contabilidad?"
               ],
               "responses": [
-                  "Reconocer la importancia de la formación profesional en contabilidad es esencial para mantenerse actualizado y competente. Los aspectos clave incluyen:\n\n1. Formación Profesional: Los contadores en la República Dominicana deben obtener un título universitario en contabilidad y certificaciones adicionales del Instituto de Contadores Públicos Autorizados de la República Dominicana (ICPARD).\n\n2. Actualización Continua: Los profesionales contables deben participar en programas de educación continua para mantenerse actualizados con las últimas normas y prácticas contables, asegurando que su conocimiento y habilidades se mantengan relevantes en un entorno en constante cambio."
+                  "Reconocer la importancia de la formacion profesional en contabilidad es esencial para mantenerse actualizado y competente. Los aspectos clave incluyen:\n\n1. Formacion Profesional: Los contadores en la Republica Dominicana deben obtener un titulo universitario en contabilidad y certificaciones adicionales del Instituto de Contadores Publicos Autorizados de la Republica Dominicana (ICPARD).\n\n2. Actualizacion Continua: Los profesionales contables deben participar en programas de educacion continua para mantenerse actualizados con las ultimas normas y prácticas contables, asegurando que su conocimiento y habilidades se mantengan relevantes en un entorno en constante cambio."
               ]
           }
       ]
