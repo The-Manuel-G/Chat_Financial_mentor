@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # Importar CORS
+from flask_cors import CORS
 import nltk
 import json
 import pickle
@@ -9,10 +9,13 @@ from nltk.stem import WordNetLemmatizer
 import random
 
 app = Flask(__name__)
-CORS(app)  # Habilitar CORS
+CORS(app)  # Enable CORS
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents_spanish.json', 'r', encoding='utf-8').read())
+
+# Load intents, words, classes, and model
+with open('intents_spanish.json', 'r', encoding='utf-8') as file:
+    intents = json.load(file)
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -39,9 +42,7 @@ def predict_class(sentence):
     
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     results.sort(key=lambda x: x[1], reverse=True)
-    return_list = []
-    for r in results:
-        return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
+    return_list = [{'intent': classes[r[0]], 'probability': str(r[1])} for r in results]
     return return_list
 
 def get_response(intents_list, intents_json):
@@ -50,14 +51,20 @@ def get_response(intents_list, intents_json):
     for i in list_of_intents:
         if i['tag'] == tag:
             result = random.choice(i['responses'])
-            break
-    return result
+            return result
+    return "Lo siento, no entiendo tu mensaje."
 
 @app.route('/chat', methods=['POST'])
 def chat():
     data = request.get_json()
-    message = data['message']
+    message = data.get('message', '')
+    if not message:
+        return jsonify({"response": "Por favor envía un mensaje válido."}), 400
+
     ints = predict_class(message)
+    if not ints:
+        return jsonify({"response": "Lo siento, no entiendo tu mensaje."}), 400
+
     res = get_response(ints, intents)
     return jsonify({"response": res})
 

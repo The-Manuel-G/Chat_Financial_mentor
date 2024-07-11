@@ -7,10 +7,16 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents_spanish.json', 'r', encoding='utf-8').read())
 
+# Load intents from JSON
+with open('intents_spanish.json', 'r', encoding='utf-8') as file:
+    intents = json.load(file)
+
+# Load words and classes
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
+
+# Load the trained model
 model = load_model('chat_model.h5')
 
 def clean_up_sentence(sentence):
@@ -32,7 +38,7 @@ def predict_class(sentence):
     res = model.predict(np.array([bow]))[0]
     ERROR_THRESHOLD = 0.25
     
-    results = [[i,r] for i,r in enumerate(res) if r > ERROR_THRESHOLD]
+    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     results.sort(key=lambda x: x[1], reverse=True)
     return_list = []
     for r in results:
@@ -47,3 +53,11 @@ def get_response(intents_list, intents_json):
             result = random.choice(i['responses'])
             break
     return result
+
+# Ensuring each tag is added correctly
+for intent in intents['intents']:
+    if isinstance(intent['tag'], list):
+        for tag in intent['tag']:
+            classes.add(tag)
+    else:
+        classes.add(intent['tag'])

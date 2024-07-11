@@ -9,11 +9,10 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.optimizers.schedules import ExponentialDecay
 import random
 
-# Carga y procesamiento de datos
+# Inicializar lematizador y cargar intents
+lemmatizer = WordNetLemmatizer()
 with open("intents_spanish.json", "r", encoding="utf-8") as file:
     intents = json.load(file)
-
-lemmatizer = WordNetLemmatizer()
 
 words = set()
 classes = set()
@@ -22,13 +21,25 @@ ignore_words = {"?", "!"}
 
 # Procesamiento eficiente de datos
 for intent in intents['intents']:
+    # Verificar si la clave 'patterns' existe
+    if 'patterns' not in intent or 'tag' not in intent:
+        continue  # Saltar si no existe
+    
     for pattern in intent['patterns']:
-        # Tokeniza y procesa cada patrón
+        # Tokenizar y procesar cada patrón
         tokens = nltk.word_tokenize(pattern)
-        lemmatized = [lemmatizer.lemmatize(token.lower()) for token in tokens if token not in ignore_words]
-        words.update(lemmatized)
-        documents.append((lemmatized, intent['tag']))
-        classes.add(intent['tag'])
+        lematizados = [lemmatizer.lemmatize(token.lower()) for token in tokens if token not in ignore_words]
+        words.update(lematizados)
+        documents.append((lematizados, intent['tag']))
+        
+        # Asegurarse de que el tag sea una cadena
+        if isinstance(intent['tag'], list):
+            for tag in intent['tag']:
+                if isinstance(tag, str):
+                    classes.add(tag)
+        else:
+            if isinstance(intent['tag'], str):
+                classes.add(intent['tag'])
 
 # Preparación final de datos
 words = sorted(words)
@@ -37,15 +48,19 @@ classes = sorted(classes)
 pickle.dump(words, open('words.pkl', 'wb'))
 pickle.dump(classes, open('classes.pkl', 'wb'))
 
-# Creación de conjuntos de entrenamiento
+# Crear conjuntos de entrenamiento
 training = []
 output_empty = [0] * len(classes)
 
 for doc in documents:
-    bag = [1 if word in doc[0] else 0 for word in words]
-    output_row = list(output_empty)
-    output_row[classes.index(doc[1])] = 1
-    training.append([bag, output_row])
+    try:
+        bag = [1 if word in doc[0] else 0 for word in words]
+        output_row = list(output_empty)
+        output_row[classes.index(doc[1])] = 1
+        training.append([bag, output_row])
+    except ValueError:
+        print(f"Etiqueta no encontrada en clases: {doc[1]}")
+        continue
 
 random.shuffle(training)
 train_x, train_y = zip(*training)
